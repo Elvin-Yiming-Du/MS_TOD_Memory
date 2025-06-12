@@ -285,6 +285,6 @@ if __name__ == '__main__':
     
     with open('raw_gpt4_0924_new_2.json', 'w') as json_file:
         json.dump(output_session_data, json_file, indent=4)
-        print("JSON文件已成功保存")
-    # 生成样本数据，核心函数。
+        print("JSON saved")
+
 
