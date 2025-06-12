@@ -1,8 +1,6 @@
 import os
 import json
 import sys
-sys.path.append("/Users/duyiming/Downloads/TOD_MEM_CODE/dstc8/train/")
-# from load_sgd_schema import load_schema
 from api_llm_utils import gpt4o_generate
 
 def llm_response(prompt,
