@@ -1,0 +1,1242 @@
+{
+    "persona_id": 32,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "50_00012",
+            "exist_confirmation": false,
+            "intent": "PlaySong",
+            "service": "Music",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, can you play the song Lose It on the Bedroom speaker?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Playing Lose It on the Bedroom speaker.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks! Could you increase the volume a bit?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Increasing the volume on the Bedroom speaker.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's much better.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Enjoy the music!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "50_00034",
+            "exist_confirmation": false,
+            "intent": "PlayMedia",
+            "service": "Music",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you play the song 'Adorn'?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, which device would you like to use for playback?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to play it on my TV.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I will play 'Adorn' on your TV. Is that correct?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Playing 'Adorn' on your TV now. Enjoy the music!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "93_00062",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to book a hotel for my trip to Washington, D.C.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What dates will you be checking in and how many nights will you be staying?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I plan to check in on March 6th and stay for 4 nights.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And how many rooms will you need?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I only need 1 room.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I’ll find a room for you at Capitol Hill Hotel.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "93_00062",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you tell me about the amenities available at Capitol Hill Hotel?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly! Capitol Hill Hotel offers free Wi-Fi, a fitness center, complimentary breakfast, and a business center for guests.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. What about the cancellation policy?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The hotel has a flexible cancellation policy, allowing cancellations up to 24 hours before check-in without any charges.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Awesome! Can you proceed with the reservation?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely! I’ll finalize the reservation for you.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "119_00045",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a car.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Can you provide me with some details, please?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to pick up the car from Canterbury Village.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, got it. What's the pickup date?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The pickup date is March 3rd.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And what time do you want to pick up the car?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "119_00045",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I want to pick it up at 12 pm.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. When do you plan to drop off the car?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll drop it off on March 4th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. What type of car would you like to reserve?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A standard car will be fine.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me summarize your reservation so far: Pickup from Canterbury Village on March 3rd at 12 pm, drop off on March 4th, and a standard car. Is that correct?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "103_00021",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a ride to Chihuly Garden and Glass.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many riders will there be?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. Would you prefer a shared ride or a private one?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride is fine.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, setting you up for a shared ride to Chihuly Garden and Glass. Is there anything else you need?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "103_00021",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I booked a shared ride to Chihuly Garden and Glass earlier. Can you confirm if it's still scheduled?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check that for you. Just one moment.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I see your ride to Chihuly Garden and Glass is scheduled and confirmed. Would you like any updates or changes?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, everything looks good. Thank you.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you need anything else, just let me know.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Will do. Bye for now.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Goodbye! Have a great day!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "51_00054",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a hotel in London.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Do you have a specific hotel in mind?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like to stay at 45 Park Lane.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in and check out?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I plan to check in on March 2nd and check out on March 9th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many rooms will you need for your stay?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. I'll start looking into availability for your requested dates at 45 Park Lane.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "51_00054",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, any updates on my hotel booking?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Yes, I was able to find a room available for your dates at 45 Park Lane.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That’s great to hear. What’s the price for the stay?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total price for one room from March 2nd to March 9th is $3,500.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect. Can you tell me what amenities are included?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly! The room includes free Wi-Fi, breakfast, access to the fitness center, and a complimentary spa treatment.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds perfect. How do I proceed with the booking?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll need to collect some details from you to finalize the reservation. Are you ready to provide your information?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "102_00029",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a ride for two people.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. What type of ride are you looking for?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need a regular ride.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. May I know your pick-up location and destination?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Pick-up at 123 Maple Street and drop-off at Central Park.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. When do you need the ride?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it tomorrow at 10 AM.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, a regular ride for two people from 123 Maple Street to Central Park, tomorrow at 10 AM. Is that correct?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "37_00024",
+            "exist_confirmation": false,
+            "intent": "ReserveRoundtripFlights",
+            "service": "Flights",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a round trip flight.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Could you please provide me with the details of your trip?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need a flight from Mexico City to San Francisco and back.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Which airline would you prefer?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "American Airlines, please.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. When would you like to depart from Mexico City?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "37_00024",
+            "exist_confirmation": false,
+            "intent": "ReserveRoundtripFlights",
+            "service": "Flights",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to depart next Friday.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And when would you like to return from San Francisco?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to come back on March 10th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. What time would you like to leave Mexico City on your outbound flight?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I prefer to leave at 2:55 pm.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And what time would you like to depart from San Francisco on your return flight?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "112_00037",
+            "exist_confirmation": false,
+            "intent": "BookAppointment",
+            "service": "Services",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I’d like to book an appointment for hair braiding.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Who would you like to book the appointment with?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sofia African Hair Braiding.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. What date would you like to schedule your appointment for?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "March 7th, if possible.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. What time would work best for you on March 7th?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "112_00037",
+            "exist_confirmation": false,
+            "intent": "BookAppointment",
+            "service": "Services",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I think 2 pm would be perfect.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check Sofia's schedule for availability at 2 pm on March 7th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like Sofia is available at 2 pm on March 7th. Can I confirm this appointment for you?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please confirm it.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I have scheduled your appointment with Sofia African Hair Braiding for 2 pm on March 7th. Is there anything else I can assist you with?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that will be all. Thanks!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 15,
+            "reference_dialogue_id": "101_00049",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a room at Ace Hotel Seattle.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to check in and check out?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking at checking in on March 1st and checking out on March 3rd.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many rooms do you need for your stay?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I just need one room.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for one room during those dates.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 16,
+            "reference_dialogue_id": "101_00049",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a room available at Ace Hotel Seattle from March 1st to March 3rd. Would you like a standard room or a suite?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A standard room will be fine.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Would you like to add any special requests or amenities to your booking?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like a room with a city view if possible.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll make a note of that request. Let me summarize your reservation so far: One standard room with a city view from March 1st to March 3rd. Does that sound correct?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 17,
+            "reference_dialogue_id": "101_00049",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Now I just need your name and contact details to complete the booking.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, and my email is johndoe@example.com.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. To confirm, you will have one standard room with a city view at Ace Hotel Seattle from March 1st to March 3rd, and your contact email is johndoe@example.com. Is this information correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's all correct.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Your reservation is now confirmed for those dates. Is there anything else I can assist you with?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thank you!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 2,
+                "slot_values": {
+                    "hotel_name": "Ace Hotel",
+                    "location": "Seattle",
+                    "check_in_date": "March 1st",
+                    "check_out_date": "March 3rd",
+                    "number_of_rooms": "one"
+                }
+            }
+        },
+        {
+            "session_id": 18,
+            "reference_dialogue_id": "112_00037",
+            "exist_confirmation": true,
+            "intent": "BookAppointment",
+            "service": "Services",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, just wanted to double-check my appointment for hair braiding.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. Can you provide me with the details of your appointment?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It’s with Sofia African Hair Braiding, scheduled for 2 pm on March 7th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me verify that for you.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I can confirm that you have an appointment with Sofia African Hair Braiding at 2 pm on March 7th. Is everything correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct. Thank you for confirming.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 4,
+                "slot_values": {
+                    "stylist_name": "Sofia African Hair Braiding",
+                    "appointment_time": "2 pm",
+                    "appointment_date": "March 7th"
+                }
+            }
+        },
+        {
+            "session_id": 19,
+            "reference_dialogue_id": "37_00024",
+            "exist_confirmation": true,
+            "intent": "ReserveRoundtripFlights",
+            "service": "Flights",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to leave San Francisco at 1:20 pm.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Which class would you like to book for your flight?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Economy class is fine.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "How many passengers will be traveling?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one passenger.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, let me summarize your booking. You would like to fly from Mexico City to San Francisco and back with American Airlines. Your outbound flight is next Friday at 2:55 pm, and your return flight is on March 10th at 1:20 pm. You'll be flying in Economy class, and there will be 1 passenger. Does everything look correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Please proceed with the booking.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 5,
+                "slot_values": {
+                    "origin_city": "Mexico City",
+                    "destination_city": "San Francisco",
+                    "airlines": "American Airlines",
+                    "departure_date": "next Friday",
+                    "return_date": "March 10th",
+                    "outbound_departure_time": "2:55 pm",
+                    "inbound_departure_time": "1:20 pm",
+                    "seating_class": "Economy",
+                    "passengers": "1"
+                }
+            }
+        },
+        {
+            "session_id": 20,
+            "reference_dialogue_id": "102_00029",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to confirm my ride booking for tomorrow.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, let me check the details for you.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I see a booking for a regular ride for two people from 123 Maple Street to Central Park at 10 AM. Would you like to confirm this?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Everything is set for your ride tomorrow. You'll receive a notification with the driver's details before the ride.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you, that sounds perfect.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you need any further assistance, feel free to ask. Have a nice day!",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks, you too!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 2,
+                "slot_values": {
+                    "destination": "Central Park",
+                    "number_of_seats": "two",
+                    "ride_type": "regular"
+                }
+            }
+        },
+        {
+            "session_id": 21,
+            "reference_dialogue_id": "51_00054",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'm ready. What do you need from me?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll need your full name, contact number, and payment details.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, and my contact number is 123-456-7890.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Now, can you provide your payment details?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, here are my card details: 4111 1111 1111 1111, expiry date 10/25, CVV 123.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Just to confirm, you would like to book 1 room at 45 Park Lane in London, checking in on March 2nd and checking out on March 9th, for a total of $3,500. Is that correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 5,
+                "slot_values": {
+                    "hotel_name": "45 Park Lane",
+                    "location": "London",
+                    "check_in_date": "March 2nd",
+                    "check_out_date": "March 9th",
+                    "number_of_rooms": "1"
+                }
+            }
+        },
+        {
+            "session_id": 22,
+            "reference_dialogue_id": "103_00021",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again. Just wanted to ensure everything is set for my ride to Chihuly Garden and Glass.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Let me reconfirm your ride details.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, I have a shared ride for one person to Chihuly Garden and Glass. Is that correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent. Your ride is confirmed and everything is set. If you need anything else, feel free to reach out.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks a lot. Goodbye.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great visit to Chihuly Garden and Glass!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 2,
+                "slot_values": {
+                    "destination": "Chihuly Garden and Glass",
+                    "number_of_riders": "1",
+                    "shared_ride": "shared_ride"
+                }
+            }
+        },
+        {
+            "session_id": 23,
+            "reference_dialogue_id": "119_00045",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent. I'll just need a few more details to complete your reservation.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, what else do you need?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Could you please provide your full name and contact number?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, and my contact number is 123-456-7890.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. I have noted all the details. To confirm, you want to reserve a standard car for pickup at Canterbury Village on March 3rd at 12 pm and drop it off on March 4th, correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 5,
+                "slot_values": {
+                    "pickup_location": "Canterbury Village",
+                    "pickup_date": "March 3rd",
+                    "pickup_time": "12 pm",
+                    "dropoff_date": "March 4th",
+                    "car_type": "standard car"
+                }
+            }
+        },
+        {
+            "session_id": 24,
+            "reference_dialogue_id": "93_00062",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Is everything all set for my stay at Capitol Hill Hotel?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes! Just to confirm, you have a reservation at Capitol Hill Hotel from March 6th for 4 nights in 1 room. Your booking is all set. Would you like me to send you the confirmation details via email?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please. That would be great.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your stay at Capitol Hill Hotel in Washington, D.C. is for 4 nights starting March 6th, and I will send the details to your email shortly. Is that correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct. Thank you!",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Enjoy your stay in Washington, D.C.!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 3,
+                "slot_values": {
+                    "hotel_name": "Capitol Hill Hotel",
+                    "check_in_date": "March 6th",
+                    "number_of_days": "4",
+                    "destination": "Washington, D.C.",
+                    "number_of_rooms": "1"
+                }
+            }
+        },
+        {
+            "session_id": 25,
+            "reference_dialogue_id": "50_00034",
+            "exist_confirmation": true,
+            "intent": "PlayMedia",
+            "service": "Music",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, can you play 'Adorn' on my TV again?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. Just to confirm, you want to play the song 'Adorn' on your TV, correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Is the TV the same device you used earlier for playing 'Adorn'?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, it's the same device.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I am setting up to play 'Adorn' on your TV. Confirming, you want me to play 'Adorn' on your TV now?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 1,
+                "slot_values": {
+                    "song_name": "Adorn",
+                    "playback_device": "TV"
+                }
+            }
+        },
+        {
+            "session_id": 26,
+            "reference_dialogue_id": "50_00012",
+            "exist_confirmation": true,
+            "intent": "PlaySong",
+            "service": "Music",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you play the song Lose It again on the Bedroom speaker?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can play Lose It on the Bedroom speaker again. Just to confirm, is this the song by Kane Brown?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's the one.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, playing Lose It by Kane Brown on the Bedroom speaker.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can you lower the volume this time?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Lowering the volume on the Bedroom speaker. Is that better?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, perfect. Thank you!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 1,
+                "slot_values": {
+                    "song_name": "Lose It",
+                    "playback_device": "Bedroom speaker"
+                }
+            }
+        }
+    ]
+}

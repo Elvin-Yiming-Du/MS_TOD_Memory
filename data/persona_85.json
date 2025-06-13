@@ -1,0 +1,827 @@
+{
+    "persona_id": 85,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "88_00089",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to buy some event tickets.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Can you tell me the name of the event?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's for Owls vs Bison.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many tickets would you like to purchase?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 4 tickets.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. When is the event?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The event is on March 4th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And in which city will the event take place?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It will be in Philadelphia.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for the details. I'll proceed with checking the availability and prices for 4 tickets to Owls vs Bison on March 4th in Philadelphia.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "88_00089",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, were you able to check the availability of the tickets?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Yes, I was able to check. There are still tickets available for Owls vs Bison on March 4th in Philadelphia.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great! What are the prices for the tickets?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The tickets are $50 each. Would you like to proceed with purchasing 4 tickets?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. Let me gather your payment details. How would you like to pay for the tickets?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will pay with a credit card.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Please provide your credit card information, including the card number, expiration date, and CVV.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "79_00094",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'd like to make a reservation.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Can you tell me the restaurant name and the date you need?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The restaurant is 1760, and I'd like it for March 1st.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! What time would you like to reserve for?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want it for 11:30 AM.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many people will be in your party?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "79_00094",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "It will be just two of us.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! So to summarize, you want a reservation at 1760 in San Francisco on March 1st at 11:30 AM for 2 people. Is that correct?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right!",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! I just need to check the availability for that time.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, take your time.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your patience. I’ll get back to you shortly!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "119_00075",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a car.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! May I know the pickup location and date?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to pick up the car at Fremont BART Station on March 4th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. What time would you like to pick it up?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "12 PM.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. And when will you be dropping the car off?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "119_00075",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be returning it on March 9th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. What type of car would you like to reserve?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like a Standard car.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. Just to confirm, you want to pick up a Standard car at Fremont BART Station on March 4th at 12 PM and drop it off on March 9th. Is that correct?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I'll proceed with the reservation. Is there anything else you need help with?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00108",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to reserve a hotel room.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you please provide me with the hotel name and your destination?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking for the Cambria Hotel North Scottsdale Desert Ridge in Phoenix.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to check in on March 12th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "How many days will you be staying?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one day.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many rooms do you need?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "93_00108",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need three rooms.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! So that's three rooms for one night at the Cambria Hotel North Scottsdale Desert Ridge on March 12th. Would you like me to check the availability for you?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please check the availability.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just a moment, let me look that up for you.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like there are three rooms available for your requested date. Shall I proceed with the reservation?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will need a few more details to complete your reservation. Can I have the names of the guests?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "101_00002",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm looking to buy tickets for the Phillies vs Braves game.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you tell me how many tickets you need?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need three tickets.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And do you have a specific date in mind?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, it's on March 10th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! This game will be in Philadelphia. Let me check the availability for three tickets.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "101_00002",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found some options for the Phillies vs Braves game on March 10th. Would you prefer seats in the lower level or upper level?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I think the lower level would be great.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect choice! The lower level seats are usually much closer to the action. The price is $100 per ticket. Does that work for you?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! Just to confirm, you want three lower level tickets for the Phillies vs Braves game on March 10th in Philadelphia, correct?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "46_00068",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I’m interested in reserving a room at 45 Park Lane in London.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! When would you like to check in and check out?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to check in on March 7th and check out on March 13th.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many rooms will you need for your stay?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood! Let me check the availability for one room at 45 Park Lane for those dates.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "46_00068",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have found a room available at 45 Park Lane from March 7th to March 13th. Would you like to proceed with the reservation?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to proceed. Can you tell me more about the room?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The room features a king-size bed, a stunning view of the park, and includes complimentary breakfast.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds wonderful! Are there any additional amenities included?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, you will also have access to the hotel gym and spa facilities during your stay.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect! What’s the cancellation policy?",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {}
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "46_00068",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "The cancellation policy allows free cancellation up to 48 hours before check-in. After that, a one-night charge will apply.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That’s reasonable. Can you summarize the reservation details for me?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! You’re reserving one room at 45 Park Lane in London from March 7th to March 13th, with access to the gym and spa, and a cancellation policy of 48 hours. Is that correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. I confirm the reservation!",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your confirmation! Your reservation is now complete. We look forward to welcoming you to 45 Park Lane!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 2,
+                "slot_values": {
+                    "hotel_name": "45 Park Lane",
+                    "location": "London",
+                    "check_in_date": "March 7th",
+                    "check_out_date": "March 13th",
+                    "number_of_rooms": "1"
+                }
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "101_00002",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will proceed with the purchase of three lower level tickets for the Phillies vs Braves game on March 10th in Philadelphia. The total will be $300. Would you like to finalize this purchase?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you are purchasing three tickets for the Phillies vs Braves game on March 10th in Philadelphia for a total of $300, correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Your tickets have been successfully purchased. Enjoy the game!",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks for your help!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 2,
+                "slot_values": {
+                    "event_name": "Phillies Vs Braves",
+                    "number_of_seats": "3",
+                    "date": "March 10th",
+                    "city_of_event": "Philadelphia"
+                }
+            }
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "93_00108",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, the names are John Doe, Jane Smith, and Emily Brown.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Just to confirm, you are booking three rooms at Cambria Hotel North Scottsdale Desert Ridge for one night on March 12th, with guests John Doe, Jane Smith, and Emily Brown. Is that correct?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And can I have a contact phone number to finalize the reservation?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my number is 555-1234.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for that information! So, just to wrap up, you're booking three rooms for one night on March 12th at the Cambria Hotel North Scottsdale Desert Ridge in Phoenix for John Doe, Jane Smith, and Emily Brown, with the contact number 555-1234. Is everything correct? This will finalize your reservation.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you'd like to proceed with a reservation at the Cambria Hotel North Scottsdale Desert Ridge on March 12th for 1 night in Phoenix for 3 guests. Is that correct?",
+                    "is_confirmation": true
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 6,
+                "slot_values": {
+                    "hotel_name": "Cambria Hotel North Scottsdale Desert Ridge",
+                    "check_in_date": "March 12th",
+                    "number_of_days": "1",
+                    "destination": "Phoenix",
+                    "number_of_rooms": "3"
+                }
+            }
+        },
+        {
+            "session_id": 15,
+            "reference_dialogue_id": "119_00075",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you please confirm the details of my reservation once more?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure. You have reserved a Standard car, which you will pick up at Fremont BART Station on March 4th at 12 PM and drop off on March 9th. Is there anything specific you would like to add?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all I need.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your reservation is for a Standard car, with pickup at Fremont BART Station on March 4th at 12 PM, and dropoff on March 9th. Is that correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please finalize it.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your reservation is confirmed. Thank you for choosing our service! If you have any other questions or need further assistance, feel free to ask.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 3,
+                "slot_values": {
+                    "pickup_location": "fremont bart station",
+                    "pickup_date": "march 4th",
+                    "pickup_time": "12 pm",
+                    "dropoff_date": "march 9th",
+                    "car_type": "Standard"
+                }
+            }
+        },
+        {
+            "session_id": 16,
+            "reference_dialogue_id": "79_00094",
+            "exist_confirmation": true,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'm happy to inform you that 1760 is available at 11:30 AM on March 1st for 2 people. Would you like to confirm this reservation? This will secure your spot.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to confirm it.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your reservation at 1760 in San Francisco is for 2 people on March 1st at 11:30 AM. Is that correct?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Your reservation is confirmed. We look forward to seeing you on March 1st!",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 2,
+                "slot_values": {
+                    "restaurant_name": "1760",
+                    "city": "San Francisco",
+                    "time": "11:30 am",
+                    "party_size": "2",
+                    "date": "March 1st"
+                }
+            }
+        },
+        {
+            "session_id": 17,
+            "reference_dialogue_id": "88_00089",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Here's my credit card information: 1234 5678 9012 3456, exp 12/25, CVV 678.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. I am processing your payment now.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your payment has been successfully processed.  You have purchased 4 tickets for Owls vs Bison on March 4th in Philadelphia. The total amount charged is $200. Would you like to confirm?",
+                    "is_confirmation": true
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm.",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your tickets have been confirmed. You will receive an email with your tickets shortly. Is there anything else I can help you with?",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all for now. Thank you!",
+                    "is_confirmation": false
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great time at the event.",
+                    "is_confirmation": false
+                }
+            ],
+            "confirmation": {
+                "utterance_id": 2,
+                "slot_values": {
+                    "event_name": "Owls vs Bison",
+                    "number_of_tickets": "4",
+                    "date": "March 4th",
+                    "city": "Philadelphia"
+                }
+            }
+        }
+    ]
+}
