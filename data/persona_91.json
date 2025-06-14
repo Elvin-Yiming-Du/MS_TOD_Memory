@@ -1,0 +1,596 @@
+{
+    "persona_id": 91,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00020",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to reserve a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Could you please provide the name of the hotel you're interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'm looking at the Ace Hotel London."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! What are your check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 5th and check out on March 12th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 3 rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me gather the information for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00020",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have the details: Ace Hotel London, check-in on March 5th, and check-out on March 12th, with 3 rooms. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right. Can you tell me about the amenities offered?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Ace Hotel London offers complimentary Wi-Fi, a fitness center, a restaurant, and a rooftop bar, among other amenities."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sounds good! What are the rates for the rooms?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The rates vary depending on the room type. Would you prefer standard rooms or a suite?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would prefer standard rooms for this trip."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood! I will check the availability and rates for 3 standard rooms."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "93_00106",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm looking to reserve a hotel in New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Do you have a specific hotel in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to stay at the 1 Hotel Brooklyn Bridge."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! What are your check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 5th for 1 night."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many rooms will you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "93_00106",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 rooms for my stay."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! So, to confirm, you want 2 rooms at 1 Hotel Brooklyn Bridge for 1 night starting March 5th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right. Can you also let me know about the amenities offered?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely! The hotel offers a fitness center, rooftop pool, and various dining options, as well as beautiful views of the Brooklyn Bridge."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds fantastic! What’s the rate per room?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The rate is $350 per room for the night. Would you like to proceed with the booking?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "101_00050",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'd like to book a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to stay at the Argonaut Hotel in San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in and check out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 3rd and check out on March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need two rooms, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Let me summarize your request: two rooms at Argonaut Hotel in San Francisco, checking in on March 3rd and checking out on March 4th. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "101_00050",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will check the availability for those dates."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "How long will that take?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It will just take a moment. Please hold on."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I see that the Argonaut Hotel has availability for two rooms on those dates."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's excellent news! What's the next step?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will need some of your details to proceed with the booking. Can you provide your name and contact information?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "102_00004",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need a ride to 92nd Street Y."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help you with that. How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one seat, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Do you have a preference for the type of ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would prefer a luxury ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! I'll find a luxury ride for you to 92nd Street Y."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "102_00004",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I requested a ride to 92nd Street Y. Can you check the status?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. Let me pull up your details."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I see you requested a luxury ride with one seat. It's currently being arranged."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Do you know how long it will take?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It should be ready in about 10 minutes. Is there anything else you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all for now. Thanks."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Feel free to reach out if you need any more assistance."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "88_00030",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, where do you need to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to go to 1441 Casa Buena Drive."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, how many riders will there be?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one, it's only me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Do you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride is fine."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "88_00030",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, I wanted to check on my ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. You're heading to 1441 Casa Buena Drive, right?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And it's just you, in a shared ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your ride is confirmed. It should be there shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a safe trip."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "88_00030",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I want to make sure everything is set for my ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you need a ride to 1441 Casa Buena Drive, there will be 1 rider, and you've chosen a shared ride. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Your ride is on the way and should arrive shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome. Safe travels!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "1441 Casa Buena Drive",
+                    "number_of_riders": "1",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "102_00004",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, just checking to confirm my ride to 92nd Street Y."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me confirm that for you. One moment, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I see you have requested a luxury ride with one seat to 92nd Street Y."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your ride to 92nd Street Y will be arriving shortly. You will be traveling in a luxury vehicle, and it should be a comfortable trip. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds perfect. Thank you for confirming."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great trip to 92nd Street Y."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "92nd Street Y",
+                    "number_of_seats": "1",
+                    "ride_type": "Luxury"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "101_00050",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is Alex Smith and my email is alex@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, Alex! Just to confirm, you would like to book 2 rooms at the Argonaut Hotel in San Francisco, checking in on March 3rd and checking out on March 4th, with the contact email alex@example.com. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! Your booking is now complete. You will receive a confirmation email shortly. If you have any further questions, feel free to ask!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Enjoy your stay at the Argonaut Hotel!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Argonaut Hotel",
+                    "location": "San Francisco",
+                    "check_in_date": "March 3rd",
+                    "check_out_date": "March 4th",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "93_00106",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like to book those rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to reserve 2 rooms at 1 Hotel Brooklyn Bridge in New York for 1 night on March 5th, with a total of $700. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct! I confirm the booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your confirmation! Your reservation is now complete. You will receive a confirmation email shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you have any more questions or need assistance, feel free to reach out. Enjoy your stay!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "1 Hotel Brooklyn Bridge",
+                    "check_in_date": "March 5th",
+                    "number_of_days": "1",
+                    "destination": "New York",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "93_00020",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I’ve confirmed the availability! The total rate for 3 standard rooms from March 5th to March 12th at Ace Hotel London comes to $2,100. Shall I proceed with the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you would like to reserve 3 standard rooms at Ace Hotel London from March 5th to March 12th for a total of $2,100. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your reservation is confirmed. You'll receive an email shortly with all the details."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Ace Hotel London",
+                    "location": "London",
+                    "check_in_date": "March 5th",
+                    "check_out_date": "March 12th",
+                    "number_of_rooms": "3"
+                },
+                "confirmation_utterance_id": 2
+            }
+        }
+    ]
+}

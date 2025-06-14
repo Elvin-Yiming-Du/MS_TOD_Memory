@@ -1,0 +1,1007 @@
+{
+    "persona_id": 31,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "106_00116",
+            "exist_confirmation": false,
+            "intent": "PlayMedia",
+            "service": "Music",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, can you play the song Written In Sand for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which device would you like me to play it on?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can you play it on the bedroom speaker?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely! I'm setting it up now."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, thanks!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Enjoy the music."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00051",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'm looking to reserve a room at 45 Park Lane in London."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What date are you planning to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to check in on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! How many days will you be staying?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will be staying for 1 night."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And how many rooms will you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "93_00051",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just 1 room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Just to confirm, that's 1 room for 1 night starting on March 6th at 45 Park Lane in London. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s right!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Wonderful! Can I have your name for the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's John Smith."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. We’re almost there! Could you please provide a contact number?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "56_00123",
+            "exist_confirmation": false,
+            "intent": "ReserveOnewayFlight",
+            "service": "Flights",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to book a one-way flight from Washington to Chicago."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you please provide me with the date you want to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to leave on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many passengers will be traveling?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one passenger."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Do you have a preferred airline for this flight?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "56_00123",
+            "exist_confirmation": false,
+            "intent": "ReserveOnewayFlight",
+            "service": "Flights",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would prefer Southwest Airlines."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect choice! And what seating class would you like?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like Premium Economy, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. To summarize, you want to book a one-way flight from Washington to Chicago on March 8th for one passenger in Premium Economy class with Southwest Airlines. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll now check the available flights for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "103_00043",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'm looking to buy tickets for the Brown Sabbath concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When is the concert taking place?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's on March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And where is the concert being held?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The event will be in Anaheim."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many tickets do you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "103_00043",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need three tickets, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Three tickets for Brown Sabbath on March 4th in Anaheim. Would you like me to check the availability and pricing?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that would be great!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me look that up for you... It looks like there are available seats. The total price is $180."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Can you hold those seats for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I can’t hold the seats, but I can assist you in completing your purchase right away."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "72_00082",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I’d like to make a reservation at the AC Hotel by Marriott Atlanta Buckhead At Phipps Plaza."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! When would you like to check in and check out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 11th and check out on March 12th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many rooms will you need for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I just need one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me summarize: you would like to reserve one room at the AC Hotel by Marriott Atlanta Buckhead from March 11th to March 12th. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "72_00082",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right. Can you also tell me the rate for the room?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! The rate for a room during those dates is $150 per night. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That’s reasonable. What amenities are included?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The hotel offers complimentary breakfast, free Wi-Fi, and access to the fitness center. You’ll also have a pool available during your stay."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sounds good! Do you need any personal details to complete the reservation?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I will need your full name, contact number, and email address to finalize the reservation."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "102_00041",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to go to 92nd Street Y."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many seats do you need for the ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one seat, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, and what type of ride would you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like a Luxury ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, I have noted that you want a Luxury ride to 92nd Street Y for one person. Anything else I can help you with for now?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "102_00041",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello again, I wanted to check the status of my ride booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! Let me check that for you. One moment, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your booking for a Luxury ride to 92nd Street Y for one person is confirmed. Do you need any updates or changes?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can I change the pickup time?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, what time would you like to be picked up?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can it be 7 PM instead of 6 PM?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "No problem. I have updated your pickup time to 7 PM. Anything else I can assist you with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "89_00023",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I need to buy bus tickets for a trip."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you tell me the departure time and how many tickets you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to depart at 2 PM, and there will be four of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Just to confirm, you need four tickets for a 2 PM departure. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I will start the booking process. Could you please provide me with the destination?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "81_00013",
+            "exist_confirmation": false,
+            "intent": "PlayMovie",
+            "service": "Media",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, can you help me find the movie 'High Life'?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! 'High Life' is available. Would you like to watch it with subtitles?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like subtitles on."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! So we have 'High Life' with subtitles turned on. Would you like to know more about the plot or the cast?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd love to know more about the plot."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "'High Life' is a sci-fi drama that follows a group of convicts sent on a space mission to explore black holes. It delves into themes of isolation and human survival. Would you like to start watching it now?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "88_00006",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride to 4261 Stevenson Boulevard."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many riders will be in the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be four of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Would you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride is fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. Let me just check the availability for a shared ride to 4261 Stevenson Boulevard for four riders."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "88_00006",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Were you able to find a ride for us?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I found a shared ride for you. It will pick you up in about 15 minutes. Is that timing okay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That works for us. How much will it cost?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The shared ride will cost $20 for the entire group."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect. How will I recognize the car?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The car is a blue Toyota Camry with license plate ABC123. The driver’s name is Alex."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 15,
+            "reference_dialogue_id": "47_00063",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a hotel in Fresno."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I was thinking of staying at La Quinta Inn By Wyndham Fresno Yosemite."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need a room for March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, how many nights will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 16,
+            "reference_dialogue_id": "47_00063",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just one night."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will need two rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Noted. So, you need two rooms for one night at La Quinta Inn By Wyndham Fresno Yosemite, checking in on March 4th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 17,
+            "reference_dialogue_id": "47_00063",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Good news! There are rooms available for your requested dates. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Could I have your name and contact information to complete the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is John Doe, and my contact number is 555-1234."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, Mr. Doe. Just to confirm, you are booking two rooms for one night at La Quinta Inn By Wyndham Fresno Yosemite, checking in on March 4th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "La Quinta Inn By Wyndham Fresno Yosemite",
+                    "check_in_date": "March 4th",
+                    "number_of_rooms": "two"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 18,
+            "reference_dialogue_id": "88_00006",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just wanted to confirm the details again before we proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have booked a shared ride for four riders to 4261 Stevenson Boulevard. The car is a blue Toyota Camry with license plate ABC123, and the driver’s name is Alex. The ride will cost $20, and the driver will arrive in about 15 minutes. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct. Thank you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your ride is confirmed. Have a safe trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "4261 Stevenson Boulevard",
+                    "number_of_riders": "4",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 19,
+            "reference_dialogue_id": "81_00013",
+            "exist_confirmation": true,
+            "intent": "PlayMovie",
+            "service": "Media",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I want to start watching it now."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Before we begin, just to confirm, you want to watch 'High Life' with subtitles enabled, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "So, to summarize, you're about to watch 'High Life' with subtitles on, is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! Enjoy the movie 'High Life' with the subtitles activated. Let me know if you need anything else. Enjoy your viewing!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "title": "High Life",
+                    "subtitles": "enabled"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 20,
+            "reference_dialogue_id": "89_00023",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "We are heading to San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Four tickets from your location to San Francisco at 2 PM. Can you tell me if there's a specific bus company you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Any reputable company will do, as long as the timings match."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want four tickets for a 2 PM departure to San Francisco. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found several options for you. The total cost for four tickets is $120. Would you like to proceed with this booking? This will finalize your purchase for four tickets at 2 PM to San Francisco. Is that okay with you? This is a confirmation request."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed with the booking."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "San Francisco",
+                    "departure_time": "2 PM",
+                    "group_size": "four"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 21,
+            "reference_dialogue_id": "102_00041",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I just want to confirm my ride details."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course, let me retrieve your details."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have a Luxury ride booked for one person to 92nd Street Y with a pickup time at 7 PM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your ride is confirmed. Should you need any further assistance, feel free to let us know. Have a pleasant ride!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "92nd Street Y",
+                    "number_of_seats": "1",
+                    "ride_type": "Luxury"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 22,
+            "reference_dialogue_id": "72_00082",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "My name is Alex Johnson, and my contact number is 123-456-7890. My email is alex.johnson@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, Alex! Just to confirm, you would like to reserve one room at the AC Hotel by Marriott Atlanta Buckhead at Phipps Plaza from March 11th to March 12th for $150, with complimentary breakfast and other amenities. Your contact details are Alex Johnson, 123-456-7890, and alex.johnson@example.com. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Your reservation is now confirmed. We look forward to welcoming you to the AC Hotel by Marriott Atlanta Buckhead!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I appreciate your help."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great day and safe travels!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "AC Hotel by Marriott Atlanta Buckhead At Phipps Plaza",
+                    "location": "Atlanta",
+                    "check_in_date": "March 11th",
+                    "check_out_date": "March 12th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 23,
+            "reference_dialogue_id": "103_00043",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, let's proceed with the purchase then."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Just to confirm, you want to buy 3 tickets for the Brown Sabbath concert on March 4th in Anaheim for a total of $180. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Once I finalize this, you will receive your tickets via email. Is there anything else I should know before I confirm your purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that covers everything."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, just to finalize, I will be purchasing 3 tickets for Brown Sabbath on March 4th in Anaheim for $180. This is your final confirmation, is that correct?"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Brown Sabbath",
+                    "number_of_seats": "3",
+                    "date": "March 4th",
+                    "city_of_event": "Anaheim"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 24,
+            "reference_dialogue_id": "56_00123",
+            "exist_confirmation": true,
+            "intent": "ReserveOnewayFlight",
+            "service": "Flights",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a flight with Southwest Airlines departing on March 8th from Washington to Chicago. The flight is in Premium Economy class. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to book a one-way flight from Washington to Chicago on March 8th for 1 passenger in Premium Economy with Southwest Airlines. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Your flight has been successfully booked. You will receive a confirmation email shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin_city": "Washington",
+                    "destination_city": "Chicago",
+                    "airlines": "Southwest Airlines",
+                    "departure_date": "March 8th",
+                    "passengers": "1",
+                    "seating_class": "Premium Economy"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 25,
+            "reference_dialogue_id": "93_00051",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my number is 555-1234."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for that. Just to recap, we have a reservation at 45 Park Lane in London, check-in on March 6th for 1 night, 1 room under the name John Smith, and your contact number is 555-1234. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Your reservation is all set for March 6th at 45 Park Lane in London. Is there anything else you need? This will be confirmed once I get your final approval."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that should be all. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your reservation at 45 Park Lane, London for March 6th for 1 night in 1 room under the name John Smith is confirmed. Can you please confirm that you're okay with this?"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "45 Park Lane",
+                    "check_in_date": "March 6th",
+                    "number_of_days": "1",
+                    "destination": "London",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 26,
+            "reference_dialogue_id": "106_00116",
+            "exist_confirmation": true,
+            "intent": "PlayMedia",
+            "service": "Music",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you play Written In Sand on the bedroom speaker again?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, just to confirm, you want to play the song Written In Sand on your bedroom speaker, right?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me get that started for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks! I really love this song."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Happy to help! Your song is now playing on the bedroom speaker. Enjoy!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "song_name": "Written In Sand",
+                    "playback_device": "bedroom speaker"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

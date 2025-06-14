@@ -1,0 +1,696 @@
+{
+    "persona_id": 84,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "46_00061",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello! I would like to make a reservation at Amsterdam Hostel in San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! I can help you with that. What are your check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 1st and check out on March 7th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And how many rooms will you need for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! So, to confirm, you want one room from March 1st to March 7th at Amsterdam Hostel in San Francisco. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "46_00061",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct! Can you provide the total cost for that stay?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check that for you. The total cost for one room from March 1st to March 7th is $600, including taxes and fees."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that sounds reasonable. What payment options do you accept?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "We accept credit cards, PayPal, and direct bank transfers. How would you like to proceed?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will use my credit card to make the reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I will need some information from you to process the payment."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "70_00020",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to buy a bus ticket from Portland to Seattle."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When are you planning to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to leave on March 5th, around 8:40 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one ticket, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, and do you have a fare type preference?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "70_00020",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I prefer a flexible fare type."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Just to confirm, you want one flexible fare ticket from Portland to Seattle on March 5th, departing at 8:40 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I will check the availability for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I appreciate it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Let me find the best options for your trip."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "102_00033",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to go to the Autry Museum of the American West."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one seat, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Would you prefer a specific type of ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like a Pool ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, I’ve noted that you need a Pool ride to the Autry Museum of the American West for one person. Anything else you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "102_00033",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you tell me how long the ride will take?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, it should take around 25 minutes depending on the traffic."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great. What would be the fare for this ride?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "For a Pool ride, the fare will be approximately $12."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Would you like to book this ride now?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, booking your ride now. It should be ready shortly. Anything else you need assistance with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "102_00049",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need a ride to Acuario Inbursa."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one seat, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And what type of ride are you looking for? We have Regular, Premium, and Luxury options."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A Regular ride will be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I have noted that you need a Regular ride to Acuario Inbursa with one seat. Let me check availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "102_00049",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, were you able to check availability for the ride to Acuario Inbursa?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I did. We have a Regular ride available. Would you like me to book it for you now?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, booking it for you. Can you please confirm your pickup location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm at the Main Square, downtown."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Your Regular ride to Acuario Inbursa with one seat will be booked from Main Square, downtown. I'll process the booking now."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "93_00059",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to reserve a hotel for my upcoming trip."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Can you please tell me the destination and check-in date?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm going to Washington D.C. and I'd like to check in on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many days will you be staying?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need the reservation for 2 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And how many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will need 2 rooms."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "93_00059",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to book 2 rooms at Arc The.Hotel in Washington D.C. from March 6th for 2 nights, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct! Can you provide the rates for those dates?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly! For those dates, the rate is $150 per room per night. So for 2 rooms over 2 nights, it will be $600."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Are there any additional fees I should be aware of?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "There will be a small service fee and tax, which totals around 10% of the booking amount."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that makes sense. So what would the total amount be?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "With the service fee and tax included, the total would come to approximately $660."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "119_00055",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Where would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "At the Bart Station."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. When would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "On March 1st at 4:30 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. And when will you be dropping off the car?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "119_00055",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'll drop it off on March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. What type of car would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I prefer a compact car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. A compact car. Is there anything else you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all for now."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I'll start processing your reservation. Can you please confirm your contact details in the next session?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "119_00055",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, what details do you need?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I need your full name, phone number, and email address."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, my phone number is 123-456-7890, and my email is johndoe@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Here’s a summary of your reservation: You will pick up a compact car from the Bart Station on March 1st at 4:30 pm, and drop it off on March 4th. Your contact details are John Doe, 123-456-7890, johndoe@example.com. Can you please confirm this information?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just to confirm, you’re looking for a compact vehicle at Bart Station on March 1st at 4:30 pm, returning on March 4th. Is that correct?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your car reservation is confirmed. Have a wonderful day!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "Bart Station",
+                    "pickup_date": "March 1st",
+                    "pickup_time": "4:30 pm",
+                    "dropoff_date": "March 4th",
+                    "car_type": "Compact"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "93_00059",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Alright, I would like to proceed with the booking for Arc The.Hotel."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you would like to reserve 2 rooms at Arc The.Hotel in Washington D.C. from March 6th for 2 nights for a total of approximately $660. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's exactly right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I will process the reservation and send you a confirmation email shortly. Please hold on."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I'm looking forward to my trip."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Just to confirm once more, you are reserving 2 rooms at Arc The.Hotel in Washington D.C. from March 6th to March 8th for a total of $660. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm that!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Arc The.Hotel",
+                    "check_in_date": "March 6th",
+                    "number_of_days": "2",
+                    "destination": "Washington D.C.",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "102_00049",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, did you confirm my ride to Acuario Inbursa?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I am processing the final details. Your ride is almost ready. Just to confirm, you need a Regular ride with one seat from Main Square, downtown to Acuario Inbursa, is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your ride has been successfully booked. You will receive a notification with the driver's details shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you very much!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a safe and pleasant trip to Acuario Inbursa."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Acuario Inbursa",
+                    "number_of_seats": "1",
+                    "ride_type": "Regular"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 15,
+            "reference_dialogue_id": "102_00033",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Is it possible to change the ride type later if needed?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, you can change the ride type later, but it might affect the fare and wait time."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, good to know. Can you confirm the details of my booking one more time?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly! To confirm, you have booked a Pool ride to the Autry Museum of the American West for one person. The estimated fare is $12, and the ride will take approximately 25 minutes. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your ride is confirmed and will be there shortly. Have a safe trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Autry Museum of the American West",
+                    "number_of_seats": "1",
+                    "ride_type": "Pool"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 16,
+            "reference_dialogue_id": "70_00020",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I've found a flexible fare ticket for you from Portland to Seattle on March 5th, departing at 8:40 AM. The total fare is $45."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. What do I need to do next?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You'll just need to provide your payment details, and I'll complete the booking for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Alright, here are my payment details: [user provides payment details]."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Just to confirm, you would like to purchase one flexible fare ticket from Portland to Seattle on March 5th, departing at 8:40 AM for $45. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct! Please go ahead and confirm the booking."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "portland",
+                    "destination": "seattle",
+                    "departure_date": "march 5th",
+                    "departure_time": "8:40 am",
+                    "group_size": "1",
+                    "fare_type": "Flexible"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 17,
+            "reference_dialogue_id": "46_00061",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, what details do you need?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will need your full name, the credit card number, the expiration date, and the security code. Please provide those when you're ready."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, and my card number is 1234-5678-9012-3456, expiring on 12/25, and the security code is 123."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John! Just to confirm, you are reserving one room at Amsterdam Hostel in San Francisco from March 1st to March 7th, for a total of $600, and your payment will be made with the card ending in 3456. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your confirmation! Your reservation is now complete, and you will receive a confirmation email shortly."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Amsterdam HOstel San Francisco",
+                    "location": "San Francisco",
+                    "check_in_date": "March 1st",
+                    "check_out_date": "March 7th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 3
+            }
+        }
+    ]
+}

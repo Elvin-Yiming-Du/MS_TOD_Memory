@@ -1,0 +1,1131 @@
+{
+    "persona_id": 29,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "119_00036",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Where would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to pick it up at Sunnyvale CalTrain Station."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And when would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "March 4th at 12:30 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. When will you be dropping off the car?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "119_00036",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will be dropping it off on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. What type of car would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to reserve a compact car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. So, to summarize, you want to reserve a compact car, picking up at Sunnyvale CalTrain Station on March 4th at 12:30 pm, and dropping off on March 6th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent. Do you have any additional requirements or preferences for the car?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "60_00098",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to reserve a car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Can you please provide me with some details? Where will you be picking up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will be picking it up at Heathrow International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! When would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it on March 7th at 5:30 PM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, and when will you be dropping the car off?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "60_00098",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will be dropping it off on March 9th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. What type of car would you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need a Standard type car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. So, just to confirm, you will be picking up a Standard car at Heathrow International Airport on March 7th at 5:30 PM and dropping it off on March 9th."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Let me check the availability and get back to you shortly."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "51_00063",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to reserve a hotel in Chicago."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Do you have a specific hotel in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like to reserve a room at the Ace Hotel Chicago."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to check in on March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And when will you be checking out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will be checking out on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many rooms will you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "51_00063",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need two rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Two rooms, perfect. Let me confirm the details with you: A reservation at Ace Hotel Chicago from March 1st to March 8th for two rooms. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Would you like to include any special requests or preferences for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like both rooms to be non-smoking and on a higher floor if possible."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, non-smoking rooms on a higher floor. Anything else?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all for now."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, I'll note that down. I will proceed with checking the availability and get back to you shortly."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "47_00072",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a hotel in San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Do you have a specific hotel in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like to stay at the Bahia Resort Hotel."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to check in on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "47_00072",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just for one day."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, and how many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, so a single room for one night at Bahia Resort Hotel, checking in on March 6th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect, let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "102_00067",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride to 92nd Street Y."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many riders will be traveling?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 2 riders."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Would you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride will be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for a shared ride to 92nd Street Y for 2 riders."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "102_00067",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, I wanted to follow up on the ride to 92nd Street Y."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. I've found a shared ride for 2 riders. When would you like to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Tomorrow at 10 AM would be great."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. A shared ride for 2 riders to 92nd Street Y at 10 AM tomorrow is available."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sounds good. How long will the ride take approximately?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It should take about 30 minutes, depending on traffic."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "103_00020",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, can you help me find a ride to Bloedel Conservatory?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! How many riders will there be?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Do you prefer a shared ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, a shared ride is fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, let me check the available times for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "103_00020",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Were you able to find any available rides?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I found a few options. When would you like to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "How about tomorrow afternoon?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, we have slots available at 1 PM, 2:30 PM, and 4 PM. Which one works best for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "2:30 PM sounds good."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I'll reserve that slot for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "45_00126",
+            "exist_confirmation": false,
+            "intent": "PlayMedia",
+            "service": "Music",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you play Cocaine March on the bedroom speaker?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I'll play Cocaine March on the bedroom speaker. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Playing Cocaine March on the bedroom speaker now. Enjoy!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Let me know if you need anything else."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "123_00052",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy tickets for a Mets vs Padres game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Could you please provide me with the number of tickets you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 4 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Can you tell me the date of the game?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The game is on March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thanks! And what city is the game in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's in New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I'll check the availability for 4 tickets for the Mets vs Padres game on March 1st in New York."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "123_00052",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Were you able to find the tickets for the Mets vs Padres game?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I found 4 tickets available for the game on March 1st in New York."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect! Can you tell me the price?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The tickets are priced at $75 each."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. What's the total cost?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for 4 tickets would be $300."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Alright, can you reserve these tickets for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can reserve these tickets for you. Let me proceed with the reservation."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 15,
+            "reference_dialogue_id": "88_00124",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'm interested in buying tickets to see Lizzo."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to get 3 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And do you have a specific date in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I want to go on March 2nd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And which city will the event take place in?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 16,
+            "reference_dialogue_id": "88_00124",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "It's in San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! So you want 3 tickets to see Lizzo in San Diego on March 2nd. Let me check the availability."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good! How much are the tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The tickets are priced at $120 each. So for 3 tickets, it would be $360."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that's within my budget. Can you hold those tickets for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I can reserve them for you temporarily while you complete the purchase."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 17,
+            "reference_dialogue_id": "103_00044",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I’d like to buy a ticket for the Sparks vs Lynx game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you tell me how many seats you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I just need one seat, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. When is the game scheduled?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And which city will the event be held in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It will be in Los Angeles."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Let me check the availability for one seat in Los Angeles on March 8th."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 18,
+            "reference_dialogue_id": "103_00044",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a seat available for the Sparks vs Lynx game on March 8th in Los Angeles."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Awesome! What are the ticket prices?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The ticket price is $35. Would you like to proceed with the purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good! What do I need to do next?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll need some information from you. Can you provide your name and email address for the confirmation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure! My name is Alex Johnson and my email is alex.johnson@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thanks, Alex! I’ll prepare the ticket details for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 19,
+            "reference_dialogue_id": "103_00044",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have your ticket for the Sparks vs Lynx game on March 8th in Los Angeles ready. Just to confirm, it's one ticket for $35. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, I’ll finalize the purchase for the Sparks vs Lynx game on March 8th in Los Angeles. You will receive a confirmation email at alex.johnson@example.com. Is this confirmation accurate?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your ticket has been successfully purchased. Enjoy the game!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you very much!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Sparks vs Lynx",
+                    "number_of_seats": "1",
+                    "date": "March 8th",
+                    "city_of_event": "Los Angeles"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 20,
+            "reference_dialogue_id": "88_00124",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Great! What do I need to do next?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I just need your confirmation to proceed with the purchase of 3 tickets for Lizzo in San Diego on March 2nd. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right. Can you confirm the total amount?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total amount for the 3 tickets is $360. Just to confirm, you want to purchase 3 tickets to see Lizzo in San Diego on March 2nd, correct? This will finalize your order."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I want to go ahead with that."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will proceed to confirm your purchase of 3 tickets for Lizzo in San Diego on March 2nd. Is that okay? This will finalize your order."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Lizzo",
+                    "number_of_tickets": "3",
+                    "date": "March 2nd",
+                    "city": "San Diego"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 21,
+            "reference_dialogue_id": "123_00052",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Is everything set with the tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, I’m finalizing the reservation for 4 tickets to the Mets vs Padres game on March 1st in New York, with a total cost of $300. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your tickets are now reserved. You will receive a confirmation email shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Enjoy the game."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Mets VS Padres",
+                    "number_of_tickets": "4",
+                    "date": "march 1st",
+                    "city": "New York"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 22,
+            "reference_dialogue_id": "45_00126",
+            "exist_confirmation": true,
+            "intent": "PlayMedia",
+            "service": "Music",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you play the same song again on the bedroom speaker?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Do you mean Cocaine March on the bedroom speaker?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, exactly."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I will play Cocaine March on the bedroom speaker. Is this okay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want me to play Cocaine March on the bedroom speaker, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Playing Cocaine March on the bedroom speaker now."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "song_name": "Cocaine March",
+                    "playback_device": "bedroom speaker"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 23,
+            "reference_dialogue_id": "103_00020",
+            "exist_confirmation": true,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just to confirm, my ride to Bloedel Conservatory is scheduled for tomorrow at 2:30 PM, right?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, that's correct. It's a shared ride for one person."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Do I need to do anything else to confirm?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "No, everything is set. You'll just need to be ready a few minutes before 2:30 PM."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Got it. Thanks for your help."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you're booking a shared ride for one person to Bloedel Conservatory, departing at 2:30 PM tomorrow. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Bloedel Conservatory",
+                    "number_of_riders": "1",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 24,
+            "reference_dialogue_id": "102_00067",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just checking in on the ride for tomorrow. Is everything confirmed?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have a shared ride for 2 riders to 92nd Street Y, departing at 10 AM tomorrow, and you would like to confirm that this is correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your ride is all set. You will receive a notification 15 minutes before your scheduled departure."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a safe trip to 92nd Street Y."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "92nd Street Y",
+                    "number_of_riders": "2",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 25,
+            "reference_dialogue_id": "47_00072",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I've found availability for a single room at the Bahia Resort Hotel for March 6th. The total cost for one night will be $150. Would you like to proceed with this reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like to proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Can I have your name and contact information to complete the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is John Doe and my phone number is 555-123-4567."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Just to confirm: You are booking a single room at the Bahia Resort Hotel in San Diego, checking in on March 6th for one night, with a total cost of $150. Is this correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Bahia Resort Hotel",
+                    "check_in_date": "March 6th",
+                    "number_of_days": "1",
+                    "destination": "San Diego",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 26,
+            "reference_dialogue_id": "51_00063",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your patience. I have checked the availability, and there are two non-smoking rooms available on a higher floor at the Ace Hotel Chicago for your requested dates."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's wonderful to hear."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "To complete the reservation, I need to confirm a few more details. Can you please provide your contact information?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is John Doe, and my phone number is 555-1234."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Just to summarize and confirm: You are reserving two non-smoking rooms at the Ace Hotel Chicago from March 1st to March 8th. The rooms will be on a higher floor, and the contact name is John Doe, phone number 555-1234. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's all correct. Thank you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Your reservation is now confirmed. You will receive a confirmation email shortly. Have a great stay at Ace Hotel Chicago!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Ace Hotel Chicago",
+                    "location": "Chicago",
+                    "check_in_date": "March 1st",
+                    "check_out_date": "March 8th",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 27,
+            "reference_dialogue_id": "60_00098",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for waiting. I have confirmed the availability of a Standard car for your dates and times."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great! What are the next steps?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will need to gather some personal details to finalize the reservation. Can you provide me with your full name and contact information?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is John Doe, and my contact number is 555-1234."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Just to confirm, you are reserving a Standard car to be picked up at Heathrow International Airport on March 7th at 5:30 PM and dropped off on March 9th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "heathrow international airport",
+                    "pickup_date": "march 7th",
+                    "pickup_time": "5:30 pm",
+                    "dropoff_date": "march 9th",
+                    "car_type": "Standard"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 28,
+            "reference_dialogue_id": "119_00036",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "No, I think that's all for now."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Let me process your reservation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you will be picking up a compact car from Sunnyvale CalTrain Station on March 4th at 12:30 pm and dropping it off on March 6th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your reservation is confirmed. If you need any further assistance, feel free to reach out. Have a great day!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "Sunnyvale CalTrain Station",
+                    "pickup_date": "March 4th",
+                    "pickup_time": "12:30 pm",
+                    "dropoff_date": "March 6th",
+                    "car_type": "Compact"
+                },
+                "confirmation_utterance_id": 3
+            }
+        }
+    ]
+}

@@ -1,0 +1,571 @@
+{
+    "persona_id": 92,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "102_00092",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to go to Big Bus Tours Chicago. The tours begin at 98 E. Upper Wacker Dr."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many riders will be traveling?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 2 of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Would you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride will be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I'll start looking for available shared rides for two people to Big Bus Tours Chicago."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "102_00092",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, did you find any options for the ride?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I found some options for you. Would you like to depart in the morning or afternoon?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Morning would be better."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I have a shared ride available at 9:00 AM and another at 10:30 AM. Which one works for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Let's go with the 10:30 AM option."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I'm booking a shared ride for 2 people at 10:30 AM to Big Bus Tours Chicago."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I've noted down your preference. Would you like me to proceed with the booking now?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "120_00005",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to reserve a car for my trip."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you please provide me with the pickup location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be picking up the car at O'Hare International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you need the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it on March 8th at 6 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And when will you be dropping it off?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "120_00005",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will drop it off on March 11th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Just to confirm, you're picking up at O'Hare International Airport on March 8th at 6 pm and dropping off on March 11th. What type of car are you looking for?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would prefer a Standard car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "A Standard car will work well for your trip. Let me check the availability for those dates."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I appreciate your help."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "No problem! Just a moment while I gather the details for the Standard car."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "123_00114",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy tickets for a baseball game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Which game are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The Blue Jays vs Mariners game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 3 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for 3 tickets to the Blue Jays vs Mariners game."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "123_00114",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I was looking into buying those tickets for the Blue Jays vs Mariners game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! I remember you were looking for 3 tickets. Do you have a specific date in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, the game on March 7th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. The game is in Toronto on March 7th. Let me check the seat availability for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Please hold on a moment while I retrieve the information."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "115_00096",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride to 1441 Polk Street."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help you with that. How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 seats."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. What type of ride are you looking for?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like a Pool ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, 2 seats for a Pool ride to 1441 Polk Street. Let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "115_00096",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I asked for a ride to 1441 Polk Street earlier. Any updates?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I remember. You requested a Pool ride with 2 seats. We have a ride available."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, can you tell me when it will arrive?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The ride should arrive in about 10 minutes. Will that work for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good to me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect, your ride is confirmed and should be there shortly. Is there anything else you need help with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "95_00014",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to buy a bus ticket from Sacramento to Long Beach."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. When would you like to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to leave on March 11th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, and what time would you prefer to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to leave at 7:40 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many travelers will there be?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "95_00014",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 2 travelers."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, so I have noted that you need 2 tickets from Sacramento to Long Beach, leaving on March 11th at 7:40 am."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. What are my payment options?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You can pay using a credit card, debit card, or PayPal."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll use a credit card."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay. Could you please provide your credit card details?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "95_00014",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Here are my credit card details: 1234-5678-9012-3456, expiration date 04/24, and CVV 123."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Let me process your payment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your payment was successful. Just to confirm, you have purchased 2 bus tickets from Sacramento to Long Beach, departing on March 11th at 7:40 am. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your confirmation. Your tickets have been booked. Have a great trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "from_location": "Sacramento",
+                    "to_location": "Long beach",
+                    "leaving_date": "March 11th",
+                    "leaving_time": "7:40 am",
+                    "travelers": "2"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "115_00096",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I just want to double-check my ride details."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! You have a Pool ride booked to 1441 Polk Street with 2 seats."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "And the ride is arriving in 10 minutes, right?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, that's correct. It should be there in 10 minutes."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can you confirm all the details for me one last time?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure. You have booked a Pool ride with 2 seats to 1441 Polk Street. The ride will arrive in 10 minutes. Does everything look correct to you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, everything looks good. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "1441 Polk Street",
+                    "number_of_seats": "2",
+                    "ride_type": "Pool"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "123_00114",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I wanted to follow up on those Blue Jays vs Mariners tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! I have the details for the Blue Jays vs Mariners game on March 7th in Toronto. We have 3 tickets available for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, can you confirm the booking for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure thing! Just to confirm, you would like to book 3 tickets for the Blue Jays vs Mariners game on March 7th in Toronto. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Your tickets have been successfully booked. You'll receive an email with the details shortly. Enjoy the game!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Blue Jays vs Mariners",
+                    "number_of_tickets": "3",
+                    "date": "March 7th",
+                    "city": "Toronto"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "120_00005",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have the details! You can reserve a Standard car for your trip. Just to recap, you'll be picking it up at O'Hare International Airport on March 8th at 6 pm and dropping it off on March 11th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! To finalize the reservation, I need to confirm that you're okay with all the details: pickup at O'Hare International Airport on March 8th at 6 pm, dropping off on March 11th, and a Standard car. Is this confirmation correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm my reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! Your reservation for a Standard car has been successfully made."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! Looking forward to my trip."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "O'Hare International Airport",
+                    "pickup_date": "March 8th",
+                    "pickup_time": "6 pm",
+                    "dropoff_date": "March 11th",
+                    "type": "Standard"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "102_00092",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead with the booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you need a shared ride for 2 people to Big Bus Tours Chicago, which begins at 98 E. Upper Wacker Dr., at 10:30 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming. Your ride has been successfully booked. You will receive a notification with all the details shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great day and enjoy your tour."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Big Bus Tours Chicago (Tours begin at 98 E. Upper Wacker Dr.)",
+                    "number_of_riders": "2",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

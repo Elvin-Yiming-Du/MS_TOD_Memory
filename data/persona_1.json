@@ -1,0 +1,1151 @@
+{
+    "persona_id": 1,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "123_00046",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy tickets for the Mariners vs Rangers game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 4 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, and for which date?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The game is on March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, and in which city will the game be held?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's in Seattle."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect, I'll check the availability for 4 tickets for the Mariners vs Rangers game on March 1st in Seattle. Please hold on for a moment."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "123_00046",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Were you able to find the tickets for the game?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I found 4 tickets available for the Mariners vs Rangers game on March 1st in Seattle. Would you like to proceed with the purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can you tell me about the seating options?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! We have a few options available: lower deck, middle deck, and upper deck. Do you have a preference?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would prefer the lower deck if available."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The lower deck seats are available. Would you like me to reserve these for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please reserve them."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. I'll reserve 4 lower deck seats for the Mariners vs Rangers game on March 1st in Seattle. I'll need some additional information to complete the booking. May I proceed?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "115_00040",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to make a reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Which restaurant would you like to reserve at?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Spanishtown Mexican Restaurant in Half Moon Bay."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! What date and time do you need the reservation for?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's for March 1st at 7:30 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And how many people will be in your party?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "115_00040",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "It'll just be one person."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! So to recap, you want to reserve a table for 1 at Spanishtown Mexican Restaurant on March 1st at 7:30 pm. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I just need to confirm a few details. Would you like to provide a name for the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, the name is Alex."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, Alex! Just to confirm, I have a reservation for one at Spanishtown Mexican Restaurant on March 1st at 7:30 pm under your name. Shall I proceed with that?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "80_00015",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to make a reservation at the Great Wall Restaurant in Lafayette."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What date and time do you have in mind for your reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it for March 5th at 4:45 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many people will be in your party?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It will just be me, so a party size of 1."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, let me summarize your request: You want to reserve a table for 1 person at the Great Wall Restaurant in Lafayette on March 5th at 4:45 pm. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "80_00015",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will check the availability for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I hope there’s a table available."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like we have availability at that time. Would you like to proceed with the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, just to confirm, you would like a reservation for 1 person at the Great Wall Restaurant in Lafayette on March 5th at 4:45 pm. Is that all correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00001",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to stay at 1 Hotel Brooklyn Bridge."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you plan to check in and check out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 4th and check out on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "How many rooms do you need for your stay?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "93_00001",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need just one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Just to confirm, that's 1 room at 1 Hotel Brooklyn Bridge, checking in on March 4th and checking out on March 8th. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Do you have any special requests for your stay, such as bed preference or any amenities?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would prefer a king-sized bed, if possible."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Noted! I will make sure to request a king-sized bed for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "51_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a hotel in Chicago."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! I'd be happy to help. Do you have any specific hotel in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to stay at the AC Hotel By Marriott Chicago Downtown."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! What are your check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll check in on March 6th and check out on March 13th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. Let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "51_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I was wondering if you were able to check the availability for my booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hi! Yes, I was about to update you. The AC Hotel By Marriott Chicago Downtown has availability for your dates."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's great news! Can you tell me about the rate for the room?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly! The rate for one room from March 6th to March 13th is $150 per night."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Alright, that sounds reasonable. Can you also confirm if breakfast is included?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, breakfast is included with your stay."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect. What amenities are available at the hotel?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The AC Hotel By Marriott Chicago Downtown offers amenities such as free Wi-Fi, a fitness center, a swimming pool, and a business center."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "71_00004",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to make a reservation at a restaurant."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which restaurant do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to book a table at Bluefin."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to make the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "How about March 4th at 11 am?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And how many people will be in your party?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 4 of us."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "71_00004",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! So, to confirm, you want to reserve a table for 4 at Bluefin in San Jose on March 4th at 11 am."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Is that possible?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll check availability for you. Just a moment, please."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I appreciate it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! It looks like they have an opening at that time."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Would you like me to proceed with the reservation for 4 at Bluefin on March 4th at 11 am?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "64_00111",
+            "exist_confirmation": false,
+            "intent": "TransferMoney",
+            "service": "Banks",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to transfer some money from my savings account."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! How much would you like to transfer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to send $1,420."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Who is the recipient of this transfer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The recipient is Raghav."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "What type of account does Raghav have?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "64_00111",
+            "exist_confirmation": false,
+            "intent": "TransferMoney",
+            "service": "Banks",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "He has a checking account."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Just to confirm, you want to transfer $1,420 from your savings account to Raghav’s checking account, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Can you please provide me with your account details to proceed?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my account number is 123456789."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for that information! I'll prepare the transfer now."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "118_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I’d like to reserve a car, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Could you please provide me with the pickup location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need the car at SFO International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And when would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to pick it up on March 5th at 1:30 PM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! So, you're picking up on March 5th at 1:30 PM. When will you be dropping it off?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 15,
+            "reference_dialogue_id": "118_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll be dropping it off on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for that information. What type of car would you prefer for your reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like a standard car, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "A standard car, understood. Let me summarize: You're picking up a standard car at SFO International Airport on March 5th at 1:30 PM and dropping it off on March 8th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I'll get the reservation details ready for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 16,
+            "reference_dialogue_id": "88_00123",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy tickets for a concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which concert are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to buy tickets for the Psychedelic Furs."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 4 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. For which date and city?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 17,
+            "reference_dialogue_id": "88_00123",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "The concert is on March 3rd in San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent. Let me check the availability for 4 tickets for the Psychedelic Furs on March 3rd in San Diego."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, thank you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like there are still tickets available. Would you like me to proceed with the purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Can I have your payment details to complete the transaction?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 18,
+            "reference_dialogue_id": "108_00055",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to make a reservation at There Sushi Bar & Restaurant."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What date and time are you looking to make the reservation for?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to reserve a table for March 1st at 5:15 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And how many people will be in your party?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It will be for 2 people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for the details! Just to confirm, you want a reservation for 2 people at There Sushi Bar & Restaurant on March 1st at 5:15 pm. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 19,
+            "reference_dialogue_id": "108_00055",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Do you have any special requests or preferences for your reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "If possible, we would prefer a table with a view."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I’ll make a note of that for you. Is there anything else I should be aware of?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that should be all."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay! So, just to recap: You are reserving a table for 2 with a view at There Sushi Bar & Restaurant on March 1st at 5:15 pm. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 20,
+            "reference_dialogue_id": "108_00055",
+            "exist_confirmation": true,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, it is."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Your reservation for 2 people at There Sushi Bar & Restaurant on March 1st at 5:15 pm with a view has been successfully set. Is this confirmation acceptable?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, it sounds good to me!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, that's a reservation for 2 people at There Sushi Bar & Restaurant on March 1st at 5:15 pm. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! Your reservation is now complete. We look forward to seeing you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "restaurant_name": "There Sushi Bar & Restaurant",
+                    "time": "5:15 pm",
+                    "party_size": "2 people",
+                    "date": "March 1st"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 21,
+            "reference_dialogue_id": "88_00123",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, here are my credit card details."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. I'll process your payment now."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your payment was successful. To confirm, you have purchased 4 tickets for the Psychedelic Furs concert on March 3rd in San Diego. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Enjoy the concert!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Psychedelic Furs concert",
+                    "number_of_tickets": "4",
+                    "date": "March 3rd",
+                    "city": "San Diego"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 22,
+            "reference_dialogue_id": "118_00080",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "How’s the reservation coming along?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Everything is set up! Just to confirm: You're reserving a standard car at SFO International Airport, picking it up on March 5th at 1:30 PM, and returning it on March 8th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent! To finalize, can I confirm that you want to proceed with this reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I want to proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your reservation for a standard car is ready for you at SFO International Airport on March 5th at 1:30 PM, with a return on March 8th. Is that correct?"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "SFO International Airport",
+                    "pickup_date": "March 5th",
+                    "pickup_time": "1:30 pm",
+                    "dropoff_date": "March 8th",
+                    "type": "Standard"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 23,
+            "reference_dialogue_id": "64_00111",
+            "exist_confirmation": true,
+            "intent": "TransferMoney",
+            "service": "Banks",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "How long will the transfer take?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Typically, transfers can take anywhere from a few minutes to a couple of hours. Would you like me to proceed with the transfer of $1,420 to Raghav's checking account?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you are transferring $1,420 from your savings account to Raghav’s checking account. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! The transfer is now being processed and you will receive a notification once it is complete."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "account_type": "savings",
+                    "amount": "$1,420",
+                    "recipient_account_name": "Raghav",
+                    "recipient_account_type": "checking"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 24,
+            "reference_dialogue_id": "71_00004",
+            "exist_confirmation": true,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead and reserve that."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "To confirm, you would like to reserve a table for 4 at Bluefin in San Jose on March 4th at 11 am, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's exactly it!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will finalize your reservation now."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "This is a confirmation for your reservation: a table for 4 at Bluefin on March 4th at 11 am. Is that correct? `is_confirmation`: True"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Thank you for confirming!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "restaurant_name": "Bluefin",
+                    "city": "San Jose",
+                    "time": "11 am",
+                    "date": "March 4th",
+                    "party_size": "4"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 25,
+            "reference_dialogue_id": "51_00080",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I'm ready to finalize my booking at the AC Hotel By Marriott Chicago Downtown."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! I have your details here. You want to book one room at the AC Hotel By Marriott Chicago Downtown in Chicago, checking in on March 6th and checking out on March 13th. The rate is $150 per night, and breakfast is included. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Fantastic! Let's proceed to finalize your reservation. Can I have your name and contact information to complete the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is John Doe and my contact number is 123-456-7890."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Just to confirm, you are booking one room at the AC Hotel By Marriott Chicago Downtown, with check-in on March 6th and check-out on March 13th, at a rate of $150 per night with breakfast included. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Please proceed."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "AC Hotel By Marriott Chicago Downtown",
+                    "location": "Chicago",
+                    "check_in_date": "March 6th",
+                    "check_out_date": "March 13th",
+                    "number_of_rooms": "one"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 26,
+            "reference_dialogue_id": "93_00001",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks! Is there anything else I need to do?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to recap, you're booking one room at 1 Hotel Brooklyn Bridge, checking in on March 4th and checking out on March 8th, with a request for a king-sized bed. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright! Your stay will be at 1 Hotel Brooklyn Bridge in New York, from March 4th to March 8th, with a king-sized bed. Is this confirmation accurate and can I finalize the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please finalize it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your booking is for 1 Hotel Brooklyn Bridge in New York, checking in on March 4th and checking out on March 8th, with a king-sized bed. Is that correct, and can I finalize the booking?"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "1 Hotel Brooklyn Bridge",
+                    "location": "New York",
+                    "check_in_date": "March 4th",
+                    "check_out_date": "March 8th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 27,
+            "reference_dialogue_id": "80_00015",
+            "exist_confirmation": true,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Just to finalize, your reservation for 1 person at the Great Wall Restaurant in Lafayette on March 5th at 4:45 pm is now set. Is that confirmation alright for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm the reservation. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Your reservation is confirmed. Enjoy your meal!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I'm looking forward to it."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "restaurant_name": "Great Wall Restaurant",
+                    "city": "Lafayette",
+                    "time": "4:45 pm",
+                    "party_size": "1",
+                    "date": "March 5th"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 28,
+            "reference_dialogue_id": "115_00040",
+            "exist_confirmation": true,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "To summarize, you have a reservation for one at Spanishtown Mexican Restaurant in Half Moon Bay on March 1st at 7:30 pm, under the name Alex. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming, Alex! Your reservation is now complete. We look forward to seeing you there!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you so much for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great day!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "restaurant_name": "Spanishtown Mexican Restaurant",
+                    "city": "Half Moon Bay",
+                    "time": "7:30 pm",
+                    "date": "March 1st",
+                    "party_size": "1"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 29,
+            "reference_dialogue_id": "123_00046",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, what information do you need?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will need your full name, contact number, and email address."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Smith, my contact number is 555-1234, and my email address is johnsmith@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Let me just confirm your details and the reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You are purchasing 4 lower deck tickets for the Mariners vs Rangers game on March 1st in Seattle. Your contact information is John Smith, phone number 555-1234, and email johnsmith@example.com. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent! Your tickets have been reserved successfully. You will receive a confirmation email shortly. Enjoy the game, John!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Mariners vs Rangers",
+                    "number_of_tickets": "4",
+                    "date": "March 1st",
+                    "city": "Seattle"
+                },
+                "confirmation_utterance_id": 4
+            }
+        }
+    ]
+}

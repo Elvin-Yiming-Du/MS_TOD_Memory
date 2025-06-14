@@ -1,0 +1,576 @@
+{
+    "persona_id": 99,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "102_00017",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need a ride to 56 Signers of the Declaration of Independence Memorial."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 4 seats."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. What type of ride would you prefer? We have Standard, Luxury, and SUV options."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would prefer a Luxury ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, I have noted down 4 seats in a Luxury ride to 56 Signers of the Declaration of Independence Memorial. Is there anything else you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "102_00017",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I wanted to check the status of my ride booking to 56 Signers of the Declaration of Independence Memorial."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, let me check that for you. Can you please confirm the number of seats and ride type again?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, it’s for 4 seats in a Luxury ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Your ride is confirmed for 4 seats in a Luxury ride to 56 Signers of the Declaration of Independence Memorial. Would you like any additional services, such as a specific driver or refreshments?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that would be all for now."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, your booking is all set. If you need to make any changes, feel free to reach out."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "70_00011",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy bus tickets from Los Angeles to Las Vegas."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What date are you planning to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to depart on March 7th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And what time are you looking to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to depart at 7:40 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many tickets do you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "70_00011",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need tickets for two people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Would you like to choose an economy extra fare type for your tickets?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, economy extra sounds good."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright! To recap, you're traveling from Los Angeles to Las Vegas on March 7th, departing at 7:40 AM, for two people with economy extra fare. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's exactly right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Let me check the availability of those tickets."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "123_00013",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy tickets for a concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Could you please tell me the name of the event?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The event is Jordan Rakei."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 4 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. And for what date would you like to book these tickets?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "123_00013",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to book them for March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And which city is the event in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The concert is in Los Angeles."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, so you need 4 tickets for Jordan Rakei on March 1st in Los Angeles. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Let me check the availability for you. I'll get back to you shortly with the details."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00046",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'm looking to book a hotel for my upcoming trip to New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! I'd be happy to help you with that. Do you have a specific hotel in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'm interested in 1 Hotel Central Park."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When are you planning to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I plan to check in on March 3rd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "93_00046",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will be staying for 3 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 rooms for my stay."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Noted! Just to confirm, that's 2 rooms for 3 days, checking in on March 3rd at 1 Hotel Central Park. Is that right?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I'll just check the availability for those dates."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "123_00065",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy tickets for Matt Corby's concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that! How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, and for which date would you like to attend the concert?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "March 5th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And which city will you be attending the concert in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for 2 tickets for Matt Corby's concert in San Francisco on March 5th."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "123_00065",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Were you able to find the tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I have found 2 tickets available for Matt Corby's concert on March 5th in San Francisco."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's great! What are the seat details?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The seats are in the 10th row, center section."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect, how much do the tickets cost?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for 2 tickets is $150. Would you like to proceed with the purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I will need some additional information to complete the purchase."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "123_00065",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "What information do you need to complete the purchase?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will need your full name, email address, and payment details."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe and my email is john.doe@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Please provide your payment details."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My credit card number is 1234-5678-8765-4321, expiration date is 12/25, and CVV is 123."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for the payment details. To confirm, you are purchasing 2 tickets for Matt Corby's concert in San Francisco on March 5th, with seats in the 10th row, center section, for a total cost of $150. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Matt Corby",
+                    "number_of_tickets": "2",
+                    "date": "March 5th",
+                    "city": "San Francisco"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "93_00046",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have confirmed that 1 Hotel Central Park has availability for 2 rooms from March 3rd for 3 nights. The total cost will be provided at checkout. Would you like to proceed with this booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to finalize, you want to book 2 rooms at 1 Hotel Central Park, checking in on March 3rd for 3 days. Is that correct? This will secure your reservation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s exactly what I want."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your booking is now confirmed for 2 rooms at 1 Hotel Central Park in New York, starting March 3rd for 3 nights. Is there anything else I can assist you with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that’s all. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "1 hotel central park",
+                    "check_in_date": "march 3rd",
+                    "number_of_days": "3",
+                    "destination": "new york",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "123_00013",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for waiting. I have confirmed that there are 4 tickets available for Jordan Rakei on March 1st in Los Angeles."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great! What is the total cost for the tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for 4 tickets is $240."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. Can you proceed with the booking?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly. Just to confirm, you would like to purchase 4 tickets for Jordan Rakei's concert on March 1st in Los Angeles for a total of $240. Shall I go ahead and book them for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead with the booking."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Jordan Rakei's concert",
+                    "number_of_tickets": "4",
+                    "date": "March 1st",
+                    "city": "Los Angeles"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "70_00011",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found two economy extra tickets available for your trip on March 7th at 7:40 AM. The total fare comes to $120."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. Can you go ahead and book those for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to book two economy extra tickets from Los Angeles to Las Vegas on March 7th, departing at 7:40 AM for a total fare of $120. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! I will proceed with the booking for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Awesome, I appreciate your help!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Los Angeles",
+                    "destination": "Las Vegas",
+                    "departure_date": "March 7th",
+                    "departure_time": "7:40 am",
+                    "group_size": "2",
+                    "fare_type": "Economy extra"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "102_00017",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you confirm my ride details one last time?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely. You have booked a ride for 4 seats in a Luxury vehicle to 56 Signers of the Declaration of Independence Memorial. Is there anything else you need to know?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, I just wanted to make sure everything is in order."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your ride is set for 4 seats in a Luxury vehicle. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's perfect."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming. Your ride to 56 Signers of the Declaration of Independence Memorial is all set. Have a safe trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "number_of_seats": "4 seats",
+                    "ride_type": "Luxury vehicle"
+                },
+                "confirmation_utterance_id": 3
+            }
+        }
+    ]
+}

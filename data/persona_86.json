@@ -1,0 +1,604 @@
+{
+    "persona_id": 86,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "70_00075",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to buy bus tickets from Los Angeles to Anaheim."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to depart on March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! What time do you want to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to leave at 7 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need three tickets."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "70_00075",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And what type of fare are you looking for? We have options like Economy and Premium."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to go for the Economy fare."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent choice! Let me summarize: you want three Economy tickets from Los Angeles to Anaheim, departing on March 1st at 7 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's exactly right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I’ll go ahead and check the availability for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Just a moment while I retrieve the ticket information."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "93_00043",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a room at the Andaz Delhi - A Concept by Hyatt."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What are your check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be checking in on March 3rd and checking out on March 7th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many rooms would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Let me check the availability for one room during those dates."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "93_00043",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a room available at Andaz Delhi for your selected dates. Would you like to proceed with the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Can I have your name and contact information for the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is Alex Smith, and my phone number is 123-456-7890."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, Alex. Do you have any special requests or preferences for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would prefer a room with a city view, if possible."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "88_00034",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm heading to 4757 Snyder Lane."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many riders will be joining you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 2 of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Would you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, a shared ride to 4757 Snyder Lane for 2 people. Anything else?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "88_00034",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, just checking if my ride is still scheduled."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me verify that for you. Could you remind me of the destination again?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, it's 4757 Snyder Lane."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many riders will be there?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 2 of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. It looks like your shared ride to 4757 Snyder Lane for 2 people is still scheduled."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, just wanted to make sure."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "No problem. If you need any further assistance, feel free to ask!"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "88_00118",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm interested in buying tickets for the Alejandro Sanz concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Could you please tell me how many tickets you would like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need four tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And do you have a specific date in mind for the concert?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, it's on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And which city will the concert be held in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It’s in San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for the information! Let me check the availability for 4 tickets to Alejandro Sanz in San Diego on March 8th."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "88_00118",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I've found 4 tickets available for the Alejandro Sanz concert on March 8th in San Diego. Would you like to proceed with the purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! Do you have a preferred payment method?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to pay by credit card, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sounds good! Can you provide me with the card details, including the card number and expiration date?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll provide them shortly. What else do you need?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I’ll also need the name on the card and the security code for the transaction."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "102_00077",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need to book a ride to the American Folk Art Museum."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many riders will there be?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It'll just be me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Would you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride is fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, I’ll find a shared ride to the American Folk Art Museum for one rider."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "102_00077",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, can you update me on the status of my ride to the American Folk Art Museum?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check that for you... Your shared ride is scheduled to pick you up in about 10 minutes."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect, thanks! What type of vehicle should I expect?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You will be picked up by a silver sedan. The driver's name is John."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Got it. Can you also tell me the estimated arrival time at the museum?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, the estimated arrival time at the American Folk Art Museum is approximately 30 minutes from now."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "102_00077",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to confirm my ride details again."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have a shared ride booked for one rider to the American Folk Art Museum, and the pick-up vehicle is a silver sedan driven by John. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent! Your ride will arrive shortly. If you have any other questions, feel free to ask."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great visit to the American Folk Art Museum."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "American Folk Art Museum",
+                    "number_of_riders": "1",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "88_00118",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Alright, the card is in the name of John Doe, and here are the card details: 1234 5678 9101 1121, expiring 12/25, and the security code is 123."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John! Just to confirm, you want to buy 4 tickets for the Alejandro Sanz concert in San Diego on March 8th, and you’ll pay with a credit card ending in 1121. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will process your order now. Is there anything else you would like me to assist you with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that’s everything for now. Please proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm once more, you're purchasing 4 tickets for the Alejandro Sanz concert on March 8th in San Diego, and using a credit card ending in 1121. Is that correct? `is_confirmation`: true"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Please complete the purchase."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Alejandro Sanz concert",
+                    "number_of_tickets": "4",
+                    "date": "March 8th",
+                    "city": "San Diego"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "88_00034",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I need to confirm my ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly, let's confirm the details. You're booking a shared ride for 2 people to 4757 Snyder Lane. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. The ride is scheduled and you're all set to go. Would you like me to send you the driver's details now?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I'll send the driver's details to you shortly. Just to confirm, you will be taking a shared ride with 2 people to 4757 Snyder Lane. Please confirm this information."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "4757 Snyder Lane",
+                    "number_of_riders": "2",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "93_00043",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I've noted your preference for a city view. To confirm, you're reserving 1 room at Andaz Delhi - A Concept by Hyatt, checking in on March 3rd and checking out on March 7th. Is that correct? This reservation will be under the name Alex Smith, and you'd like a city view."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Just to confirm, you will have 1 room at Andaz Delhi, checking in on March 3rd and checking out on March 7th. Is everything correct? This will finalize your reservation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, everything is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your reservation at Andaz Delhi - A Concept by Hyatt in Delhi is set from March 3rd to March 7th for 1 guest. You will receive a confirmation email shortly. Thank you for choosing us! Have a great day!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Andaz Delhi - A Concept by Hyatt",
+                    "location": "Delhi",
+                    "check_in_date": "March 3rd",
+                    "check_out_date": "March 7th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "70_00075",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found three Economy tickets available for your trip! The total fare is $45 per person."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good! What do I need to do next?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to reserve three Economy tickets from Los Angeles to Anaheim, departing on March 1st at 7 AM, for a total of $135. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I’ll process the payment and reserve your tickets immediately."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Your tickets will be sent to your email shortly. Have a great trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Los Angeles",
+                    "destination": "Anaheim",
+                    "departure_date": "March 1st",
+                    "departure_time": "7 am",
+                    "group_size": "3",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 2
+            }
+        }
+    ]
+}
