@@ -1,0 +1,563 @@
+{
+    "persona_id": 108,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "89_00020",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to buy a bus ticket from Philadelphia to New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to depart on March 13th, around 8:30 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Just to confirm, is it just one ticket you're looking to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, it's for one person."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Would you prefer an economy fare for your trip?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "89_00020",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, an economy fare works for me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I’ll find the best options for an economy ticket from Philadelphia to New York on March 13th, departing at 8:30 am."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "How long is the journey?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The journey typically takes around 2 hours. Would you like to see the available bus companies and prices?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please show me the options."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Here are some options: Company A offers a ticket for $25, and Company B offers one for $30. Which one do you prefer?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "122_00117",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm looking to find available times for the Remo Drive event in San Francisco on March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many tickets are you looking to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Let me check the availability for 2 tickets to the Remo Drive event in San Francisco on March 1st."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! Also, can you tell me if there are any time slots available?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, please give me a moment to look that up."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "122_00117",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I wanted to follow up on the Remo Drive event. Were you able to find available times?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello again! Yes, I found a few available time slots for the Remo Drive event on March 1st in San Francisco."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great! What are the available time slots?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The available time slots are 5:00 PM, 7:30 PM, and 9:00 PM. Which one would you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Let me check with my friend. Can I get back to you on this?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Take your time and let me know when you're ready."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "119_00126",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a car, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Can you provide me with the details for your reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, I'll be picking up the car at JFK International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. And when would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to pick it up on March 4th at 1:30 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Noted. When will you be dropping off the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll drop it off on March 5th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. What type of car would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like a standard car, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I have all the details I need for now. We'll proceed with the reservation in the next session."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "119_00126",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I'm back to complete my car reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! Let's continue. Can you confirm the pickup location is JFK International Airport?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And you're picking up the car on March 4th at 1:30 pm?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You'll be dropping off the car on March 5th, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Exactly."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And you prefer a standard car for this reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, a standard car will do."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let's finalize the reservation in the next session."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "88_00036",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to get to 707 Continental Circle."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And how many people will be riding with you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be four of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. Your destination is 707 Continental Circle and there are 4 riders. Anything else I should know?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "123_00109",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to buy tickets for the Blue Jays Vs Yankees game in Toronto."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When is the game?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's on March 3rd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, and how many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for the Blue Jays Vs Yankees game on March 3rd in Toronto. One moment, please."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "123_00109",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hi again! I have checked the availability for the Blue Jays Vs Yankees game on March 3rd. There are still tickets available."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Awesome! Can you tell me the price for 2 tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The price for 2 tickets is $150."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that sounds good. How can I pay for them?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You can pay using a credit card or PayPal. Which method would you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll use my credit card."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I'll need your credit card details to proceed with the purchase."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "123_00109",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'm ready to provide my credit card details for the tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Could you please provide me with your credit card number, expiration date, and the CVV code?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my credit card number is 1234 5678 9101 1121, expiration date is 12/25, and CVV is 123."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Let me process the payment... It will just take a moment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your payment has been processed successfully. To confirm, you have purchased 2 tickets for the Blue Jays Vs Yankees game on March 3rd in Toronto. The total amount charged is $150. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, everything is correct. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Blue Jays Vs Yankees",
+                    "number_of_tickets": "2",
+                    "date": "March 3rd",
+                    "city": "Toronto"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "88_00036",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to confirm the ride I booked earlier."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Let me pull up your details. You're heading to 707 Continental Circle with 4 riders, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you need a ride to 707 Continental Circle for 4 people. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I have your ride scheduled. You'll be picked up shortly. Is there anything else you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "707 Continental Circle",
+                    "number_of_riders": "4"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "119_00126",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'm ready to finalize my car reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent. Let's go over the details one last time."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you will pick up the standard car at JFK International Airport on March 4th at 1:30 pm and drop it off on March 5th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, everything is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Your car reservation is now confirmed. Is there anything else I can help you with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thanks for your help!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "JFK international airport",
+                    "pickup_date": "March 4th",
+                    "pickup_time": "1:30 pm",
+                    "dropoff_date": "March 5th",
+                    "type": "Standard"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "122_00117",
+            "exist_confirmation": true,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I’ve checked with my friend. We would like to book the 7:30 PM slot."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! To confirm, you would like to book 2 tickets for the Remo Drive event in San Francisco on March 1st at 7:30 PM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Wonderful! I have reserved 2 tickets for the Remo Drive event in San Francisco on March 1st at 7:30 PM. You will receive a confirmation email shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Enjoy the event!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Remo Drive",
+                    "number_of_tickets": "2",
+                    "date": "March 1st",
+                    "city": "San Francisco"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "89_00020",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'll go with Company A for $25."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! Just to confirm, you want to purchase one economy ticket with Company A for $25, departing from Philadelphia to New York on March 13th at 8:30 am, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Your ticket will be booked now. I will send you the confirmation details shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Awesome, thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Your ticket is now confirmed. Thank you for choosing us! Enjoy your trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "departure_time": "8:30 am",
+                    "price": "$25",
+                    "fare_type": "economy"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

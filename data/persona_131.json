@@ -1,0 +1,379 @@
+{
+    "persona_id": 131,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "89_00053",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I need to buy bus tickets from Los Angeles to Long Beach."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When are you planning to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to leave on March 11th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! What time do you want to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to leave at 7 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many travelers will be going?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "89_00053",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 2 travelers."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thanks for the information! Let me summarize: You want 2 tickets from Los Angeles to Long Beach, leaving on March 11th at 7 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Just a moment while I check the availability for those tickets."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, take your time."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found available tickets for your requested date and time. Would you like to proceed with the booking?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "89_00103",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to buy bus tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Where will you be traveling from and to?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "From Vancouver to Seattle."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. When do you plan to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need tickets for March 11th, and I want to depart at 8:30 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, how many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "We are a group of 4."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, and what fare type are you looking for?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "89_00103",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "We prefer Economy Extra."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, let me check the availability for you. One moment please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Good news! There are seats available for your specified journey. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Could you please provide the names of the passengers?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, they are John Smith, Sarah Brown, Michael Green, and Emma White."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. I have noted the names. Shall we continue to payment?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "51_00054",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a hotel in London."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Do you have a specific hotel in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like to stay at 45 Park Lane."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in and check out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I plan to check in on March 2nd and check out on March 9th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many rooms will you need for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. I'll start looking into availability for your requested dates at 45 Park Lane."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "51_00054",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, any updates on my hotel booking?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Yes, I was able to find a room available for your dates at 45 Park Lane."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That’s great to hear. What’s the price for the stay?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total price for one room from March 2nd to March 9th is $3,500."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect. Can you tell me what amenities are included?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly! The room includes free Wi-Fi, breakfast, access to the fitness center, and a complimentary spa treatment."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds perfect. How do I proceed with the booking?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll need to collect some details from you to finalize the reservation. Are you ready to provide your information?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "51_00054",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'm ready. What do you need from me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll need your full name, contact number, and payment details."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, and my contact number is 123-456-7890."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Now, can you provide your payment details?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, here are my card details: 4111 1111 1111 1111, expiry date 10/25, CVV 123."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you would like to book 1 room at 45 Park Lane in London, checking in on March 2nd and checking out on March 9th, for a total of $3,500. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "45 Park Lane",
+                    "location": "London",
+                    "check_in_date": "March 2nd",
+                    "check_out_date": "March 9th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "89_00103",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, let’s move on to the payment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. You can pay using credit card, debit card, or PayPal. Which method would you like to use?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll use my credit card."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Please provide your credit card details to proceed with the payment."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Here are my details: Card number 1234 5678 9012 3456, expiration date 12/25, and CVV 123."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for providing your payment details. Let me process your booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your payment has been successfully processed for 4 Economy Extra tickets from Vancouver to Seattle, departing on March 11th at 8:30 am. The passengers are John Smith, Sarah Brown, Michael Green, and Emma White. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, everything is correct. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Vancouver",
+                    "destination": "Seattle",
+                    "departure_date": "march 11th",
+                    "departure_time": "8:30 am",
+                    "group_size": "4",
+                    "fare_type": "Economy extra"
+                },
+                "confirmation_utterance_id": 6
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "89_00053",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright! To confirm, you want to purchase 2 bus tickets from Los Angeles to Long Beach, leaving on March 11th at 7 AM. Is that correct? This will be the final confirmation before processing your order."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm: You are purchasing 2 tickets from Los Angeles to Long Beach, leaving on March 11th at 7 AM. Shall I go ahead with the booking? This is the final confirmation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed with the booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Your tickets are being processed now."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "from_location": "Los Angeles",
+                    "to_location": "Long Beach",
+                    "leaving_date": "March 11th",
+                    "leaving_time": "7 AM",
+                    "travelers": "2"
+                },
+                "confirmation_utterance_id": 3
+            }
+        }
+    ]
+}

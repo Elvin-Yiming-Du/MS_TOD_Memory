@@ -1,0 +1,554 @@
+{
+    "persona_id": 106,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "89_00004",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to buy bus tickets from Long Beach to San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to depart on March 11th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! What time are you looking to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would prefer to leave at 7 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many tickets do you need for your trip?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "89_00004",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "We need tickets for two people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Would you like to choose the Economy fare type?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, Economy is fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you would like to book two Economy tickets from Long Beach to San Diego on March 11th at 7 AM, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "93_00122",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to make a reservation at 1 Hotel Central Park."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When would you like to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm planning to check in on March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And how many days will you be staying?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need the room for 4 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I’ll also need to know how many rooms you would like to reserve."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "93_00122",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 rooms, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. So that's 2 rooms for 4 days starting from March 1st at 1 Hotel Central Park. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Can you also tell me the total price for the stay?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check that for you. The total for 2 rooms for 4 nights in New York at 1 Hotel Central Park would be approximately $2,800. Does that work for your budget?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Do you need any further information from me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll need your contact information and any special requests you might have."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "115_00082",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "1150 Solano Avenue, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 seats."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. Do you have a preference for the type of ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Regular will be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I have your destination as 1150 Solano Avenue, 2 seats, and a regular ride. Is there anything else you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "115_00082",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I wanted to check the status of my ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Let me look up your request. You're heading to 1150 Solano Avenue with 2 seats in a regular ride, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like your ride is still being processed. Would you like to make any changes?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No changes needed. Just wanted to make sure everything is on track."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Everything is on track. Your ride should be confirmed shortly. Is there anything else I can help you with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00050",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I’d like to book a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’m looking at Alila Bangsar in Kuala Lumpur."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you want to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 9th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "How many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "93_00050",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll be there for 3 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And how many rooms would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright! To summarize, you want to stay at Alila Bangsar in Kuala Lumpur from March 9th for 3 days, with 1 room. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Fantastic! Let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "102_00000",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 3 seats, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, and would you prefer a regular ride or a premium one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A regular ride is fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Where do you want to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Centreville Amusement Park."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, a regular ride for 3 seats to Centreville Amusement Park. Is there anything else I should know?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! I've noted down your request. You'll receive a confirmation message shortly."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "102_00000",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I wanted to check the status of my ride booking for tomorrow."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Let me check that for you. Can you please provide the booking reference number?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, it's BR123456."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. I see that you have a booking for a regular ride with 3 seats scheduled for tomorrow at 10 AM to Centreville Amusement Park. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Your ride is confirmed for tomorrow at 10 AM. Thank you for using our service. Have a great day!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! Have a great day!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Centreville Amusement Park",
+                    "number_of_seats": "3",
+                    "ride_type": "regular"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "93_00050",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have confirmed that there is availability at Alila Bangsar for your selected dates."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That’s great news! What will the total cost be?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for 3 nights in one room will be $450."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sounds reasonable. What payment methods do you accept?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "We accept credit cards, debit cards, and PayPal. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, I will reserve 1 room at Alila Bangsar in Kuala Lumpur from March 9th for 3 days for a total of $450. Is that correct?"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Alila Bangsar",
+                    "check_in_date": "March 9th",
+                    "number_of_days": "3",
+                    "destination": "Kuala Lumpur",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "115_00082",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm back to confirm my ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! Let me confirm the details: You requested a ride to 1150 Solano Avenue with 2 seats in a regular ride. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I will now proceed to finalize your ride. The pickup point is the address you provided, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Just to confirm one last time, you are requesting a regular ride to 1150 Solano Avenue, needing 2 seats. Everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm all the details are correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "1150 Solano Avenue",
+                    "number_of_seats": "2",
+                    "ride_type": "regular"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "93_00122",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is John Smith and my email is john@example.com. I don’t have any special requests."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John! Just to confirm: you want to book 2 rooms at 1 Hotel Central Park for 4 nights, checking in on March 1st, for a total of $2,800. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your reservation is for 2 rooms at 1 Hotel Central Park for 4 nights starting March 1st, totaling $2,800. Is that correct? This will secure your booking, and you will receive a confirmation email shortly. Please confirm."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead and confirm my reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John! Your reservation has been successfully confirmed. You will receive an email with all the details shortly. Have a great stay!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "1 Hotel Central Park",
+                    "check_in_date": "March 1st",
+                    "number_of_days": "4 nights",
+                    "number_of_rooms": "2 rooms"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "89_00004",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found two Economy tickets available for your trip from Long Beach to San Diego on March 11th at 7 AM. The total fare will be $50."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. Can you confirm the details again?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm: You are booking 2 Economy tickets from Long Beach to San Diego, departing on March 11th at 7 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will proceed with the booking for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Long Beach",
+                    "destination": "San Diego",
+                    "departure_date": "March 11th",
+                    "departure_time": "7 am",
+                    "group_size": "2",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 2
+            }
+        }
+    ]
+}

@@ -1,0 +1,554 @@
+{
+    "persona_id": 109,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00010",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I’d like to reserve some rooms at the Doubletree By Hilton Hotel San Pedro - Port Of Los Angeles."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When would you like to check in and check out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I plan to check in on March 4th and check out on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many rooms would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 3 rooms, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Let me summarize: you want to reserve 3 rooms at the Doubletree By Hilton Hotel San Pedro from March 4th to March 8th. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00010",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right. What are the rates for those dates?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The rate for each room is $150 per night. For 3 rooms over 4 nights, the total would be $1,800."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Can you tell me about the amenities offered at the hotel?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! The hotel offers complimentary breakfast, free Wi-Fi, a swimming pool, and a fitness center, among other amenities."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect! I’d like to proceed with the booking then."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright! I just need to confirm a few more details before finalizing the reservation. Can I have your name for the booking?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "79_00107",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to make a reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! What restaurant are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to reserve a table at Bar Agricole in San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! For what date and time do you need the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it for March 1st at 5:15 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And how many people will be in your party?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It will be for 2 people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me summarize: you want to reserve a table for 2 at Bar Agricole in San Francisco on March 1st at 5:15 pm. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "79_00107",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! I just need to check availability for that time."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, please take your time."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your patience. I see that a table is available at that time."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's great news! What do I need to do to confirm the reservation?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will need to collect a contact number and an email address for confirmation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My phone number is 123-456-7890 and my email is user@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! I have your contact details. Would you like to proceed with the reservation?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "103_00115",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'm looking to buy tickets for the Giants Vs Brewers game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When is the game scheduled?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's on March 5th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 3 tickets, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And in which city will the event take place?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The game is in San Francisco."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "103_00115",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! So, to confirm, you need 3 tickets for the Giants Vs Brewers game on March 5th in San Francisco. Would you like to know the ticket prices?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that would be great. What are the prices?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The tickets range from $30 to $100 each, depending on the seating area. Do you have a specific budget or area in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd prefer something in the mid-range, around $50 each."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I can find tickets in that price range. Would you like to proceed with purchasing?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, let's move forward."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "102_00054",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride to the Art Gallery of New South Wales."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many seats will you need for this ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 seats."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Would you prefer a specific type of ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to go with a Pool ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, booking a Pool ride with 2 seats to the Art Gallery of New South Wales. Anything else you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "102_00054",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I just wanted to check if my ride to the Art Gallery of New South Wales is confirmed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me look that up for you. Could you please confirm the number of seats again?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It was 2 seats."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And was it a Pool ride you requested?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thanks for confirming. Your Pool ride with 2 seats to the Art Gallery of New South Wales is scheduled. Do you have any further questions?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "89_00065",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I need to buy bus tickets from San Francisco for three people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What date are you planning to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "We're looking to travel next Saturday."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And what time do you prefer to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "We'd like to leave in the morning, around 9 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, let me check the availability for bus tickets departing from San Francisco at 9 AM next Saturday for three travelers."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "89_00065",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a bus that leaves at 9 AM and has available seats. The total cost for three tickets is $45. Would you like to proceed with the purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good! What do I need to provide to complete the purchase?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I just need your email address and payment information to finalize the booking."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my email is user@example.com. What payment methods do you accept?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "We accept credit and debit cards, as well as PayPal. Which one would you like to use?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll use my credit card. Just to confirm, the total is $45 for three tickets, right?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you're purchasing three bus tickets from San Francisco for $45, leaving next Saturday at 9 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, let's do it!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "from_location": "San Francisco",
+                    "leaving_date": "next Saturday",
+                    "leaving_time": "9 AM",
+                    "travelers": "three"
+                },
+                "confirmation_utterance_id": 6
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "102_00054",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need to make sure all details are correct for my ride to the Art Gallery of New South Wales."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I can help with that. You requested a Pool ride, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And you needed 2 seats?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Correct, 2 seats."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have booked a Pool ride with 2 seats to the Art Gallery of New South Wales. Is that all correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's all correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Art Gallery of New South Wales",
+                    "number_of_seats": "2",
+                    "ride_type": "Pool"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "103_00115",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright! Just to confirm, you're purchasing 3 tickets for the Giants Vs Brewers game on March 5th in San Francisco, priced at $50 each. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total will be $150. Would you like to proceed with the payment?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I’m ready to pay."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Once again, to confirm, you're buying 3 tickets for the Giants Vs Brewers game on March 5th in San Francisco for a total of $150. Is that confirmation accurate?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's confirmed!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Giants Vs Brewers",
+                    "number_of_seats": "3",
+                    "date": "March 5th",
+                    "city_of_event": "San Francisco"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "79_00107",
+            "exist_confirmation": true,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "To confirm, you have a reservation for 2 at Bar Agricole in San Francisco on March 1st at 5:15 pm. Your contact number is 123-456-7890 and your email is user@example.com. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! Your reservation is now complete. We look forward to seeing you at Bar Agricole."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you very much for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you have any other questions, feel free to ask. Enjoy your dining experience!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "restaurant_name": "Bar Agricole",
+                    "city": "San Francisco",
+                    "time": "5:15 pm",
+                    "party_size": "2",
+                    "date": "March 1st"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "93_00010",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, my name is John Smith."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Just to confirm, you would like to reserve 3 rooms at the Doubletree By Hilton Hotel San Pedro - Port Of Los Angeles from March 4th to March 8th, at a total cost of $1,800. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's accurate."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will go ahead and finalize your booking for 3 rooms at the Doubletree By Hilton Hotel San Pedro - Port Of Los Angeles from March 4th to March 8th. Please confirm if you would like to proceed with this reservation. This is a confirmation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please confirm the reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John! Your reservation is confirmed. Looking forward to welcoming you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Doubletree By Hilton Hotel San Pedro - Port Of Los Angeles",
+                    "location": "San Pedro - Port Of Los Angeles",
+                    "check_in_date": "March 4th",
+                    "check_out_date": "March 8th",
+                    "number_of_rooms": "3"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

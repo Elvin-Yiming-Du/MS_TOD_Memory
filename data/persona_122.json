@@ -1,0 +1,332 @@
+{
+    "persona_id": 122,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00108",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm looking to reserve a hotel in Phoenix."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Do you have a specific hotel in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I want to book the Cambria Hotel North Scottsdale Desert Ridge."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you plan to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to check in on March 12th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many nights will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00108",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I only need one night."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And how many rooms will you require?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need three rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. So that's three rooms for one night starting March 12th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Do you have any special requests or preferences for your stay?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "93_00065",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to reserve a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm thinking about staying at 11 Howard in New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you want to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to check in on March 3rd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "93_00065",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just for one night."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And how many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need two rooms, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, so that’s 11 Howard in New York, check-in on March 3rd, for one night, and two rooms. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "88_00060",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy tickets for the Vertical Horizon concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. For which date are you looking to buy the tickets?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like them for March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And which city will you be attending the concert in?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "88_00060",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "The concert is in New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Let me just check the availability for you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like there are still tickets available for the Vertical Horizon concert on March 4th in New York."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's good to know. What are the prices for the tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The tickets are priced at $75 each."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Alright, I'm okay with that price."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! Now, let me proceed to the payment options for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "88_00060",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I have my credit card ready for the payment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Before we proceed with the payment, let me confirm the details with you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You are purchasing 2 tickets for the Vertical Horizon concert on March 4th in New York. The total cost will be $150. Do you want to proceed with this payment?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm the purchase."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Vertical Horizon",
+                    "number_of_tickets": "2",
+                    "date": "March 4th",
+                    "city": "New York"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "93_00065",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have confirmed the availability for two rooms at 11 Howard for one night on March 3rd. The total cost will be $500. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good! Are there any additional fees?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "No additional fees, just the $500 for the rooms. Would you like to confirm your reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to confirm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm: You are booking two rooms at 11 Howard in New York, checking in on March 3rd for one night. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct. Please go ahead and finalize the booking."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "11 Howard",
+                    "check_in_date": "March 3rd",
+                    "number_of_days": "1",
+                    "destination": "New York",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "93_00108",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Not really, just make sure everything is ready when we arrive."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely! To summarize, you want to book three rooms at Cambria Hotel North Scottsdale Desert Ridge for one night, checking in on March 12th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! I will proceed with the reservation now. Just to confirm: you will be checking in on March 12th for one night at the Cambria Hotel North Scottsdale Desert Ridge with three rooms. Is that correct? This will finalize your booking."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your reservation is now complete for three rooms at Cambria Hotel North Scottsdale Desert Ridge from March 12th for one night. Thank you for choosing us! Have a wonderful stay!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Cambria Hotel North Scottsdale Desert Ridge",
+                    "check_in_date": "March 12th",
+                    "number_of_days": "one night",
+                    "number_of_rooms": "three rooms"
+                },
+                "confirmation_utterance_id": 3
+            }
+        }
+    ]
+}

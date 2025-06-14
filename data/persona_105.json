@@ -1,0 +1,528 @@
+{
+    "persona_id": 105,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "120_00006",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I would like to reserve a car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Could you please provide me with the pickup location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to pick it up from Jomo Kenyatta International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you need the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it on March 8th at 5 PM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And when will you be dropping it off?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "120_00006",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will drop it off on March 9th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! What type of car are you looking for?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like a Standard car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! To summarize, you want to reserve a Standard car from Jomo Kenyatta International Airport on March 8th at 5 PM, returning on March 9th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I’ll proceed with that information."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "102_00096",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride to Adventure Island."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I'd be happy to help with that. How many riders will there be?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Would you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride is fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I'm looking for available shared rides to Adventure Island."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "102_00096",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, did you find any shared rides to Adventure Island?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I found a few options. When do you plan to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Tomorrow morning around 9 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. I see a shared ride available at 9:15 AM. Does that time work for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that works."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I'll go ahead and reserve that ride for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "89_00054",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to buy a bus ticket from Sacramento to San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When are you planning to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to leave on March 14th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! What time do you want to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to leave at 10:20 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Just to confirm, you are traveling alone, right?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "89_00054",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'm traveling by myself."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming. Let me check the availability for a ticket from Sacramento to San Diego on March 14th at 10:20 am."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sounds good! How long does the trip usually take?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The trip typically takes about 8 to 9 hours, depending on traffic."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that makes sense. Do you have any specific bus service in mind?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I can check a few popular bus services for you. Just a moment, please."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "123_00099",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy tickets for the Whitecaps vs Earthquakes match."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help you with that. How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. The match is scheduled for next Saturday at 7 PM. Do you have any seating preferences?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would prefer seats in the lower section, if available."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check the availability for you. Please hold on for a moment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like we have seats available in the lower section. Would you like to proceed with these tickets?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "115_00115",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to reserve a table at a restaurant."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Can you provide the address of the restaurant?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's 4095 Century Boulevard."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many seats will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one seat, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. Are you looking for any specific type of ride to the restaurant?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "115_00115",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like a luxury ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. Let me summarize your request: You want to reserve a table for one at a restaurant located at 4095 Century Boulevard and need a luxury ride."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Do you have any specific time in mind for the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can we do it for 7 PM?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. I will book your table for 7 PM and arrange for a luxury ride."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "115_00115",
+            "exist_confirmation": true,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I wanted to check if my reservation is confirmed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Let me verify that for you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have a reservation for one person at 4095 Century Boulevard at 7 PM, and a luxury ride has been arranged for you. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, your reservation is confirmed. Enjoy your dinner!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "4095 Century Boulevard",
+                    "number_of_seats": "1",
+                    "ride_type": "Luxury"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "123_00099",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to proceed with the lower section tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. Could you please provide your full name and email address for the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, and my email address is johndoe@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, John, you are purchasing 2 tickets for the Whitecaps vs Earthquakes match in the lower section, scheduled for next Saturday at 7 PM. The total cost is $120. Shall I proceed with the payment?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed with the payment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your purchase, John! Your tickets have been booked and a confirmation email has been sent to johndoe@example.com. Enjoy the match!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Whitecaps vs Earthquakes",
+                    "number_of_tickets": "2",
+                    "date": "next Saturday at 7 PM"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "89_00054",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I appreciate your help."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a bus with a reputable service that leaves at 10:20 am on March 14th. The ticket price is $45."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. What do I need to do to book it?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "All I need is to confirm that you're ready to proceed with the booking, and I can finalize it for you. This ticket will be from Sacramento to San Diego on March 14th at 10:20 am, for one traveler."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm: you're booking a ticket from Sacramento to San Diego on March 14th at 10:20 am for one traveler. Shall I go ahead and complete the booking? This is confirmation type is confirmation: True."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed with the booking!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "from_location": "Sacramento",
+                    "to_location": "San Diego",
+                    "leaving_date": "March 14th",
+                    "leaving_time": "10:20 am",
+                    "travelers": "one traveler"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "102_00096",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I'm just checking if my ride to Adventure Island is confirmed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check that for you. One moment, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your shared ride to Adventure Island at 9:15 AM tomorrow is reserved."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can you confirm all the details for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have a shared ride for one person to Adventure Island scheduled for 9:15 AM tomorrow morning. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "adventure island",
+                    "number_of_riders": "1",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "120_00006",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Have you completed the reservation?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I just need to confirm the details one last time. You're reserving a Standard car from Jomo Kenyatta International Airport on March 8th at 5 PM and dropping it off on March 9th. Is this information correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to ensure everything is set, this reservation will be for a Standard car from Jomo Kenyatta International Airport on March 8th at 5 PM, returning on March 9th. Shall I finalize this booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please finalize it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your reservation is now confirmed for a Standard car from Jomo Kenyatta International Airport. Thank you for choosing our service!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "Jomo Kenyatta International Airport",
+                    "pickup_date": "March 8th",
+                    "pickup_time": "5 PM",
+                    "dropoff_date": "March 9th",
+                    "type": "Standard car"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

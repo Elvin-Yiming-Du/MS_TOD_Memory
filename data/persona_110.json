@@ -1,0 +1,557 @@
+{
+    "persona_id": 110,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00017",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to make a reservation at Ac Hotel By Marriott Paris Porte Maillot."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you please provide me with the check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 6th and check out on March 11th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many rooms will you need for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Let me summarize: You want 2 rooms at Ac Hotel By Marriott Paris Porte Maillot from March 6th to March 11th. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00017",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct! Can you tell me the total cost for the stay?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! The total cost for 2 rooms for 5 nights at that hotel is approximately €1200. Would you like to proceed with the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. Can you also provide information about the cancellation policy?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! The cancellation policy allows you to cancel up to 48 hours before the check-in date for a full refund. After that, there may be charges. Does that work for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that works for me. Can you also confirm if breakfast is included?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, breakfast is included in your reservation. Would you like to finalize the booking?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "103_00014",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride to Floyd Lamb Park."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many riders will be traveling?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It will just be me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Would you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride is fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, booking a shared ride to Floyd Lamb Park for one person. Anything else I should know?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "103_00014",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I wanted to check if my ride to Floyd Lamb Park is confirmed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me look up your booking details. Just a moment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I see your booking for a shared ride to Floyd Lamb Park for one person. It's scheduled and confirmed. Is there anything else you need help with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, thanks. Could you tell me who my driver will be?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your driver will be John. He will arrive in a black sedan."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks for the information. That's all for now."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "62_00070",
+            "exist_confirmation": false,
+            "intent": "AddEvent",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to schedule a doctor's appointment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! When do you want to schedule it?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’m thinking about March 14th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Do you have a specific time in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, around 2:45 pm would be perfect."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And where will the appointment take place?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "62_00070",
+            "exist_confirmation": false,
+            "intent": "AddEvent",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "The appointment is at 991 County Highway G4 STE 104."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. So, we have a doctor's appointment on March 14th at 2:45 pm at 991 County Highway G4 STE 104."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Would you like me to remind you closer to the date?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that would be helpful. Can you set a reminder for a day before?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely! I'll make sure to remind you on March 13th."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "101_00057",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'm looking to book a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to reserve a room at the Best Western Plus Sutter House."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you want to check in and check out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I plan to check in on March 4th and check out on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many rooms will you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "101_00057",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Let me summarize your request: one room at Best Western Plus Sutter House from March 4th to March 6th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I will check availability for that date."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks! I appreciate it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! I'll get back to you shortly with the details."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "93_00050",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'm looking to reserve a hotel in Kuala Lumpur."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to stay at Alila Bangsar."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you plan to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll be checking in on March 9th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "How many nights will you be staying?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it for 3 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, so that’s from March 9th to March 12th. Let me know how many rooms you’ll need."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "93_00050",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will need one room for my stay."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Just to confirm, that's one room for 3 nights at Alila Bangsar, checking in on March 9th."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Do you have any special requests or preferences for your room?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would prefer a room with a city view, if possible."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll note that down. A city view room at Alila Bangsar for your stay. Anything else I can assist you with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "93_00050",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "No, that should be all for now."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to recap, you’re reserving one room at Alila Bangsar from March 9th to March 12th, for 3 nights, with a request for a city view. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will proceed with the reservation. Would you like me to finalize this booking and send you the confirmation details?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please do!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, I will reserve one room at Alila Bangsar in Kuala Lumpur from March 9th to March 12th, for 3 nights, with a city view preference. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct! Please go ahead and confirm the booking."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Alila Bangsar",
+                    "check_in_date": "March 9th",
+                    "number_of_days": "3",
+                    "destination": "Kuala Lumpur",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "101_00057",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Have you found any availability for my stay?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I have confirmed that there is availability at Best Western Plus Sutter House for your requested dates."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's great news! What are the rates for the room?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The rate for one room from March 4th to March 6th is $120 per night. Would you like to go ahead and book it?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to book it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you're booking one room at Best Western Plus Sutter House from March 4th to March 6th at a rate of $120 per night. Is that correct? This will complete your reservation."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Best Western Plus Sutter House"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "62_00070",
+            "exist_confirmation": true,
+            "intent": "AddEvent",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Is everything set for the appointment?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have a doctor's appointment on March 14th at 2:45 pm at 991 County Highway G4 STE 104, and I will remind you on March 13th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your appointment is all set. If you need anything else, just let me know."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great day!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Doctor appointment",
+                    "event_date": "March 14th",
+                    "event_location": "991 County Highway G4 STE 104",
+                    "event_time": "2:45 pm"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "103_00014",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I just wanted to verify the details of my ride once more."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. You have a shared ride booked to Floyd Lamb Park for one person, and your driver will be John in a black sedan. He is scheduled to pick you up shortly. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right. Will I get an update when the driver is close?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, you'll receive a notification when the driver is about 5 minutes away."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you're all set for a shared ride to Floyd Lamb Park with driver John in a black sedan for 1 passenger. You will receive a notification when he's close. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Thanks!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Floyd Lamb Park",
+                    "number_of_riders": "1",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "93_00017",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead and finalize it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you are booking 2 rooms at Ac Hotel By Marriott Paris Porte Maillot in Paris from March 6th to March 11th, with breakfast included for a total cost of €1200. This reservation is cancellable up to 48 hours before check-in. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your reservation is now confirmed. You will receive a confirmation email shortly. Thank you for choosing Ac Hotel By Marriott Paris Porte Maillot!  Your booking is secured."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "check_in_date": "March 6th",
+                    "check_out_date": "March 11th",
+                    "hotel_name": "Ac Hotel By Marriott Paris Porte Maillot",
+                    "location": "Paris",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

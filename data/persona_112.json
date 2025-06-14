@@ -1,0 +1,446 @@
+{
+    "persona_id": 112,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "103_00019",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need a ride to the Autry Museum of the American West."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many people will be riding with you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It will be for 2 people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Would you like a shared ride or a private ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride will be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I've noted that you need a shared ride for 2 people to the Autry Museum of the American West."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "103_00019",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you tell me the ETA for the ride?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check that for you. It looks like the estimated time of arrival is about 15 minutes from your current location."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That works for me. What kind of vehicle will it be?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You'll be picked up in a silver Toyota Prius."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Alright, how much will the fare be?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The estimated fare for your shared ride will be $15."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "70_00066",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I’m looking to buy a bus ticket from Vancouver to Portland."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When would you like to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to leave on March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! What time are you thinking of departing?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to leave at 9:20 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need two tickets."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "70_00066",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! So, that's two tickets from Vancouver to Portland, departing on March 4th at 9:20 am. What fare type are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I prefer the Economy fare."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Economy fare selected. Let me check the availability for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I appreciate it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Please hold on for a moment while I gather the information."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, take your time."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "102_00075",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to book a ride to the Autry Museum of the American West."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many riders will there be?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just two riders."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Would you prefer a shared ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, a shared ride would be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. Let me check the available times for you. Please hold on a moment."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "102_00075",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Did you find any available times for the ride to the Autry Museum?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I found some options. When would you like to start your trip?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Tomorrow morning would be good. Maybe around 10 AM?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I see. There’s an available shared ride at 9:45 AM and another at 10:15 AM. Which one would you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Let's go with the 10:15 AM slot."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I've noted the 10:15 AM shared ride for two riders to the Autry Museum of the American West."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00090",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'm looking to book a hotel for my trip to New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What dates are you planning to check in and how long will you be staying?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 8th for one night."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! Do you have a specific hotel in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I’d like to stay at 11 Howard."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I’ll find availability for 11 Howard for one night on March 8th."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "93_00090",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like 11 Howard has availability for your selected date. How many rooms would you like to book?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! One room for one night on March 8th. Is there anything specific you would like for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A city view would be nice if it's available."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll request a city view room for you. Let me finalize the details and I’ll be back shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I appreciate your help."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "93_00090",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have confirmed your booking at 11 Howard for one night on March 8th, with a city view room. The total cost will be provided at check-in. Does that sound good to you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds perfect!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you are booking one room at 11 Howard in New York, checking in on March 8th for one night. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! Your reservation is confirmed. If you need anything else or have any questions, feel free to ask!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you so much for your assistance!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "11 Howard",
+                    "check_in_date": "March 8th",
+                    "number_of_days": "1",
+                    "destination": "New York",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "102_00075",
+            "exist_confirmation": true,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’m ready to confirm the booking for our ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you are booking a shared ride for two riders to the Autry Museum of the American West at 10:15 AM tomorrow, and you would like to proceed with this booking. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your ride has been successfully booked. You will receive a confirmation message shortly. Is there anything else I can assist you with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You’re welcome! Have a great day and enjoy your visit to the Autry Museum of the American West."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Autry Museum of the American West",
+                    "number_of_riders": "2",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "70_00066",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found available Economy tickets for your journey. The total fare for two tickets is $80. Would you like to proceed with the booking? This is for March 4th, departing at 9:20 am from Vancouver to Portland."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you would like to book two Economy tickets for $80 total, departing from Vancouver to Portland on March 4th at 9:20 am. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your confirmation! I will proceed with the booking."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Vancouver",
+                    "destination": "Portland",
+                    "departure_date": "March 4th",
+                    "departure_time": "9:20 am",
+                    "group_size": "2",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "103_00019",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can I add a stop on the way?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Unfortunately, with a shared ride, adding an extra stop isn't possible. Would you like to proceed with the current ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's fine. Can you confirm the details for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you need a shared ride for 2 people to the Autry Museum of the American West, and the vehicle will be a silver Toyota Prius. The estimated fare is $15, and the ride should arrive in about 15 minutes from now. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Autry Museum of the American West",
+                    "number_of_riders": "2",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 3
+            }
+        }
+    ]
+}

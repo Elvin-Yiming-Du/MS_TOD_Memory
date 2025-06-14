@@ -1,0 +1,370 @@
+{
+    "persona_id": 121,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00052",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to reserve a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking at Arc the Hotel in Washington D.C."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! What are your check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 12th and stay for one night."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many rooms will you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00052",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I just need one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Let me summarize: You're booking one room at Arc the Hotel for one night, checking in on March 12th in Washington D.C."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Do you have any preferences for the type of room?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A standard room would be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "All right! I’ll make sure to reserve a standard room for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "89_00073",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to buy bus tickets from San Diego to Las Vegas."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When would you like to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm planning to leave on March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! What time do you prefer to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to leave at around 6:50 PM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many travelers will be on this trip?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be three of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Let me check the availability for three tickets for March 4th at 6:50 PM from San Diego to Las Vegas."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "89_00073",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a bus that fits your schedule! The departure is at 6:50 PM and it arrives in Las Vegas around 10:30 PM."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sounds good! What is the price for each ticket?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The price is $45 per person. So for three travelers, it would be $135 in total."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that's reasonable. Do you have the option for reserving the seats?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, we can reserve seats for you. Would you like to choose specific seats or just go with the available options?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d prefer to choose my seats if possible."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Let me show you the available seats."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "93_00090",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to reserve a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you please tell me the hotel name and your check-in date?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to stay at 11 Howard, checking in on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! How many days will you be staying?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one day."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many rooms do you need for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I just need one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for the details! Let me confirm the reservation details: 1 room at 11 Howard, checking in on March 8th for 1 day. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "93_00090",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right. Can you also let me know the total cost for that stay?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! For one night at 11 Howard, the typical rate is around $300. However, it can vary depending on availability."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Are there any additional fees I should be aware of?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, there is a daily resort fee of $25 and taxes that may apply. Would you like me to include those in the total?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please do. What would the total come to?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "With the room rate, resort fee, and taxes, the total would be approximately $350."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that sounds good. What's the next step to finalize the booking?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00090",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "To finalize your booking, I'll need to collect your personal details and payment information. Would you like to proceed with that?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I’m ready to provide my information."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you will be reserving 1 room at 11 Howard in New York, checking in on March 8th for 1 day, with a total cost of approximately $350. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Please provide your name, phone number, and email address to complete the reservation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, my phone number is 123-456-7890, and my email is johndoe@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John! Your reservation is now confirmed for 1 room at 11 Howard on March 8th. Have a wonderful stay in New York!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "11 Howard",
+                    "check_in_date": "March 8th",
+                    "number_of_days": "1",
+                    "destination": "New York",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "89_00073",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have the seating chart here. Which seats would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like seats 12, 13, and 14."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, that's three tickets from San Diego to Las Vegas on March 4th, leaving at 6:50 PM. The total cost will be $135. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Fantastic! I will process your order now and send you the confirmation details shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you very much for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great trip to Las Vegas!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "from_location": "San Diego",
+                    "to_location": "Las Vegas",
+                    "leaving_date": "March 4th",
+                    "leaving_time": "6:50 pm",
+                    "travelers": "3"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "93_00052",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Is there anything else I need to provide?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I just need your name and a contact number to complete the reservation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, and my number is 555-1234."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John! To confirm your reservation: One standard room at Arc the Hotel in Washington D.C., for one night, checking in on March 12th. Is that correct? This will finalize your booking."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your reservation at Arc the Hotel in Washington D.C. for March 12th for 1 guest is confirmed. Thank you for choosing us! Is there anything else I can help you with?"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Arc the.Hotel",
+                    "check_in_date": "March 12th",
+                    "number_of_days": "1",
+                    "destination": "Washington D.C.",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 5
+            }
+        }
+    ]
+}

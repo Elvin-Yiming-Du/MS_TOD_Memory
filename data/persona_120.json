@@ -1,0 +1,474 @@
+{
+    "persona_id": 120,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "95_00026",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to buy a bus ticket."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Where are you traveling from and to?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm traveling from Anaheim to Sacramento."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. When would you like to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "On March 2nd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "What time do you want to leave?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "95_00026",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to leave at 6:40 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many travelers will there be?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be two of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, let me check the availability for you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found available tickets for that date and time. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please. What are the ticket prices?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "123_00063",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to buy a ticket for The Buttertones concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Could you please provide me with the date and the city where the concert will take place?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The concert is on March 6th in Chicago."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one ticket, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. I'll check the availability for The Buttertones concert on March 6th in Chicago."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "123_00063",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I wanted to check on the status of my ticket for The Buttertones concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Let me pull up your request. You were looking for one ticket to The Buttertones concert on March 6th in Chicago, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I see that there's still availability. Would you like to proceed with purchasing the ticket?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, I'll need a few more details to complete the purchase. Can you provide me with your email address and payment method?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "93_00089",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to reserve a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What hotel are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to stay at Bahia Resort Hotel."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you plan to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to check in on March 11th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And for how many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "93_00089",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be staying for 3 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! So that's check-in on March 11th and check-out on March 14th. How many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, to confirm: you need one room at Bahia Resort Hotel for 3 nights starting March 11th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Lastly, can you please tell me the destination city?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "88_00020",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to go to 210 Easy Street."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, how many riders will there be?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one, it's only me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Would you like a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride would be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "88_00020",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm following up on the ride to 210 Easy Street."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! Yes, I see your request here. We have a shared ride available."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's great! When will the ride arrive?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It should arrive in about 15 minutes. Does that time work for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that works for me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Your driver will be there shortly. Do you have any other questions?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all for now. Thanks!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a safe trip."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "88_00020",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I just want to make sure my ride is still on time."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Yes, your ride to 210 Easy Street is still scheduled to arrive in 15 minutes."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect, and it's still a shared ride, right?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, it is a shared ride for one rider."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, can you confirm the details for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have a shared ride booked for 1 rider to 210 Easy Street, and the driver will arrive in about 15 minutes. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's all correct. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "210 Easy Street",
+                    "number_of_riders": "1",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "93_00089",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "The destination is San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "To summarize, you want to reserve 1 room at Bahia Resort Hotel in San Diego, checking in on March 11th and checking out on March 14th for a total of 3 nights. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s exactly what I need."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your reservation is for 1 room at Bahia Resort Hotel in San Diego from March 11th to March 14th, totaling 3 nights. Is that correct? This reservation will be finalized upon your confirmation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm that!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your confirmation! Your reservation is now complete. Enjoy your stay at Bahia Resort Hotel!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Bahia Resort Hotel",
+                    "check_in_date": "March 11th",
+                    "number_of_days": "3 nights",
+                    "destination": "San Diego",
+                    "number_of_rooms": "1 room"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "123_00063",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm ready to provide my email and payment information for The Buttertones ticket."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Can you please give me your email address first?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, it's user@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Now, could you please tell me how you'd like to pay for the ticket?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll use my credit card."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I will send you a secure link to enter your credit card details. Once the payment is successful, you'll receive a confirmation email."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you are purchasing one ticket for The Buttertones concert on March 6th in Chicago, and it will be sent to user@example.com. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "The Buttertones",
+                    "number_of_tickets": "1",
+                    "date": "March 6th",
+                    "city": "Chicago"
+                },
+                "confirmation_utterance_id": 6
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "95_00026",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "The ticket prices are $45 each. Would you like to book them?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like to book them."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Could you provide me with the names of the travelers?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, the names are John Doe and Jane Doe."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I have two tickets from Anaheim to Sacramento on March 2nd, leaving at 6:40 am for John Doe and Jane Doe. The total cost will be $90. Can you confirm this booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "from_location": "Anaheim",
+                    "to_location": "Sacramento",
+                    "leaving_date": "March 2nd",
+                    "leaving_time": "6:40 am",
+                    "travelers": "2"
+                },
+                "confirmation_utterance_id": 4
+            }
+        }
+    ]
+}

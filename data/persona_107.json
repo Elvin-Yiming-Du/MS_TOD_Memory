@@ -1,0 +1,557 @@
+{
+    "persona_id": 107,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "122_00120",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to know the available time for the Greensky Bluegrass event in Phoenix."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! For how many tickets are you looking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need just 1 ticket."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And do you have a specific date in mind for this event?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'm interested in March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Let me check the availability for the Greensky Bluegrass event in Phoenix on March 4th for 1 ticket."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "122_00120",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, were you able to find the availability for the Greensky Bluegrass event?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Yes, I found some available times for the event. The Greensky Bluegrass will be performing in Phoenix on March 4th, and there are slots available at 5 PM and 8 PM."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect, can you book a slot for me at 8 PM?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can proceed with that. Just to confirm, you need 1 ticket for the Greensky Bluegrass event in Phoenix on March 4th at 8 PM, right?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I'll go ahead and reserve that for you. Please hold on for a moment."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "70_00065",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy bus tickets from Sacramento to Las Vegas."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When would you like to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to leave on March 6th, preferably at around 7:30 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Just to confirm, you want to leave on March 6th at 7:30 am. How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need tickets for three people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And which fare type are you considering? We have options like Economy, Premium, and Business."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "70_00065",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to go with Economy fare."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! So, that's three Economy tickets from Sacramento to Las Vegas on March 6th at 7:30 am. Let me check the availability."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, please do."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found the tickets! The total cost for three Economy tickets is $150. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to book them."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll need a few details to finalize the booking. Can I have the names of the passengers?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "102_00019",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need a ride to the Bradbury Building."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one seat, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And what type of ride would you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like a Pool ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, a Pool ride for one seat to the Bradbury Building. I'll check the availability and let you know."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "102_00019",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Any update on my ride to the Bradbury Building?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I’ve found a Pool ride for you. It should be arriving in about 10 minutes."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great! How much will it cost?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The estimated cost for a Pool ride to the Bradbury Building is $8."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Can you book it for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely, I'll proceed with the booking and send you the details shortly."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00067",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to book a hotel for my trip to Paris."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! When are you planning to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to check in on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many days will you be staying?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be staying for 3 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And how many rooms will you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "93_00067",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need 3 rooms for my stay."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me summarize: You want to reserve 3 rooms at Amastan Paris, checking in on March 6th for 3 days. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent choice! Amastan Paris is a lovely place. Would you like me to check the availability for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please check for availability."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "One moment, I'll find the information for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "66_00103",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to reserve a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! May I have the name of the hotel and the location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to book a room at the Argonaut Hotel in San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! Can you provide the check-in and check-out dates, please?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Check-in is on March 9th and check-out is on March 10th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many rooms will you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "66_00103",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will need 3 rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, 3 rooms at the Argonaut Hotel in San Francisco from March 9th to March 10th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Could you also provide the names of the guests who will be staying?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll have to get back to you with that information. Is that okay?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course, you can provide the guest names later. In the meantime, I'll hold the reservation for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "66_00103",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I'm ready to confirm my booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! Could you please provide the names of the guests now?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, the names are John Doe, Jane Smith, and Alex Johnson."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. To confirm, you are booking 3 rooms at the Argonaut Hotel in San Francisco from March 9th to March 10th for guests John Doe, Jane Smith, and Alex Johnson. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your reservation has been confirmed. Thank you for choosing Argonaut Hotel, and enjoy your stay in San Francisco!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Argonaut Hotel",
+                    "location": "San Francisco",
+                    "check_in_date": "March 9th",
+                    "check_out_date": "March 10th",
+                    "number_of_rooms": "3"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "93_00067",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have confirmed that Amastan Paris has availability for 3 rooms from March 6th to March 9th. Would you like to proceed with the reservation? This will include all your requests."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to proceed with the reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm: you want to book 3 rooms at Amastan Paris, checking in on March 6th for 3 nights. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will now finalize the reservation for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I'm excited about my trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Amastan Paris",
+                    "check_in_date": "March 6th",
+                    "number_of_days": "3 nights",
+                    "number_of_rooms": "3 rooms"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "102_00019",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you confirm the details of my ride to the Bradbury Building?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly. You have a Pool ride booked with one seat to the Bradbury Building. The ride should arrive in about 10 minutes, and the estimated cost is $8. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Wonderful! Your ride is confirmed. Have a great trip to the Bradbury Building."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you need any further assistance, feel free to ask."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Bradbury Building",
+                    "number_of_seats": "1",
+                    "ride_type": "Pool"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "70_00065",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, the names are John Doe, Jane Smith, and Alex Brown."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Just to confirm: you're booking three Economy tickets from Sacramento to Las Vegas for John Doe, Jane Smith, and Alex Brown on March 6th at 7:30 am for a total of $150. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will now process the payment and finalize your tickets. Your booking will be confirmed shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, your tickets from Sacramento to Las Vegas on March 6th at 7:30 am for 3 passengers in Economy class are now confirmed. You will receive a confirmation email shortly. Is there anything else I can assist you with?"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Sacramento",
+                    "destination": "Las Vegas",
+                    "departure_date": "March 6th",
+                    "departure_time": "7:30 am",
+                    "group_size": "3",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "122_00120",
+            "exist_confirmation": true,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm following up on my reservation for the Greensky Bluegrass event on March 4th at 8 PM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello again! I see your reservation request. Just to finalize, I have 1 ticket reserved for the Greensky Bluegrass event in Phoenix on March 4th at 8 PM. Would you like to confirm this reservation now?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to confirm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect, your reservation is confirmed. You will receive your ticket details via email shortly. Is there anything else I can help you with today?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thanks!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Enjoy the event!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Greensky Bluegrass",
+                    "number_of_tickets": "1",
+                    "date": "March 4th",
+                    "city": "Phoenix"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

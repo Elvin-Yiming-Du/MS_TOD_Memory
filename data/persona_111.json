@@ -1,0 +1,448 @@
+{
+    "persona_id": 111,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "72_00037",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I’d like to reserve a car for my trip."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Can you provide me with the pickup location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll be picking it up at SFO International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And when do you need the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it on March 5th at 4:30 PM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! What date will you be returning the car?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "72_00037",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll drop it off on March 9th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Just to confirm, you are picking up the car on March 5th at 4:30 PM and returning it on March 9th. What type of car are you looking for?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like a standard car, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! A standard car reserved from SFO International Airport. Would you like to add any additional options, such as insurance or GPS?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, just the standard car is fine for me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood! Let me summarize what we have so far."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "115_00071",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a table at a restaurant."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Do you have a specific restaurant in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I want to reserve a table at 30 South B Street."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many seats would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need a table for 2 people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, a table for 2 at 30 South B Street. When would you like to make the reservation?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "115_00071",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like the reservation for tomorrow evening."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, what time would you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "How about 7 PM?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check the availability. One moment please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like there is availability at 7 PM for 2 people at 30 South B Street. Would you like to proceed with this reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "70_00003",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi! I need to buy bus tickets from Las Vegas to San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to depart on March 11th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And what time do you want to depart on that day?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to leave at 10:50 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many tickets do you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "70_00003",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need tickets for three people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. Would you like to choose an economy fare?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, economy fare works for us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me summarize: You want 3 economy tickets from Las Vegas to San Francisco, departing on March 11th at 10:50 am. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! I will check the availability and fares for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00010",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to book a stay at the Doubletree By Hilton Hotel San Pedro - Port Of Los Angeles."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to check in and check out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 4th and check out on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And how many rooms would you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 3 rooms for my stay."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me summarize your request: 3 rooms at the Doubletree By Hilton from March 4th to March 8th. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "93_00010",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right! Can you give me the total cost for that?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! The rate is $150 per room per night, totaling to $1,800 for 3 rooms over 4 nights. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Do you have any amenities included with the rooms?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, your stay includes complimentary breakfast, access to the fitness center, and free Wi-Fi. Would you like to continue?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please! I would also like to know about the cancellation policy."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The cancellation policy allows you to cancel up to 24 hours before your check-in without any charges. Would you like to confirm the booking now?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "93_00010",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’m ready to confirm. Can you recap the details once more?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! You are booking 3 rooms at the Doubletree By Hilton Hotel San Pedro - Port Of Los Angeles from March 4th to March 8th, at a total cost of $1,800. This includes complimentary breakfast, fitness center access, and free Wi-Fi. You can cancel up to 24 hours before check-in without charge. Is that all correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds perfect!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you would like to reserve 3 rooms at the Doubletree By Hilton Hotel San Pedro - Port Of Los Angeles in Los Angeles from March 4th to March 8th for a total of $1,800, including all the amenities mentioned. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm the booking. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Your booking is confirmed. Have a great stay!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Doubletree By Hilton Hotel San Pedro - Port Of Los Angeles",
+                    "location": "Los Angeles",
+                    "check_in_date": "March 4th",
+                    "check_out_date": "March 8th",
+                    "number_of_rooms": "3"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "70_00003",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found the tickets! The fare for 3 economy tickets is $90 each, making a total of $270. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. What do I need to do next?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I just need your payment details to confirm the booking."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, let me grab my card."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you will be purchasing 3 economy tickets from Las Vegas to San Francisco, departing on March 11th at 10:50 am, for a total of $270. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct! I’d like to go ahead with the booking."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Las Vegas",
+                    "destination": "San Francisco",
+                    "departure_date": "March 11th",
+                    "departure_time": "10:50 am",
+                    "group_size": "3",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "115_00071",
+            "exist_confirmation": true,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your table for 2 at 30 South B Street is reserved for tomorrow at 7 PM. Would you need a ride to the restaurant?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I need a ride. Can you arrange that?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly. What type of ride would you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like a Pool ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you need a Pool ride for 2 to 30 South B Street for tomorrow at 7 PM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "30 South B Street",
+                    "number_of_seats": "2",
+                    "ride_type": "Pool"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "72_00037",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "You are reserving a standard car from SFO International Airport on March 5th at 4:30 PM, returning on March 9th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, this is a standard car pickup at SFO on March 5th at 4:30 PM, returning March 9th. Is that all correct?  Is this your final confirmation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s my final confirmation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! Your reservation for the standard car is now complete."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "SFO",
+                    "pickup_date": "March 5th",
+                    "pickup_time": "4:30 PM",
+                    "dropoff_date": "March 9th",
+                    "car_type": "standard"
+                },
+                "confirmation_utterance_id": 2
+            }
+        }
+    ]
+}

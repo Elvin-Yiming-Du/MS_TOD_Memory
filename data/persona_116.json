@@ -1,0 +1,415 @@
+{
+    "persona_id": 116,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00040",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'm looking to book a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Can you please provide me with the check-in date and the number of rooms you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to check in on March 6th and I would like to reserve 2 rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Do you have any specific hotel in mind, or should I help you find one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I don't have a specific one in mind. I’m open to suggestions."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! I’ll look for available hotels for those dates. Please hold on for a moment."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "89_00068",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I need to buy a bus ticket from Sacramento to Long Beach."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to leave on March 7th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Do you have a specific time in mind for departure?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I want to leave at 7:40 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many travelers will be going?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one traveler."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "89_00068",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! So, you need a ticket from Sacramento to Long Beach on March 7th at 7:40 AM for one traveler. Let me check the availability for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! How long does the trip usually take?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The trip typically takes around 7 to 8 hours depending on traffic."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Are there any stops along the way?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, there might be a couple of scheduled stops, but they are usually brief."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, I understand. Can you let me know the ticket price?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! The ticket price is approximately $45."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "89_00119",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a bus ticket."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Can you provide me with the details of your trip?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will be traveling from Seattle to Vancouver."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, and when do you plan to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to leave on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. What time do you want the bus to leave?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "89_00119",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I want to leave at 6:40 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. And how many travelers will be making the trip?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 2 of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, so you're looking for 2 tickets from Seattle to Vancouver, leaving on March 8th at 6:40 am. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I am checking the availability of the tickets for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "109_00056",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I need to get a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need a ride to 3100 San Pablo Avenue Suite 310."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one seat, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Would you like a regular ride?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "109_00056",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, a regular ride will work for me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me summarize: You need one seat for a regular ride to 3100 San Pablo Avenue Suite 310. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! I’ll find a driver for you. Can you please confirm your pickup location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll be waiting at the corner of 5th and Main."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thanks! I’ll arrange for a driver to pick you up from there."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "109_00056",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "How long will it take for the driver to arrive?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The driver should arrive in about 10 minutes. Just to confirm your ride details: 1 seat, a regular ride to 3100 San Pablo Avenue Suite 310, and pickup from the corner of 5th and Main. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your ride is on the way. You’ll receive a notification once the driver is nearby."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you so much!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a safe trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "3100 San Pablo Avenue Suite 310",
+                    "number_of_seats": "1",
+                    "ride_type": "Regular"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "89_00119",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found available tickets for your trip. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Please confirm that you need 2 bus tickets from Seattle to Vancouver, leaving on March 8th at 6:40 am. Is this correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "from_location": "Seattle",
+                    "leaving_date": "March 8th",
+                    "leaving_time": "6:40 am",
+                    "to_location": "Vancouver",
+                    "travelers": "2"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "89_00068",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. Can I go ahead and purchase that ticket?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely! Just to confirm, you want a ticket from Sacramento to Long Beach on March 7th at 7:40 AM for one traveler, costing $45. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will proceed with the booking. Please hold on for a moment."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Alright, I’m waiting."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "All set! Your ticket from Sacramento to Long Beach on March 7th at 7:40 AM for $45 is confirmed. Is this confirmation acceptable for you? `is_confirmation`: True"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm that. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "from_location": "Sacramento",
+                    "to_location": "Long Beach",
+                    "leaving_date": "March 7th",
+                    "leaving_time": "7:40 AM",
+                    "travelers": "one traveler"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "93_00040",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a couple of great options for you. Would you prefer a hotel close to the city center or a quieter location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A quieter location would be nice, but still not too far from attractions."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood! I recommend the Serenity Hotel, which is a tranquil spot but still close to popular sites. Would you like to proceed with booking 2 rooms there?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds perfect! What are the room rates?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The rate is $120 per room per night, including breakfast. Would you like me to finalize the reservation for March 6th?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you would like to book 2 rooms at Serenity Hotel for March 6th at a rate of $120 each, including breakfast. Is that correct? This will secure your reservation."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Serenity Hotel",
+                    "check_in_date": "March 6th",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 5
+            }
+        }
+    ]
+}

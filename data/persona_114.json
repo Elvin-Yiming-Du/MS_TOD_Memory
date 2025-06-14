@@ -1,0 +1,469 @@
+{
+    "persona_id": 114,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "119_00116",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a car for a trip."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Where would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to pick it up at Peachtree Station."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. When would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "On March 1st at 2 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, and when would you like to drop it off?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "119_00116",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will drop it off on March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, so a three-day rental. What type of car would you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A standard car will be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "A standard car, got it. Let me check the availability for those dates."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, take your time."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, it looks like we have a standard car available for your requested dates. Would you like to proceed with the reservation?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "88_00097",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to buy some event tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. What event are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to buy tickets for the Drums event."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. For which date do you want these tickets?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "88_00097",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I want the tickets for March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, March 6th. In which city is this event taking place?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The event is in San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect, San Francisco. Let me check the availability for you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It looks like tickets for the Drums event on March 6th in San Francisco are available. Would you like to proceed with the purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I'd like to proceed."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "122_00032",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to reserve a car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Can you tell me the pickup location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to pick up the car at Kingsford Smith International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, and what date and time will you be picking up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "March 6th at 2 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. When will you be dropping off the car?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "122_00032",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be dropping it off on March 11th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thanks, and what type of car would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A Standard car, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, let me check the availability for a Standard car from March 6th to March 11th."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome. I'll get back to you shortly with the details."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "115_00064",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Where are you headed?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to go to 6100 Telegraph Avenue."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, how many seats will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one seat."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. What type of ride would you prefer? We have options like Economy, Luxury, and more."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd prefer a Luxury ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, I have all the information I need for now. I'll process your request."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "115_00064",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello again, I wanted to check on the status of my ride booking to 6100 Telegraph Avenue."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hi! Let me look that up for you. Just to confirm, you requested a single seat in a Luxury ride, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your booking is being processed. It should be confirmed shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Do you know how long it will take?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It typically takes a few minutes. I will send you a notification as soon as it's confirmed."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks for the update."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome. I'll keep you posted."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "115_00064",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I received a notification. Is my ride confirmed?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Let me check that for you. Yes, your Luxury ride to 6100 Telegraph Avenue has been confirmed."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, what time will the ride arrive?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your ride is scheduled to arrive in about 10 minutes."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Is there anything else I need to know?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have booked a Luxury ride for 1 seat to 6100 Telegraph Avenue, and the car will be arriving in 10 minutes. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that covers everything. Thanks!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "time": "10 minutes",
+                    "party_size": "1 seat"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "122_00032",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I've found a Standard car available for your dates. Would you like to proceed with the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Could you please provide your full name and contact information?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "John Doe, and my phone number is 123-456-7890."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Let me finalize the reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "To confirm, you are reserving a Standard car to be picked up at Kingsford Smith International Airport on March 6th at 2 pm and dropped off on March 11th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "Kingsford Smith International Airport",
+                    "pickup_date": "March 6th",
+                    "pickup_time": "2 pm",
+                    "dropoff_date": "March 11th",
+                    "car_type": "Standard"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "88_00097",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I'll need a few more details to complete your purchase. Can you please provide your full name and email address?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is John Doe and my email is johndoe@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Let me summarize your order: 2 tickets for the Drums event on March 6th in San Francisco. The tickets will be sent to johndoe@example.com. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Wonderful! Your order has been confirmed and the tickets will be sent to your email shortly. Is there anything else I can assist you with today?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "the Drums",
+                    "number_of_tickets": "2",
+                    "date": "March 6th",
+                    "city": "San Francisco"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "119_00116",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would like to proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you will be picking up a standard car at Peachtree Station on March 1st at 2 pm and dropping it off on March 4th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Your car reservation has been successfully made. You will receive a confirmation email shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you need anything else, feel free to ask. Have a great trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "Peachtree Station",
+                    "pickup_date": "March 1st",
+                    "pickup_time": "2 pm",
+                    "dropoff_date": "March 4th",
+                    "type": "Standard"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

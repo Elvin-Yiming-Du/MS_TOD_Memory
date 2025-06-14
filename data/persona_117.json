@@ -1,0 +1,462 @@
+{
+    "persona_id": 117,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00056",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to make a reservation at 45 Park Lane in London."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When would you like to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 4th and stay for 4 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! So that would mean your check-out date will be March 8th. How many rooms would you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I only need one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me summarize: You want to stay at 45 Park Lane from March 4th to March 8th for 4 days in one room. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00056",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right. Can you also tell me about the amenities available?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely! 45 Park Lane offers a range of amenities, including a spa, fitness center, and fine dining options. Would you like any specific information about these services?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Could you tell me more about the dining options?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! The hotel features a restaurant that specializes in modern European cuisine and has a lovely bar. They also offer room service for your convenience."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds great! Can I also check if there are any special packages available for my stay?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check that for you. There are currently some special packages that include spa treatments and dining credits. Would you be interested in any of those?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "46_00082",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'd like to make a reservation at the Atrium Inn Vancouver."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Can you please provide me with the check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 8th and check out on March 10th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room for now."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Let me summarize your request: One room at the Atrium Inn Vancouver from March 8th to March 10th. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "46_00082",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Can you also tell me the rate for those dates?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! The rate for a standard room during that period is $150 per night. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. Are there any additional fees I should be aware of?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "There may be a small resort fee and tax, totaling around 15% extra. Would you like me to include those in the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please include all fees. I just want to know the total cost."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright! The total cost for your stay, including fees, would be approximately $345. Would you like to confirm the reservation?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "88_00079",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to buy tickets for an event."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which event are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to buy tickets for the Lafc Vs Atlanta United game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 tickets, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. When is the event taking place?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's on March 2nd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And in which city will the event be held?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The event will be in Los Angeles."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I'll start processing your request. Is there anything else you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "88_00079",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, I wanted to check on the status of my ticket order."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. Could you please remind me of the event details?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, it's for the Lafc Vs Atlanta United game on March 2nd in Los Angeles."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thanks for the information. You wanted 2 tickets, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check on that for you... Okay, your order is being processed and should be completed shortly. Is there anything else I can help with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "102_00074",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride to OMSI for 4 people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I'd be happy to help with that. Would you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "A shared ride will be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. Could you please provide me with the pick-up location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "We are at 123 Main Street."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Let me check the availability for a shared ride from 123 Main Street to OMSI."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "102_00074",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Any updates on the ride to OMSI?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I’ve found an available shared ride for 4 people. What time would you like to be picked up?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "We would like to be picked up at 10 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. A shared ride for 4 people from 123 Main Street to OMSI at 10 AM."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "All set. Anything else you need help with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "102_00074",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just wanted to confirm everything for the ride tomorrow."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely. Let me confirm the details for you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have booked a shared ride for 4 people from 123 Main Street to OMSI, with a pick-up time at 10 AM tomorrow. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your ride is confirmed. Have a safe trip to OMSI!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "OMSI",
+                    "number_of_riders": "4",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "88_00079",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I wanted to confirm my ticket order for the Lafc Vs Atlanta United game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly. Let me pull up your order details."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You are ordering 2 tickets for the Lafc Vs Atlanta United game on March 2nd in Los Angeles, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your tickets are confirmed. You will receive an email with the details shortly. Enjoy the game!"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you have any other questions, feel free to ask. Have a great day!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Lafc Vs Atlanta United",
+                    "number_of_tickets": "2",
+                    "date": "March 2nd",
+                    "city": "Los Angeles"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "46_00082",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can I have a confirmation on the details first?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly! To confirm, you are booking one room at the Atrium Inn Vancouver from March 8th to March 10th, with a total cost of approximately $345, which includes all fees. Is this correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Please go ahead and book it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I will process your reservation now. You will receive a confirmation email shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I appreciate your help."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you need anything else, feel free to ask. Enjoy your stay!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Atrium Inn Vancouver",
+                    "location": "Vancouver",
+                    "check_in_date": "March 8th",
+                    "check_out_date": "March 10th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "93_00056",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would love to include a spa package with my stay."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you're booking one room at 45 Park Lane from March 4th to March 8th, including a spa package. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that covers everything."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, just to finalize your booking: You will be staying in one room at 45 Park Lane in London from March 4th to March 8th for 4 days, and it will include a spa package. Is that correct? This information is for the final confirmation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! Your reservation is now complete, and I’ll send you the details via email. If you have any further questions, feel free to ask!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "street_address": "45 Park Lane"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

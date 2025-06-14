@@ -1,0 +1,501 @@
+{
+    "persona_id": 115,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "88_00055",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy a ticket for a concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. What’s the name of the event?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's the Psychedelic Furs."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need just one ticket."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, and when is the event?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's on March 3rd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Could you please tell me the city where the event is taking place?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The event is in San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for the information. I'll start processing your request. Is there anything else you need help with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "88_00055",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I wanted to check on my ticket purchase for the Psychedelic Furs concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. Could you provide me with some details of your request?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I wanted to buy one ticket for March 3rd in San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Let me pull up your request... Yes, I see it here. The ticket for the Psychedelic Furs concert on March 3rd in San Diego is being processed."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, do you know how long it will take to get the confirmation?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It usually takes about 24 hours to receive a confirmation email. Is there anything else I can assist you with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all for now. Thanks."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great day!"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "102_00035",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to book a ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to go to the Chicago Children's Museum."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many seats do you need for this ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 seats, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. Would you prefer a Pool ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, a Pool ride would be perfect."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I'll go ahead and start booking your ride. Is there anything else you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "102_00035",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm checking on the status of my ride booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Can you provide me with your booking reference or any other details so I can check the status for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I don't have a booking reference, but I requested a Pool ride to the Chicago Children's Museum for 2 seats."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Let me look that up for you."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I see your booking. It's currently being processed. Is there anything else you'd like to know?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all for now. Thanks for the update."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Feel free to reach out if you have any more questions."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "46_00086",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to make a reservation at La Quinta Inn By Wyndham Fresno Yosemite."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When would you like to check in and check out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to check in on March 1st and check out on March 5th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many rooms will you need for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will need 2 rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for 2 rooms from March 1st to March 5th."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "46_00086",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have found 2 rooms available at La Quinta Inn By Wyndham Fresno Yosemite for your dates. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please. Can you give me the total cost?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for 2 rooms for 4 nights is $800. This includes all taxes and fees."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. What payment methods do you accept?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "We accept credit cards, debit cards, and PayPal. How would you like to pay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I will use my credit card for the payment."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "119_00124",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a car for my trip."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! May I know the pickup location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be picking up the car at Kingsford Smith International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. What date and time will you need to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll need it on March 10th at 11 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. And when will you be dropping the car off?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be returning it on March 14th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. What type of car would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to reserve a standard car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, I've noted down your request for a standard car from March 10th, 11 am to March 14th. I'll proceed with the reservation and get back to you shortly."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "119_00124",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm following up on my car reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Let me pull up your details. You had requested a standard car from Kingsford Smith International Airport, right?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I see your reservation is still being processed. Could you confirm once more that the pickup date is March 10th at 11 am and the drop-off date is March 14th?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, those dates and times are correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for the confirmation. We'll notify you as soon as the reservation is finalized."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "119_00124",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I wanted to check if my car reservation is confirmed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Let me check that for you. Just to confirm, your reservation details are: a standard car, pickup at Kingsford Smith International Airport on March 10th at 11 am, and drop-off on March 14th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your patience. Your reservation is now confirmed. You will be picking up a standard car at Kingsford Smith International Airport on March 10th at 11 am, and dropping it off on March 14th. Is everything clear and satisfactory?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, everything looks good. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great trip."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "Kingsford Smith International Airport",
+                    "pickup_date": "March 10th",
+                    "pickup_time": "11 am",
+                    "dropoff_date": "March 14th",
+                    "type": "standard car"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "46_00086",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Can you please provide the name on the credit card and the card number?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The card is under the name John Smith. The number is 1234-5678-9012-3456."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Just to confirm, you would like to reserve 2 rooms at La Quinta Inn By Wyndham Fresno Yosemite from March 1st to March 5th, and the total cost is $800. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your reservation is confirmed. You will receive a confirmation email shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "La Quinta Inn By Wyndham Fresno Yosemite",
+                    "check_in_date": "March 1st",
+                    "check_out_date": "March 5th",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "102_00035",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, I wanted to finalize my ride booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure thing! Just to confirm, you're booking a Pool ride to the Chicago Children's Museum for 2 seats, is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, your booking is confirmed! The ride should arrive shortly. Is there anything else I can assist you with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thanks for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great visit to the museum."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Chicago Children's Museum",
+                    "number_of_seats": "2",
+                    "ride_type": "Pool"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "88_00055",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I want to finalize my ticket purchase for the Psychedelic Furs concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly! Just to confirm, you would like to purchase one ticket for the Psychedelic Furs concert on March 3rd in San Diego, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have all the details here. One moment please... Alright, everything is set. Would you like me to complete the purchase now?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Your purchase for one ticket to the Psychedelic Furs concert on March 3rd in San Diego is being processed. You should receive a confirmation email shortly. Does everything look correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, everything looks correct. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Psychedelic Furs concert",
+                    "number_of_tickets": "one",
+                    "date": "March 3rd",
+                    "city": "San Diego"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

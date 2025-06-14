@@ -1,0 +1,318 @@
+{
+    "persona_id": 127,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "103_00009",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I need a ride to Alexandra Palace Ice Rink for two people. Can you help me with that?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Just to confirm, you need a shared ride for two people to Alexandra Palace Ice Rink, right?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct. What options do I have?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I can arrange a shared ride for you. Would you like to know the estimated arrival time?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please! How long will it take?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It should take about 30 minutes, depending on traffic. Should I go ahead and book it?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "103_00009",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please book the ride for me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Can you provide me with your current location so I can send the ride?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I am currently at the Oakwood train station."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Just to confirm, we are booking a shared ride from Oakwood train station to Alexandra Palace Ice Rink for two people, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s right. How long until the ride arrives?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The ride will arrive in approximately 5 minutes. Would you like me to proceed with the booking?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "93_00112",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello! I would like to reserve a hotel in Toronto."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Which hotel do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking at the Best Western Primrose Hotel Downtown-Toronto."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 3rd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many nights will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "93_00112",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will be staying for 4 nights."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. So that would be from March 3rd to March 7th. How many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I only need 1 room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many guests will be staying in the room?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It will just be me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me summarize: You want to reserve 1 room at the Best Western Primrose Hotel in Downtown Toronto for 4 nights, checking in on March 3rd. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "95_00042",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to buy bus tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! May I know the date you want to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need tickets for March 7th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many travelers will be going?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 4 of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, 4 travelers for March 7th. Do you have a preferred departure time?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "We'd prefer to leave in the morning if possible."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I'll look for available morning buses. Please hold on for a moment."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "95_00042",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello again, any luck finding those tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I found a bus leaving at 9:00 AM on March 7th for 4 travelers. Does that work for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. How much will the tickets cost?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for 4 tickets is $120. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I'll just need some additional information to complete the booking. Can I have the full names of all the travelers?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, it's Alice Brown, Bob Smith, Charlie Johnson, and Daisy Miller."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Just to confirm, you are booking 4 tickets for a bus departing at 9:00 AM on March 7th for Alice Brown, Bob Smith, Charlie Johnson, and Daisy Miller, with a total cost of $120. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead with the booking."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "leaving_time": "9:00 AM",
+                    "fare": "$120",
+                    "count": "4"
+                },
+                "confirmation_utterance_id": 7
+            }
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00112",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "To confirm, you would like to book 1 room at the Best Western Primrose Hotel Downtown-Toronto from March 3rd to March 7th for a total of 4 nights. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Just to confirm your reservation, you will be staying at the Best Western Primrose Hotel Downtown-Toronto from March 3rd to March 7th for 4 nights in 1 room. Should I go ahead and finalize the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please finalize it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! I will finalize the reservation now."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Best Western Primrose Hotel Downtown-Toronto",
+                    "check_in_date": "March 3rd",
+                    "number_of_days": "4",
+                    "destination": "Toronto",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "103_00009",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I’m ready to go."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you are booking a shared ride for two people from Oakwood train station to Alexandra Palace Ice Rink, and the ride should arrive in about 5 minutes. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's exactly what I need."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! I'll finalize the booking now. You will receive a notification shortly with all the details."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! I appreciate your help."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Enjoy your time at the Alexandra Palace Ice Rink. Just to confirm, the shared ride for two people is booked and on its way. Is that correct? Please confirm."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "ice rink"
+                },
+                "confirmation_utterance_id": 5
+            }
+        }
+    ]
+}

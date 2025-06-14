@@ -1,0 +1,355 @@
+{
+    "persona_id": 123,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to reserve a hotel room in Nairobi, Kenya."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you please tell me the name of the hotel you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to stay at the Azure Hotel Nairobi Westlands."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you want to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to check in on March 5th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll be staying for just one day."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And how many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need three rooms, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, so that’s three rooms for one night at the Azure Hotel Nairobi Westlands starting March 5th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! Let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "46_00103",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I would like to book a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’m looking at 45 Park Lane in London."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in and check out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 3rd and check out on March 9th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I only need one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me summarize: you want to book one room at 45 Park Lane in London, checking in on March 3rd and checking out on March 9th. Shall we move on to the next steps?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "46_00103",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good. What’s the price for that?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total price for the room for those dates is £2,500. This includes all taxes and fees."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That seems reasonable. What amenities are included?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your stay includes complimentary breakfast, access to the spa, and free Wi-Fi."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Nice! How do I pay for the booking?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You can pay by credit card. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please. How do you need my card information?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "70_00074",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy bus tickets from San Diego to Sacramento."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When are you planning to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to leave on March 5th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! What time do you want to depart on that day?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to leave at 7:40 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Noted! How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need two tickets."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "70_00074",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! What type of fare are you looking for? We have options like Economy and Premium."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I prefer Economy fare."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Just to confirm, you want two Economy tickets from San Diego to Sacramento, departing on March 5th at 7:40 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Let me check the availability for those tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Please hold on for a moment while I retrieve the information."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "70_00074",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I've found the tickets! The two Economy tickets are available for the specified date and time. The total fare is $80."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sounds good! Can you confirm the details one more time?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! You are booking two Economy tickets from San Diego to Sacramento, departing on March 5th at 7:40 AM, for a total of $80. Is that correct? This will finalize your purchase."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Just to confirm, you would like to proceed with two Economy tickets from San Diego to Sacramento, departing on March 5th at 7:40 AM for a total of $80. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I confirm the purchase."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "san diego",
+                    "destination": "sacramento",
+                    "departure_date": "march 5th",
+                    "departure_time": "7:40 am",
+                    "group_size": "2",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "46_00103",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I will need your card number, expiration date, and CVV for the reservation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My card number is..."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Please provide the expiration date and CVV."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The expiration date is 04/25, and the CVV is 123."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for the information! Just to confirm, you are booking one room at 45 Park Lane in London from March 3rd to March 9th for £2,500. Is that correct? This booking includes breakfast and spa access, and I have your card information for the transaction. Is that confirmation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct. I confirm the booking!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "45 Park Lane",
+                    "location": "London",
+                    "check_in_date": "March 3rd",
+                    "check_out_date": "March 9th",
+                    "number_of_rooms": "one"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "93_00080",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have found that the Azure Hotel Nairobi Westlands has three rooms available for your stay on March 5th for one night. Would you like me to proceed with the reservation? This will be for three rooms."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you're reserving three rooms at the Azure Hotel Nairobi Westlands in Nairobi, Kenya, checking in on March 5th for one night. Is that correct? This is a final confirmation before I process the booking."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! I will now finalize your booking for three rooms at the Azure Hotel Nairobi Westlands."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, I appreciate your help!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "check_in_date": "March 5th",
+                    "destination": "Nairobi",
+                    "hotel_name": "Azure Hotel Nairobi Westlands",
+                    "number_of_days": "1",
+                    "number_of_rooms": "3"
+                },
+                "confirmation_utterance_id": 2
+            }
+        }
+    ]
+}

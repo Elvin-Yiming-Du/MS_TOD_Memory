@@ -1,0 +1,297 @@
+{
+    "persona_id": 129,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00121",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to reserve a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What hotel do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to stay at the Ac Hotel By Marriott Chicago Downtown."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you plan to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to check in on March 2nd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00121",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be staying for 2 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! So we have 2 rooms for 2 days starting from March 2nd. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent! Just to confirm, you want to reserve 2 rooms at the Ac Hotel By Marriott Chicago Downtown for 2 days starting on March 2nd. Is that right?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "93_00089",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to reserve a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What hotel are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking at the Bahia Resort Hotel in San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you want to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to check in on March 11th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "93_00089",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll be staying for three days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And how many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. So, to confirm, you want to book one room at Bahia Resort Hotel in San Diego, checking in on March 11th for three days. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Let me just finalize that for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "70_00025",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I need to buy a bus ticket to Sacramento."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! What time do you want to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to leave at 6:40 am on March 5th from Anaheim."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And how many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need tickets for 2 people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, so that's 2 tickets for the 6:40 am bus. Let me check availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "70_00025",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found 2 economy seats available for the 6:40 am departure. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want 2 tickets for the 6:40 am bus economy seats from Anaheim to Sacramento on March 5th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "departure_date": "March 5th",
+                    "departure_time": "6:40 am",
+                    "destination": "Sacramento",
+                    "fare_type": "economy",
+                    "group_size": "2",
+                    "origin": "Anaheim"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "93_00089",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! What will the total cost be?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for your stay will be $600. This includes all taxes and fees."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Is breakfast included?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to book 1 room at Bahia Resort Hotel in San Diego, checking in on March 11th for 3 days, at a total cost of $600, including breakfast. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct! I confirm the reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your confirmation! Your reservation is all set. We look forward to welcoming you to Bahia Resort Hotel!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Bahia Resort Hotel",
+                    "check_in_date": "March 11th",
+                    "number_of_days": "3",
+                    "destination": "San Diego",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "93_00121",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right. Can you confirm the booking for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely! To summarize, you're booking 2 rooms at the Ac Hotel By Marriott Chicago Downtown for 2 days from March 2nd. Just to confirm, this reservation will be held for you. Is that confirmation acceptable?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds perfect!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your reservation is now set for 2 rooms at the Ac Hotel By Marriott Chicago Downtown from March 2nd to March 4th. You will receive an email confirmation shortly. Is there anything else I can assist you with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a wonderful stay in Chicago!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Ac Hotel By Marriott Chicago Downtown",
+                    "check_in_date": "March 2nd",
+                    "number_of_days": "2 days",
+                    "destination": "Chicago",
+                    "number_of_rooms": "2 rooms"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

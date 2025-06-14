@@ -1,0 +1,348 @@
+{
+    "persona_id": 128,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "66_00101",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a room at a hotel in Portland."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Which hotel are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking at Aloft Portland Airport At Cascade Station."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! What are your check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to check in on March 5th and check out on March 7th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I'll check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "66_00101",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm back. Any updates on the room availability at Aloft Portland Airport At Cascade Station?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, we have one room available for your dates. Would you like to proceed with the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please. Can you provide more details about the room?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly! The room is a standard king room with free Wi-Fi, air conditioning, and a flat-screen TV."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sounds perfect. What are the cancellation policies?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You can cancel up to 24 hours before your check-in date without any charge."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "89_00028",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I need to buy bus tickets from San Francisco to Los Angeles."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When are you planning to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to depart on March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "What time do you want to leave on March 4th?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to leave at 7 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many tickets do you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "89_00028",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need tickets for three people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And what type of fare are you looking for? We have Economy and Premium options."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Economy will work for us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! Let me summarize: you're traveling from San Francisco to Los Angeles, departing on March 4th at 7 am for three people with Economy tickets."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'll find the best options for you. Please hold on a moment."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "70_00004",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I need to buy bus tickets from San Francisco to Fresno."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Can you please tell me the date and time you plan to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to leave on March 13th at 10:20 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 4 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Do you have a specific fare type in mind, such as flexible or non-refundable?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "70_00004",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I prefer a flexible fare type."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! So, to confirm: you're looking for 4 flexible fare tickets from San Francisco to Fresno, departing on March 13th at 10:20 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's exactly right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I will proceed to check the availability of the tickets for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, please let me know what you find."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just a moment, let me gather that information for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "70_00004",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found the tickets! There are 4 flexible fare tickets available for your requested trip on March 13th, departing at 10:20 AM from San Francisco to Fresno. The total fare is $120."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good! Can I go ahead and book them?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm: you want to book 4 flexible fare tickets for $120 total, departing from San Francisco to Fresno on March 13th at 10:20 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct. Please book the tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! I will finalize the booking right away."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your tickets are confirmed! You will receive a confirmation email shortly."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "San Francisco",
+                    "destination": "Fresno",
+                    "departure_date": "March 13th",
+                    "departure_time": "10:20 am",
+                    "group_size": "4",
+                    "fare_type": "Flexible"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "89_00028",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a bus that fits your criteria! It departs at 7 am and the total fare for three Economy tickets is $120. Does that sound good to you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds great. Can you go ahead and book those tickets for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm: You want to book three Economy tickets from San Francisco to Los Angeles, departing on March 4th at 7 am for a total of $120. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Please proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! I'll finalize the booking now and send you the details shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I appreciate your help!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "San Francisco",
+                    "destination": "Los Angeles",
+                    "departure_date": "March 4th",
+                    "departure_time": "7 am",
+                    "group_size": "3",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "66_00101",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I'm ready to finalize the booking for Aloft Portland Airport At Cascade Station."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you are booking 1 room at Aloft Portland Airport At Cascade Station, Portland, from March 5th to March 7th. The room is a standard king room with free Wi-Fi and a 24-hour cancellation policy. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent! Your room has been successfully booked. You will receive a confirmation email shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you so much for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a great stay in Portland."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Aloft Portland Airport At Cascade Station",
+                    "location": "Portland",
+                    "check_in_date": "March 5th",
+                    "check_out_date": "March 7th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

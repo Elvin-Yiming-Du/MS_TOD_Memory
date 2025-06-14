@@ -1,0 +1,370 @@
+{
+    "persona_id": 124,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00019",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to book a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking at the 28 Hotel Sydney."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you want to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to check in on March 7th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And when will you be checking out?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00019",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I plan to check out on March 9th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me summarize: You want to book one room at the 28 Hotel Sydney from March 7th to March 9th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Would you like me to check the availability for those dates?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "56_00125",
+            "exist_confirmation": false,
+            "intent": "ReserveOnewayFlight",
+            "service": "Flights",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to book a flight from Seattle to Sydney."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When would you like to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to leave on March 12th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many passengers will be traveling?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 3 of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And which airline do you prefer?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to fly with Delta Airlines."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me summarize: you want to fly from Seattle to Sydney on March 12th with 3 passengers on Delta Airlines. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "56_00125",
+            "exist_confirmation": false,
+            "intent": "ReserveOnewayFlight",
+            "service": "Flights",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "What seating class would you like for the flight?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Economy class, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. So, to confirm, we have 3 passengers in Economy class flying with Delta Airlines from Seattle to Sydney on March 12th. Would you like me to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check for available flights and pricing."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, I’ll wait."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "88_00098",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy tickets for a soccer match."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Which match are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The NYCFC vs Timbers match."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. For what date and city are you looking to get these tickets?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need them for March 3rd in New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "88_00098",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'm following up about the NYCFC vs Timbers tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! Yes, I remember. You wanted 2 tickets for March 3rd in New York."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Exactly, did you find any available?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I found 2 tickets available for that date and location."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's awesome. What are the seat details?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "They are in the lower bowl, section 102. Would you like to proceed with the purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Fantastic! I'll need some more information to complete the booking."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "88_00098",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I'm ready to complete the booking for the NYCFC vs Timbers match."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great to hear! Just to confirm, you want 2 tickets for the NYCFC vs Timbers match on March 3rd in New York, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, could you provide your full name and email address for the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe and my email is john.doe@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. I'll now process your booking for 2 tickets to the NYCFC vs Timbers match on March 3rd in New York. Is that all correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead with the booking."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "NYCFC vs Timbers",
+                    "number_of_tickets": "2",
+                    "date": "March 3rd",
+                    "city": "New York"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "56_00125",
+            "exist_confirmation": true,
+            "intent": "ReserveOnewayFlight",
+            "service": "Flights",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a flight for you! Delta Airlines has a flight available on March 12th, departing from Seattle to Sydney in Economy class for 3 passengers. The total cost will be $2,100. Does that work for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. What are the flight details?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The flight departs Seattle at 10:00 AM and arrives in Sydney at 6:30 PM the next day, with a layover in Los Angeles. Would you like to confirm this booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I’d like to confirm it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to book 3 Economy class tickets with Delta Airlines from Seattle to Sydney on March 12th for a total of $2,100. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. Please finalize the booking."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin_city": "Seattle",
+                    "destination_city": "Sydney",
+                    "airlines": "Delta Airlines",
+                    "departure_date": "March 12th",
+                    "passengers": "3",
+                    "seating_class": "Economy"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "93_00019",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please check availability."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I’ve checked, and I can confirm that there is availability for one room at the 28 Hotel Sydney from March 7th to March 9th."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's excellent news! What are the rates?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The rate for that period is $150 per night. So, the total for two nights would be $300."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sounds good. Can you go ahead and reserve it for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to reserve 1 room at the 28 Hotel Sydney in Sydney from March 7th to March 9th for a total of $300. Is that correct?"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "28 Hotel Sydney",
+                    "location": "Sydney",
+                    "check_in_date": "March 7th",
+                    "check_out_date": "March 9th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 5
+            }
+        }
+    ]
+}

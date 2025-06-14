@@ -1,0 +1,370 @@
+{
+    "persona_id": 125,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "66_00105",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a hotel room at Canopy by Hilton Portland Pearl District."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. When would you like to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to check in on March 3rd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, and when will you be checking out?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be checking out on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, and how many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. One room from March 3rd to March 8th at Canopy by Hilton Portland Pearl District. Anything else you need to add?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "66_00105",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to make sure my reservation at Canopy by Hilton Portland Pearl District is still on."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course, I can check that for you. Could you please provide your booking reference number?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm sorry, I don't have the booking reference number with me right now."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "No problem. Can you provide the check-in and check-out dates, as well as the number of rooms you reserved?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, the check-in date is March 3rd, the check-out date is March 8th, and I reserved one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. I have located your reservation. Your booking at Canopy by Hilton Portland Pearl District is confirmed for one room from March 3rd to March 8th."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "123_00062",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to buy tickets for the Whitecaps vs Kansas City game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 4 tickets, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. Could you please tell me the date of the game?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's on March 5th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And in which city will the game be held?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The game is in Vancouver."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. I'll start processing your request for 4 tickets to the Whitecaps vs Kansas City game on March 5th in Vancouver."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "123_00062",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I wanted to check on the status of my ticket request for the Whitecaps vs Kansas City game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello! Let me pull up your information. You requested 4 tickets for the game on March 5th in Vancouver, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I see. Your request is being processed. Is there anything else you need help with regarding your tickets?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can you tell me if the seats will be together?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "We typically ensure that all tickets in a single purchase are seated together. I will confirm this for you and get back to you shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That would be great, thanks."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! I'll get back to you once I have the confirmation."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "89_00014",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need help buying bus tickets from Seattle to Portland."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When are you planning to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to depart on March 13th at around 8:30 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! And how many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 4 tickets for my group."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Would you like to go for Economy fare?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "89_00014",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, Economy fare works for us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me summarize your request: 4 Economy tickets from Seattle to Portland on March 13th, departing at 8:30 am. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent! I will check the availability for those tickets now."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you! How long does it usually take to get the tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It usually takes just a couple of minutes to confirm the tickets once I check the availability."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "89_00014",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I've checked the availability, and I can confirm that 4 Economy tickets are available for your trip. The total fare is $120. Would you like to proceed with the booking? This will be from Seattle to Portland on March 13th at 8:30 am."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want 4 Economy tickets from Seattle to Portland on March 13th, departing at 8:30 am, for a total of $120. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's absolutely correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! I will now proceed with the booking and send you the tickets shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Awesome! I appreciate your help."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Seattle",
+                    "destination": "Portland",
+                    "departure_date": "March 13th",
+                    "departure_time": "8:30 am",
+                    "group_size": "4",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "123_00062",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, just checking if there are any updates on my tickets for the Whitecaps vs Kansas City game."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hello again! Yes, I have an update for you. Your 4 tickets for the game on March 5th in Vancouver are confirmed. All seats are together as requested."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's awesome. How can I get the tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The tickets will be sent to your email. Could you please confirm your email address for me?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, it's user@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. To confirm, you have purchased 4 tickets for the Whitecaps vs Kansas City game on March 5th in Vancouver, and the tickets will be emailed to user@example.com. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's all correct. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Whitecaps vs Kansas City",
+                    "number_of_tickets": "4",
+                    "date": "March 5th",
+                    "city": "Vancouver"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "66_00105",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I need to make a final confirmation for my hotel reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I'd be happy to assist with that. Can you confirm your check-in and check-out dates, and the number of rooms?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The check-in date is March 3rd, check-out date is March 8th, and I reserved one room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Can you also confirm the hotel name and location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's Canopy by Hilton Portland Pearl District in Portland."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have a reservation for one room at Canopy by Hilton Portland Pearl District in Portland, from March 3rd to March 8th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Canopy by Hilton Portland Pearl District",
+                    "location": "Portland",
+                    "check_in_date": "March 3rd",
+                    "check_out_date": "march 8th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 5
+            }
+        }
+    ]
+}

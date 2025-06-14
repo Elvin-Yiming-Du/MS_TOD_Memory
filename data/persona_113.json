@@ -1,0 +1,461 @@
+{
+    "persona_id": 113,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "66_00112",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to book a room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! May I know the name of the hotel and location you are interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to book a room at Ace Hotel Seattle."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! What dates are you looking to stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it from March 2nd to March 3rd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many rooms will you need for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. I have noted that you need one room at Ace Hotel Seattle from March 2nd to March 3rd. Is there anything else I can assist you with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "66_00112",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I wanted to check if breakfast is included with the booking."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me check on that for you. Please hold on a moment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, breakfast is included with your booking at Ace Hotel Seattle."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's good to know. What are the check-in and check-out times?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The check-in time is at 3 PM and the check-out time is at 11 AM."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that works for me. Thanks!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you have any other questions, feel free to ask."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "88_00015",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need a ride to 2290 California Street."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! How many riders will there be?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Would you prefer a shared ride or a private one?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I don't mind sharing."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, a shared ride it is. Let me check for available rides."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "88_00015",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Any update on my ride to 2290 California Street?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, we have a shared ride available for one rider. Would you like me to go ahead and book it?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please book it for me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "All set! Your ride to 2290 California Street has been booked."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! If you need anything else, feel free to ask."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "70_00005",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to buy bus tickets from Anaheim to San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When would you like to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to leave on March 2nd, preferably around 8 AM."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! And how many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "We have a group of four people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Would you like to book Economy class tickets?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "70_00005",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, Economy class sounds good to me."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the availability for four Economy tickets from Anaheim to San Francisco on March 2nd at 8 AM."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That would be great! How long is the journey?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The journey typically takes about 7 to 8 hours, depending on traffic."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds manageable. What will be the fare for the tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The fare for each Economy ticket is $50, so for four tickets, it will be $200."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "70_00039",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I’d like to buy a bus ticket from Las Vegas to San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to depart on March 5th at around 10:50 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Just to confirm, how many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I only need one ticket."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Would you like to choose an Economy Extra fare for this trip?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "70_00039",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, the Economy Extra fare sounds good."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent choice! Just to summarize: one Economy Extra ticket from Las Vegas to San Francisco, departing on March 5th at 10:50 am. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's correct! What’s the total cost?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for the Economy Extra ticket is $45. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, let’s proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I will just need your name and email address to complete the booking."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "70_00039",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "My name is John Doe, and my email is johndoe@example.com."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John! Just to confirm, you are booking 1 Economy Extra ticket from Las Vegas to San Francisco for March 5th at 10:50 am. The total fare is $45, and your email is johndoe@example.com. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your confirmation! I will finalize your booking now."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! You will receive a confirmation email shortly."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Las Vegas",
+                    "destination": "San Francisco",
+                    "departure_date": "March 5th",
+                    "departure_time": "10:50 am",
+                    "group_size": "1",
+                    "fare_type": "Economy extra"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "70_00005",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that sounds reasonable. How can I proceed with the booking?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I can go ahead and reserve the four Economy tickets for you. Would you like me to do that?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please proceed with the reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want 4 Economy tickets from Anaheim to San Francisco on March 2nd, departing at 8 AM. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! Your tickets have been successfully booked. Enjoy your trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Anaheim",
+                    "destination": "San Francisco",
+                    "departure_date": "March 2nd",
+                    "departure_time": "8 AM",
+                    "group_size": "4",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 3
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "88_00015",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you confirm the details of my ride to 2290 California Street?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you have a shared ride booked to 2290 California Street for 1 rider. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Your ride is confirmed and will arrive shortly."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks for confirming!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a safe trip."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "2290 California Street",
+                    "number_of_riders": "1",
+                    "shared_ride": "shared_ride"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "66_00112",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I just wanted to confirm my booking details."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Could you please provide your booking details again so I can pull up the information?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, it's one room at Ace Hotel Seattle from March 2nd to March 3rd."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Give me a moment to verify the details."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have your booking as follows: One room at Ace Hotel Seattle from March 2nd to March 3rd, with breakfast included. Check-in time is at 3 PM and check-out time is at 11 AM. Please confirm if all details are correct."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that all looks correct. Thank you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Ace Hotel Seattle",
+                    "location": "Seattle",
+                    "check_in_date": "March 2nd",
+                    "check_out_date": "March 3rd",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 4
+            }
+        }
+    ]
+}

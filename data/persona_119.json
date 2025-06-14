@@ -1,0 +1,456 @@
+{
+    "persona_id": 119,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00066",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I'd like to reserve a hotel for my trip to New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Which hotel are you considering for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm thinking about the 1 Hotel Central Park."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When will you be checking in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I plan to check in on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "How many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00066",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Just for one night."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! And how many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll need three rooms, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! So we have a reservation for 3 rooms at 1 Hotel Central Park, checking in on March 8th for one night. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds right!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Can I have your name for the reservation?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "102_00033",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, can you help me book a ride?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Where would you like to go?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to go to the Autry Museum of the American West."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many seats do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one seat, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And would you prefer a standard ride or a carpool option?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "102_00033",
+            "exist_confirmation": false,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I would like a Pool ride."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Pool rides are a good way to save. Can you please provide your current location for the pickup?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I am at 123 Maple Street."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thanks! Let me find the best available Pool ride for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "How long will it take to arrive?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "It should take about 10 minutes for the car to arrive at your location."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "89_00101",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need to buy bus tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! I can help with that. Where are you traveling from and to?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm traveling from Philadelphia to New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. When do you plan to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to leave on March 4th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And what time would you like to depart?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "89_00101",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I want to leave at 10:10 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Okay, and how many people will be traveling with you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 4 of us in total."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, and do you have a preferred fare type? We have options such as Economy, Business, and First Class."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Economy would be fine."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I have noted down your preference for Economy fare. Is there anything else you need for your trip?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "70_00024",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi there! I would like to buy bus tickets from San Diego to Sacramento."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to leave on March 12th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! What time would you like to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I prefer to leave at 7:40 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many tickets do you need?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "70_00024",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I need tickets for three people."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. And what fare type are you looking for?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to go with Economy fare."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me summarize: you want three Economy tickets from San Diego to Sacramento, departing on March 12th at 7:40 am. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Excellent! I’ll check the availability and let you know the fare."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "70_00024",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found three Economy tickets available for your trip. The total fare comes to $120. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you're booking three Economy tickets from San Diego to Sacramento on March 12th at 7:40 am, with a total fare of $120. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct! Please proceed."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! I will finalize your booking now."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, I appreciate your help!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "San Diego",
+                    "destination": "Sacramento",
+                    "departure_date": "March 12th",
+                    "departure_time": "7:40 am",
+                    "group_size": "3",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "89_00101",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's everything. Can you summarize my booking details, please?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly. Here are the details: You are booking 4 Economy tickets from Philadelphia to New York, departing on March 4th at 10:10 am. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Your tickets are booked. You will receive a confirmation email shortly. Is there anything else I can assist you with today?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Have a safe and pleasant trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Philadelphia",
+                    "destination": "New York",
+                    "departure_date": "March 4th",
+                    "departure_time": "10:10 am",
+                    "group_size": "4",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "102_00033",
+            "exist_confirmation": true,
+            "intent": "GetRide",
+            "service": "RideSharing",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you confirm the details of my ride?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, you are booking a Pool ride from 123 Maple Street to the Autry Museum of the American West, with 1 seat."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your driver will arrive in approximately 10 minutes."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "What will be the fare?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The fare for this Pool ride will be $12."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "To confirm, you are booking a Pool ride from 123 Maple Street to the Autry Museum of the American West, with 1 seat, and the fare is $12. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please go ahead and book it."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "destination": "Autry Museum of the American West",
+                    "number_of_seats": "1",
+                    "ride_type": "Pool"
+                },
+                "confirmation_utterance_id": 6
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "93_00066",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "It's Alex Johnson."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, Alex! Just to confirm, you would like to reserve 3 rooms at 1 Hotel Central Park, checking in on March 8th, staying for one night, under the name Alex Johnson. Is that correct? This will finalize your booking."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Awesome! I will go ahead and secure the reservation for you. Let me summarize: 3 rooms at 1 Hotel Central Park, check-in on March 8th for 1 night, under the name Alex Johnson. This is your final confirmation, is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please confirm that for me!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your reservation is confirmed! Thank you, Alex. Enjoy your stay in New York!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "1 Hotel Central Park",
+                    "check_in_date": "March 8th",
+                    "number_of_days": "one night",
+                    "number_of_rooms": "3 rooms"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,370 @@
+{
+    "persona_id": 130,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "93_00122",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to book a hotel in New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm interested in 1 Hotel Central Park."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "93_00122",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll be staying for 4 days."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many rooms do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’ll need 2 rooms."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, so that’s 2 rooms for 4 days starting on March 1st at 1 Hotel Central Park. Would you like to add any special requests?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, can you arrange for a late check-in?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Absolutely, I will note that down for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "46_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I'm looking to make a reservation at a hotel in New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel are you interested in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to book a room at 1 Hotel Brooklyn Bridge."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! What are your check-in and check-out dates?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to check in on March 9th and check out on March 14th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! How many rooms do you need for your stay?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Just one room, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! Let me check the availability for those dates."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "46_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have found availability for one room at 1 Hotel Brooklyn Bridge from March 9th to March 14th. Would you like to proceed with the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good! What are the rates for that period?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The rate for the room is $300 per night, plus taxes and fees."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, how much would that be in total?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "For five nights, it would be approximately $1,500, including taxes and fees."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds reasonable. Can you reserve it for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I can do that! I'll need a few more details to finalize your reservation."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "89_00119",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I need help buying a bus ticket."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! Where are you traveling from and to?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be traveling from Seattle to Vancouver."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! When do you plan to leave?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I plan to leave on March 8th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "What time would you like to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to leave at 6:40 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many travelers will there be?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "89_00119",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "There will be 2 travelers."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. Just to confirm, you are booking a bus ticket from Seattle to Vancouver on March 8th, departing at 6:40 am, for 2 travelers. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me check the available bus options for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thank you, I appreciate it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! I'll get back to you with the available options shortly."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "89_00119",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found a bus option for you. The bus departs from Seattle at 6:40 am and arrives in Vancouver at 11:00 am on March 8th."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. What is the cost of the ticket?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The cost for 2 tickets is $60."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Perfect. How can I make the payment?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You can make the payment using a credit card or PayPal."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll use my credit card."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. To confirm, you are booking 2 bus tickets from Seattle to Vancouver, departing on March 8th at 6:40 am, with a total cost of $60. Is this information correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "from_location": "Seattle",
+                    "to_location": "Vancouver",
+                    "leaving_date": "March 8th",
+                    "leaving_time": "6:40 am",
+                    "travelers": "2"
+                },
+                "confirmation_utterance_id": 6
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "46_00080",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "Could you please provide me with your name and a contact number to complete the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure! My name is John Smith, and my number is 555-1234."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Just to confirm: you're booking one room at 1 Hotel Brooklyn Bridge from March 9th to March 14th, at a rate of $1,500 total. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, I will finalize your reservation for one room at 1 Hotel Brooklyn Bridge in New York from March 9th to March 14th, with a total cost of $1,500. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please confirm my reservation!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your reservation has been successfully confirmed, John! Thank you for choosing 1 Hotel Brooklyn Bridge. We look forward to welcoming you!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "1 Hotel Brooklyn Bridge",
+                    "location": "New York",
+                    "check_in_date": "March 9th",
+                    "check_out_date": "March 14th",
+                    "number_of_rooms": "1"
+                },
+                "confirmation_utterance_id": 4
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "93_00122",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Can you summarize the booking details for me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! You have booked 2 rooms at 1 Hotel Central Park, checking in on March 1st for 4 nights, with a request for a late check-in."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That sounds good. What is the total cost?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for your stay will be $1,200. Would you like to go ahead and confirm the reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please confirm it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you're booking 2 rooms at 1 Hotel Central Park in New York from March 1st for 4 nights, with a late check-in request, totaling $1,200. Is that correct?"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "1 Hotel Central Park",
+                    "check_in_date": "March 1st",
+                    "number_of_days": "4",
+                    "destination": "New York",
+                    "number_of_rooms": "2"
+                },
+                "confirmation_utterance_id": 5
+            }
+        }
+    ]
+}

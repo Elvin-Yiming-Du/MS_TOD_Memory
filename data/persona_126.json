@@ -1,0 +1,400 @@
+{
+    "persona_id": 126,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "119_00120",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to reserve a car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Could you please provide me with the pickup location?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The pickup location is Sky Harbor International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. When would you like to pick up the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need it on March 2nd at 2 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And when will you be dropping off the car?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll return it on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you. What type of car would you like to reserve?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like a standard car."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, a standard car from March 2nd at 2 pm to March 6th, picking up and dropping off at Sky Harbor International Airport. Anything else I can assist you with regarding this reservation?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "119_00120",
+            "exist_confirmation": false,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I have some questions about my car reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course, could you please provide me with your reservation details or reference number?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I don't have a reference number yet, but the reservation is for a standard car from March 2nd at 2 pm to March 6th at Sky Harbor International Airport."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. What questions do you have about your reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I wanted to know if the car rental includes insurance."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Typically, our rentals include basic insurance coverage. Would you like to add extra coverage for your rental?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, please add extra coverage."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I have added extra insurance coverage to your reservation. Is there anything else you need help with?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "123_00067",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy a ticket for The Hives concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When is the concert happening?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Where is the concert taking place?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The concert is in San Diego."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! How many tickets would you like to purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I only need one ticket."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, I'll start processing your request for one ticket to The Hives concert in San Diego on March 6th."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "123_00067",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi again, I was inquiring about the tickets for The Hives concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! You wanted one ticket for their concert in San Diego on March 6th, correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect. Would you like to proceed with the payment now?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Can you tell me the total cost first?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for one ticket to The Hives concert is $55."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, I think I'm ready to purchase it."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Wonderful! Let's proceed with the payment. Please provide your payment details."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "88_00078",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to buy some tickets for an event."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Could you please provide the name of the event and how many tickets you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The event is Mets vs Cubs, and I need 4 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. Could you tell me the date of the event?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "It's on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. And in which city is the event taking place?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "The event is in New York."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thanks for the details. I'll check the availability and get back to you shortly."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "88_00078",
+            "exist_confirmation": false,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I wanted to follow up on the tickets I asked about earlier."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. You were looking for 4 tickets to the Mets vs Cubs game in New York on March 6th, right?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Good news! The tickets are available. Do you have any seating preferences?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd prefer seats near the field if possible."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. Let me check the availability for field seats and I will update you soon."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "88_00078",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hey, any updates on the field seats for the Mets vs Cubs game?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I've found 4 field seats available for the game."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's awesome! How much will they cost?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total cost for 4 field seats will be $320. Would you like to proceed with the purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I would."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to purchase 4 tickets for the Mets vs Cubs game on March 6th in New York, with field seating, totaling $320. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Mets Vs Cubs",
+                    "number_of_tickets": "4",
+                    "date": "March 6th",
+                    "city": "New York"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "123_00067",
+            "exist_confirmation": true,
+            "intent": "BuyEventTickets",
+            "service": "Events",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello, I'm back to confirm my ticket purchase for The Hives concert."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Welcome back! You have selected one ticket for The Hives concert in San Diego on March 6th, and the total cost is $55. Would you like to confirm this purchase?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct. I'm ready to confirm and pay."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! Could you please provide your payment details now?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Here are my payment details: [payment details]."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you! I have processed your payment for 1 ticket to see The Hives on March 6th in San Diego. You will receive a confirmation email with your ticket shortly. Is there anything else I can assist you with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thank you for your help!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! Enjoy the concert!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "The Hives",
+                    "number_of_tickets": "1",
+                    "date": "March 6th",
+                    "city": "San Diego"
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "119_00120",
+            "exist_confirmation": true,
+            "intent": "ReserveCar",
+            "service": "RentalCars",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hello again, I need to confirm my car reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Certainly. Can you please verify the details for me?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure. It's a standard car, pickup at Sky Harbor International Airport on March 2nd at 2 pm, and drop-off on March 6th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I see that you also opted for extra insurance coverage. Is there anything else you would like to add or change?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that’s all."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. To confirm, you are reserving a standard car with extra insurance coverage, to be picked up at Sky Harbor International Airport on March 2nd at 2 pm and dropped off on March 6th. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, everything is correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "pickup_location": "Sky Harbor International Airport",
+                    "pickup_date": "March 2nd",
+                    "pickup_time": "2 pm",
+                    "dropoff_date": "March 6th",
+                    "type": "standard car"
+                },
+                "confirmation_utterance_id": 5
+            }
+        }
+    ]
+}

@@ -1,0 +1,637 @@
+{
+    "persona_id": 103,
+    "sessions": [
+        {
+            "session_id": 0,
+            "reference_dialogue_id": "70_00017",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to buy a bus ticket from Fresno to Las Vegas."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! When do you plan to travel?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'm looking to depart on March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great! What time would you like to leave on that day?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need to leave at 8:50 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it! How many tickets will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need two tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Are you looking for Economy fare type?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 1,
+            "reference_dialogue_id": "70_00017",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, I prefer Economy fare."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, let me summarize your request. You need two Economy tickets from Fresno to Las Vegas, departing on March 1st at 8:50 am. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s right!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I’ll check the availability and fare details for you."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Thanks! How long does the journey take?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The journey typically takes around 7 hours, but it may vary depending on traffic conditions."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Okay, that's good to know."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I found some options for you. The total fare for two Economy tickets is $120. Would you like to proceed with the booking?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 2,
+            "reference_dialogue_id": "122_00099",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I want to know if there are tickets available for Nationals Vs Rockies."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. How many tickets do you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 2 tickets."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright, and for which date are you looking to attend the game?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "March 1st."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great, I will check the availability for 2 tickets for the Nationals Vs Rockies game on March 1st in Washington D.C. Please give me a moment."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 3,
+            "reference_dialogue_id": "122_00099",
+            "exist_confirmation": false,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I asked earlier about tickets for Nationals Vs Rockies on March 1st. Did you find any available tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, I have checked the availability. There are still some tickets left. Do you prefer any specific seating area?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No specific preference. Just want to make sure they are together."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. I found 2 seats together in the upper deck section. Will that work for you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That should be fine. What’s the price for these tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The price for the 2 tickets in the upper deck section is $150 in total. Would you like to proceed with the purchase?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 4,
+            "reference_dialogue_id": "93_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to reserve a hotel room."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure! Which hotel do you have in mind?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I want to book a room at the Azure Hotel Nairobi Westlands."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When do you want to check in?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I would like to check in on March 5th."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many days will you be staying?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 5,
+            "reference_dialogue_id": "93_00080",
+            "exist_confirmation": false,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I will be staying for 1 day."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. And how many rooms will you need?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I need 3 rooms, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to reserve 3 rooms at Azure Hotel Nairobi Westlands for 1 day starting from March 5th. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s right."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! Let me check the availability for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 6,
+            "reference_dialogue_id": "89_00091",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I'd like to buy a bus ticket."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Sure, I can help with that. Where are you departing from?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'll be leaving from Sacramento."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great. What's your destination?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "San Francisco."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And when would you like to depart?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to leave on March 6th at 10:20 am."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Got it. How many people are traveling with you?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be four of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Understood. What type of fare are you looking for?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Economy fare, please."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Alright. Let me check the available options for you."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 7,
+            "reference_dialogue_id": "89_00091",
+            "exist_confirmation": false,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I was wondering if you found any available tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Yes, we have Economy seats available for your trip from Sacramento to San Francisco on March 6th at 10:20 am."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great! Can you tell me the price for four tickets?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "The total price for four Economy tickets is $120."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's reasonable. Can I proceed to book them?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course. May I have your name and contact details to complete the booking?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is John Smith and my contact number is 555-1234."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. I have noted your details."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Is there anything else you need from me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "No, that's all for now. I'll proceed with the booking and will inform you once it's confirmed."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 8,
+            "reference_dialogue_id": "79_00085",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I would like to make a reservation."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Of course! For which restaurant would you like to make a reservation?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I'd like to reserve a table at A16."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! When would you like to dine at A16?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "I’m looking at March 1st, at 6 pm."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "And how many people will be in your party?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "There will be four of us."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Let me summarize: You want to reserve a table for four at A16 in San Francisco on March 1st at 6 pm. Is that correct?"
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 9,
+            "reference_dialogue_id": "79_00085",
+            "exist_confirmation": false,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that's correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I just need to check the availability for that date and time."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That would be great. I hope there's availability!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I’ll check right now. Please hold on a moment."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, take your time."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for your patience. It looks like there is availability for four people at A16 on March 1st at 6 pm."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Awesome! What are the next steps?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I’ll need your name and contact number to finalize the reservation."
+                }
+            ],
+            "confirmation_state": {}
+        },
+        {
+            "session_id": 10,
+            "reference_dialogue_id": "79_00085",
+            "exist_confirmation": true,
+            "intent": "ReserveRestaurant",
+            "service": "Restaurants",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Sure, my name is John Smith, and my number is 555-1234."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. Just to confirm, you are reserving a table for four at A16 in San Francisco on March 1st at 6 pm, under the name John Smith, with the contact number 555-1234. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s absolutely correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Your reservation at A16 for four people on March 1st at 6 pm is confirmed! Is there anything else you need help with today?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's everything. Thank you so much!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome, John! Enjoy your meal at A16. Have a great day!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "restaurant_name": "A16",
+                    "city": "San Francisco",
+                    "time": "6 pm",
+                    "party_size": "4",
+                    "date": "March 1st"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 11,
+            "reference_dialogue_id": "89_00091",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Hi, I am following up on the bus ticket booking. Is everything confirmed?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Hi John, I have your reservation details here. To confirm, you have booked four Economy tickets from Sacramento to San Francisco, departing on March 6th at 10:20 am. The total cost is $120. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Wonderful! Your tickets are confirmed, John. You will receive an email with the booking details and tickets shortly. Is there anything else I can assist you with?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "No, that's all. Thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome. Have a great trip!"
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Sacramento",
+                    "destination": "San Francisco",
+                    "departure_date": "March 6th",
+                    "departure_time": "10:20 am",
+                    "group_size": "four",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 1
+            }
+        },
+        {
+            "session_id": 12,
+            "reference_dialogue_id": "93_00080",
+            "exist_confirmation": true,
+            "intent": "ReserveHotel",
+            "service": "Hotels",
+            "turns": [
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have checked, and I can confirm that we have 3 rooms available at the Azure Hotel Nairobi Westlands for your requested dates."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "That's great! What are the next steps?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, I will reserve 3 rooms at the Azure Hotel Nairobi Westlands, checking in on March 5th for 1 night in Nairobi. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you for confirming! I will proceed with the reservation."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great! I appreciate your help."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "hotel_name": "Azure Hotel Nairobi Westlands",
+                    "check_in_date": "March 5th",
+                    "number_of_days": "1",
+                    "destination": "Nairobi",
+                    "number_of_rooms": "3"
+                },
+                "confirmation_utterance_id": 2
+            }
+        },
+        {
+            "session_id": 13,
+            "reference_dialogue_id": "122_00099",
+            "exist_confirmation": true,
+            "intent": "GetAvailableTime",
+            "service": "Calendar",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "I’d like to go ahead with the tickets for Nationals Vs Rockies on March 1st. What details do you need from me?"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Great choice! To complete the purchase, I’ll need your full name, email address, and payment information."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "My full name is John Doe, my email address is johndoe@example.com, and I’ll use my credit card for payment."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Thank you, John. I’ve got your name and email. Please provide your credit card details."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Here are the details: Credit card number 1234-5678-9876-5432, expiration date 12/24, and CVV 123."
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "I have all the necessary information. Just to confirm, you are purchasing 2 tickets for Nationals Vs Rockies on March 1st in Washington D.C. The total cost is $150. Is everything correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that’s correct."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "event_name": "Nationals Vs Rockies",
+                    "number_of_tickets": "2",
+                    "date": "March 1st",
+                    "city": "Washington D.C."
+                },
+                "confirmation_utterance_id": 5
+            }
+        },
+        {
+            "session_id": 14,
+            "reference_dialogue_id": "70_00017",
+            "exist_confirmation": true,
+            "intent": "BuyBusTicket",
+            "service": "Buses",
+            "turns": [
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that sounds good!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Just to confirm, you want to book two Economy tickets from Fresno to Las Vegas, departing on March 1st at 8:50 am for a total fare of $120. Is that correct?"
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Yes, that is correct!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "Perfect! I will finalize your booking now."
+                },
+                {
+                    "speaker": "user",
+                    "utterance": "Great, thank you!"
+                },
+                {
+                    "speaker": "assistant",
+                    "utterance": "You're welcome! You’ll receive an email confirmation shortly."
+                }
+            ],
+            "confirmation_state": {
+                "slot_values": {
+                    "origin": "Fresno",
+                    "destination": "Las Vegas",
+                    "departure_date": "March 1st",
+                    "departure_time": "8:50 am",
+                    "group_size": "2",
+                    "fare_type": "Economy"
+                },
+                "confirmation_utterance_id": 1
+            }
+        }
+    ]
+}
