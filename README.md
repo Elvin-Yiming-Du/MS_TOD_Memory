@@ -1,6 +1,6 @@
 # The Multi-session Task-oriented Dialogue Dataset (MS-TOD) Dataset
 
-*   [Paper - MS-TOD dataset and Memory-Active Policy](https://arxiv.org/pdf/1909.05855.pdf](https://arxiv.org/abs/2505.20231)
+*   [Paper - MS-TOD dataset and Memory-Active Policy](https://arxiv.org/abs/2505.20231)
 *   [Paper - SGD dataset](https://arxiv.org/pdf/1909.05855.pdf)
 *   [GitHub - SGD dataset](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue)
 
