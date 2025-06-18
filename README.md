@@ -1,8 +1,12 @@
 # The Multi-session Task-oriented Dialogue Dataset (MS-TOD) Dataset
 
+*   [Paper - MS-TOD dataset and Memory-Active Policy]([https://arxiv.org/pdf/1909.05855.pdf](https://arxiv.org/abs/2505.20231))
+*   [Paper - SGD dataset](https://arxiv.org/pdf/1909.05855.pdf)
+*   [GitHub - SGD dataset](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue)
+
 ## Overview
 
-Existing Task-Oriented Dialogue (TOD) systems primarily focus on single-session dialogues, limiting their effectiveness in long-term memory augmentation. To address this challenge, we introduce the **Multi-session Task-oriented Dialogue Dataset (MS-TOD)** dataset. Derived from the [SGD dataset](https://arxiv.org/pdf/1909.05855), it is the first multi-session TOD dataset designed to retain long-term memory across sessions, enabling fewer turns and more efficient task completion. This defines a new benchmark task for evaluating long-term memory in multi-session TOD. 
+Existing Task-Oriented Dialogue (TOD) systems primarily focus on single-session dialogues, limiting their effectiveness in long-term memory augmentation. To address this challenge, we introduce the **Multi-session Task-oriented Dialogue Dataset (MS-TOD)** dataset. Derived from the **Schema-Guided Dialogue (SGD)** dataset, it is the first multi-session TOD dataset designed to retain long-term memory across sessions, enabling fewer turns and more efficient task completion. This defines a new benchmark task for evaluating long-term memory in multi-session TOD. 
 
 ## Generation
 
