@@ -50,7 +50,7 @@ Each turn consists of the following fields:
     "assistant".
 *   **utterance** - A string containing the natural language utterance.
 
-\*In the schema of the SGD dataset, `service_names` follow the form "\<domain name\>\_\<number\>" (e.g. 'Banks_2').
+\*In the schema of the SGD dataset, `service_names` follow the form "\<domain name\>\_\<number\>" (e.g. `Banks_2`).
 The number is used to disambiguate services from the same domain. To simplify, in the MS-TOD dataset, all the services from a same domain are combined as one (e.g. both `Banks_1` and `Banks_2` become `Banks` after being combined). As a result, there is only one service in each domain, and the service and the domain have the same name.
 
 ## Statistics
