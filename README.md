@@ -12,7 +12,7 @@ Existing Task-Oriented Dialogue (TOD) systems primarily focus on single-session 
 
 ### Multi-Session Dialogue Construction
 
-Because existing TOD corpora typically feature single-session interactions lacking structured multi-session dependencies, we create three dialogue sessions for each task in the **SGD** dataset. Compared with single-session dialogues, this design more closely simulates how users revisit and refine the same task at different times and in different contexts. We chose three sessions rather than a higher number to strike a balance between capturing realistic user behavior and avoiding repetitive dialogue data, particularly given that SGD tasks involve fewer than ten task slots. As a result, three sessions offer sufficient coverage of task variations without overpopulating the dataset. The generation code can be found at `task_goal_oriented_dial_generation.py`.
+Because existing TOD corpora typically feature single-session interactions lacking structured multi-session dependencies, we create three dialogue sessions for each task in the **SGD** dataset. Compared with single-session dialogues, this design more closely simulates how users revisit and refine the same task at different times and in different contexts. We chose three sessions rather than a higher number to strike a balance between capturing realistic user behavior and avoiding repetitive dialogue data, particularly given that SGD tasks involve fewer than ten task slots. As a result, three sessions offer sufficient coverage of task variations without overpopulating the dataset. The generation code and prompt can be found at `task_goal_oriented_dial_generation.py`.
 
 ### Confirmation-Type Response Annotation
 
@@ -36,8 +36,8 @@ Each session consists of the following fields:
 *   **session_id** - A unique identifier for a session.
 *   **reference_dialogue_id** - The `dialogue_id` of the reference dialogue from the SGD dataset used to generate the session.
 *   **exist_confirmation** - An indicator of whether there exists a confirmation in the session.
-*   **intent** - The name of the intent which is currently being fulfilled by the system in the session.
-*   **service\*** - The name of the service present in the session.
+*   **intent** - The name of the intent which is currently being fulfilled by the system in the session. To simplify, there is only one intent in each session.
+*   **service** - The name of the service present in the session, which is also the **domain**\* of the session. To simplify, there is only one service in each session.
 *   **turns** - A list of annotated assistant or user utterances.
 *   **confirmation state** - The dialogue state corresponding to the
     service when it is confirmed. If the value of `exist_confirmation` is `False`, it is an empty dictionary. Otherwise, it consists of the following fields:
@@ -50,19 +50,20 @@ Each turn consists of the following fields:
     "assistant".
 *   **utterance** - A string containing the natural language utterance.
 
-\*In the schema of the SGD dataset, `service_names` follow the form "\<domain name\>\_\<number\>" (e.g. Banks_2).
-The number is used to disambiguate services from the same domain. To simplify, in the MS-TOD dataset, all the services from a same domain are combined to one service (e.g. both Banks_1 and Banks_2 are combined as Banks).
+\*In the schema of the SGD dataset, `service_names` follow the form "\<domain name\>\_\<number\>" (e.g. 'Banks_2').
+The number is used to disambiguate services from the same domain. To simplify, in the MS-TOD dataset, all the services from a same domain are combined as one (e.g. both `Banks_1` and `Banks_2` become `Banks` after being combined). As a result, there is only one service in each domain, and the service and the domain have the same name.
 
 ## Statistics
 
 ### Attribute
 
-| Attribute  | Total | Avg (per persona) |
-|------------|-------|-------------------|
-| Persona    | 132   | -                 |
-| Session    | 2860  | 21.67             |
-| Utterance  | 18481 | 140.01            |
+| Attribute        | Total             | Avg (per persona) |
+|------------------|-------------------|-------------------|
+| Persona          | 132               | -                 |
+| Session          | 2860              | 21.67             |
+| Utterance (Turn) | 18481             | 140.01            |
 
-### Service Distribution
+### Service (Domain) Distribution
 
 ![Service Distribution](service_distribution.png)
+
