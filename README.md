@@ -54,3 +54,11 @@ Each turn consists of the following fields:
 The number is used to disambiguate services from the same domain. To simplify, in the MS-TOD dataset, all the services from a same domain are combined to one service (e.g. both Banks_1 and Banks_2 are combined as Banks).
 
 ## Statistics
+
+### Attribute
+
+| Attribute  | Total | Avg (per persona) |
+|------------|-------|-------------------|
+| Persona    | 132   | -                 |
+| Session    | 2860  | 21.67             |
+| Utterance  | 18481 | 140.01            |
