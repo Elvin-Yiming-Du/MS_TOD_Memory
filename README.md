@@ -62,3 +62,7 @@ The number is used to disambiguate services from the same domain. To simplify, i
 | Persona    | 132   | -                 |
 | Session    | 2860  | 21.67             |
 | Utterance  | 18481 | 140.01            |
+
+### Service Distribution
+
+![Service Distribution](service_distribution.png)
