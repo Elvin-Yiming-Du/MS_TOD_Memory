@@ -1,0 +1,703 @@
+{
+    "persona_id": 83,
+    "sessions": [
+        {
+            "1": {
+                "intent_description": "The user intends to book a shared ride for themselves to Jane's Carousel, indicating a straightforward request for transportation services.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of ride is the user looking to book?",
+                        "Answer": "The user is looking to book a shared ride."
+                    },
+                    {
+                        "Question": "Where does the user want to go?",
+                        "Answer": "The user wants to go to Jane's Carousel."
+                    },
+                    {
+                        "Question": "How many people will be on the ride?",
+                        "Answer": "The ride is for one person."
+                    },
+                    {
+                        "Question": "When does the user want to book the ride?",
+                        "Answer": "The specific time for the ride booking is not mentioned."
+                    },
+                    {
+                        "Question": "Why does the user prefer a shared ride?",
+                        "Answer": "The reason for preferring a shared ride is not specified."
+                    },
+                    {
+                        "Question": "What is the destination of the user's ride?",
+                        "Answer": "The destination of the user's ride is Jane's Carousel."
+                    },
+                    {
+                        "Question": "How does the user feel about ride sharing?",
+                        "Answer": "The user's feelings about ride sharing are not mentioned."
+                    },
+                    {
+                        "Question": "Where is Jane's Carousel located?",
+                        "Answer": "The location of Jane's Carousel is not specified in the summary."
+                    }
+                ]
+            }
+        },
+        {
+            "2": {
+                "intent_description": "The user intends to obtain the current status of their ride booking, specifically seeking confirmation and details about their upcoming ride, despite not having the booking reference number readily available.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the user's phone number for the ride booking status check?",
+                        "Answer": "The user's phone number is 123-456-7890."
+                    },
+                    {
+                        "Question": "Where is the user's ride confirmed to go?",
+                        "Answer": "The user's ride is confirmed to Jane's Carousel."
+                    },
+                    {
+                        "Question": "When will the user's ride arrive?",
+                        "Answer": "The user's ride will arrive in about 10 minutes."
+                    },
+                    {
+                        "Question": "Why does the user not have their booking reference number?",
+                        "Answer": "The user did not provide a reason for not having their booking reference number."
+                    },
+                    {
+                        "Question": "What does the user want to check regarding their ride?",
+                        "Answer": "The user wants to check the status of their ride booking."
+                    },
+                    {
+                        "Question": "How is the user's ride status confirmed?",
+                        "Answer": "The user's ride status is confirmed to be on the way to Jane's Carousel."
+                    },
+                    {
+                        "Question": "What information does the user need to access their ride status?",
+                        "Answer": "The user needs to provide their phone number for the ride status check."
+                    },
+                    {
+                        "Question": "How soon will the user's ride arrive at the destination?",
+                        "Answer": "The user's ride will arrive in approximately 10 minutes."
+                    }
+                ]
+            }
+        },
+        {
+            "3": {
+                "intent_description": "The user intends to purchase a single ticket for the Dodgers vs Rockies baseball game scheduled on March 5th in Los Angeles, demonstrating a clear interest in attending this specific sporting event.",
+                "qa_summary": [
+                    {
+                        "Question": "What event is the user interested in?",
+                        "Answer": "The user is interested in purchasing a ticket for the Dodgers vs Rockies game."
+                    },
+                    {
+                        "Question": "When is the game that the user wants to attend?",
+                        "Answer": "The game is on March 5th."
+                    },
+                    {
+                        "Question": "Where will the Dodgers vs Rockies game take place?",
+                        "Answer": "The game will take place in Los Angeles."
+                    },
+                    {
+                        "Question": "How many tickets does the user want to purchase?",
+                        "Answer": "The user wants to purchase one ticket."
+                    },
+                    {
+                        "Question": "Why is the user looking to buy a ticket?",
+                        "Answer": "The user is looking to buy a ticket to attend the Dodgers vs Rockies game."
+                    },
+                    {
+                        "Question": "What teams are playing in the user's desired game?",
+                        "Answer": "The teams playing are the Dodgers and the Rockies."
+                    },
+                    {
+                        "Question": "Where is the user planning to go for the game?",
+                        "Answer": "The user is planning to go to Los Angeles for the game."
+                    },
+                    {
+                        "Question": "When does the user want to attend the game?",
+                        "Answer": "The user wants to attend the game on March 5th."
+                    }
+                ]
+            }
+        },
+        {
+            "4": {
+                "intent_description": "The user intends to finalize the purchase of a ticket for the Dodgers vs. Rockies game by providing their email and payment details to complete the transaction.",
+                "qa_summary": [
+                    {
+                        "Question": "What game is the user interested in?",
+                        "Answer": "The user is interested in the Dodgers vs. Rockies game."
+                    },
+                    {
+                        "Question": "When does the user want to attend the game?",
+                        "Answer": "The user wants to attend the game on March 5th."
+                    },
+                    {
+                        "Question": "How many tickets does the user want to purchase?",
+                        "Answer": "The user wants to purchase one ticket."
+                    },
+                    {
+                        "Question": "Where is the game being held?",
+                        "Answer": "The game is being held in Los Angeles."
+                    },
+                    {
+                        "Question": "What is the user's email address for ticket purchase?",
+                        "Answer": "The user's email address is user@example.com."
+                    },
+                    {
+                        "Question": "Why is the user ready to proceed with payment?",
+                        "Answer": "The user has expressed readiness to proceed with the payment for the ticket."
+                    },
+                    {
+                        "Question": "How does the user prefer to communicate regarding the ticket purchase?",
+                        "Answer": "The user has provided their email address for communication."
+                    },
+                    {
+                        "Question": "What team is the user supporting in the game?",
+                        "Answer": "The user is supporting the Dodgers in the game."
+                    }
+                ]
+            }
+        },
+        {
+            "5": {
+                "intent_description": "The user intends to purchase a bus ticket for a journey from Long Beach to Sacramento and is currently providing information about their travel plans, specifically the departure location and destination.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the user's travel destination?",
+                        "Answer": "The user is traveling to Sacramento."
+                    },
+                    {
+                        "Question": "Where is the user departing from?",
+                        "Answer": "The user is departing from Long Beach."
+                    },
+                    {
+                        "Question": "When does the user plan to depart?",
+                        "Answer": "The user has not yet specified a departure date."
+                    },
+                    {
+                        "Question": "How does the user intend to travel?",
+                        "Answer": "The user intends to travel by bus."
+                    },
+                    {
+                        "Question": "What type of ticket is the user looking to buy?",
+                        "Answer": "The user is looking to buy a bus ticket."
+                    },
+                    {
+                        "Question": "Why is the user planning this trip?",
+                        "Answer": "The reason for the user's trip has not been specified."
+                    },
+                    {
+                        "Question": "How many tickets does the user need?",
+                        "Answer": "The number of tickets the user needs has not been specified."
+                    },
+                    {
+                        "Question": "What additional information might the user need for their trip?",
+                        "Answer": "The user might need information about bus schedules and prices."
+                    }
+                ]
+            }
+        },
+        {
+            "6": {
+                "intent_description": "The user intends to book a solo travel ticket for a departure on March 7th at 6:50 am, and is currently engaged in selecting the appropriate fare class for their journey.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the user's departure date?",
+                        "Answer": "The user's departure date is March 7th."
+                    },
+                    {
+                        "Question": "When is the user scheduled to depart?",
+                        "Answer": "The user is scheduled to depart at 6:50 AM."
+                    },
+                    {
+                        "Question": "Why is the user traveling?",
+                        "Answer": "The reason for the user's travel is not specified."
+                    },
+                    {
+                        "Question": "How many people will be traveling?",
+                        "Answer": "The user will be traveling alone."
+                    },
+                    {
+                        "Question": "Where is the user departing from?",
+                        "Answer": "The user's departure location is not specified."
+                    },
+                    {
+                        "Question": "What time is the user's departure?",
+                        "Answer": "The user's departure time is 6:50 AM."
+                    },
+                    {
+                        "Question": "When will the user be traveling?",
+                        "Answer": "The user will be traveling on March 7th."
+                    },
+                    {
+                        "Question": "How does the user plan to travel?",
+                        "Answer": "The user's mode of travel is not specified."
+                    }
+                ]
+            }
+        },
+        {
+            "7": {
+                "intent_description": "The user intends to book a car rental for pick-up at Heathrow International Airport on March 5th, indicating they are seeking assistance in finalizing the details of the reservation, including the specific time for pick-up.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the user's intention regarding a car?",
+                        "Answer": "The user intends to reserve a car."
+                    },
+                    {
+                        "Question": "Where does the user want to pick up the car?",
+                        "Answer": "The user wants to pick up the car at Heathrow International Airport."
+                    },
+                    {
+                        "Question": "When does the user want to pick up the car?",
+                        "Answer": "The user wants to pick up the car on March 5th."
+                    },
+                    {
+                        "Question": "Has the user specified a pickup time?",
+                        "Answer": "No, the user has not yet specified the time for the pickup."
+                    },
+                    {
+                        "Question": "Why is the user reserving a car?",
+                        "Answer": "The user has not specified the reason for reserving a car."
+                    },
+                    {
+                        "Question": "How does the user plan to complete the reservation?",
+                        "Answer": "The user has not provided details on how they plan to complete the reservation."
+                    },
+                    {
+                        "Question": "What additional information might the user need to provide?",
+                        "Answer": "The user might need to provide a pickup time and other rental details."
+                    },
+                    {
+                        "Question": "Where is the user's preferred location for car rental?",
+                        "Answer": "The user's preferred location for car rental is Heathrow International Airport."
+                    }
+                ]
+            }
+        },
+        {
+            "8": {
+                "intent_description": "The user intends to make a car reservation for a standard vehicle to be picked up at 12:30 PM and dropped off on March 11th, while also indicating openness to additional services if needed.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of car does the user want to pick up?",
+                        "Answer": "The user wants to pick up a standard car."
+                    },
+                    {
+                        "Question": "When does the user want to pick up the car?",
+                        "Answer": "The user wants to pick up the car at 12:30 PM."
+                    },
+                    {
+                        "Question": "When will the user drop off the car?",
+                        "Answer": "The user will drop off the car on March 11th."
+                    },
+                    {
+                        "Question": "What additional services does the user need?",
+                        "Answer": "The user has not indicated any additional services needed."
+                    },
+                    {
+                        "Question": "Where is the user picking up the car from?",
+                        "Answer": "The user has not specified the pickup location."
+                    },
+                    {
+                        "Question": "Where is the user dropping off the car?",
+                        "Answer": "The user has not specified the drop-off location."
+                    },
+                    {
+                        "Question": "Why has the user not requested additional services?",
+                        "Answer": "The user may not need any additional services."
+                    },
+                    {
+                        "Question": "How long will the user have the car?",
+                        "Answer": "The user will have the car from pickup until drop-off on March 11th."
+                    }
+                ]
+            }
+        },
+        {
+            "9": {
+                "intent_description": "The user's intent is to arrange a transportation service by booking a ride for three passengers to a specific destination, the 92nd Street Y, while also seeking assistance in finalizing the details of the booking.",
+                "qa_summary": [
+                    {
+                        "Question": "What location does the user need a ride to?",
+                        "Answer": "The user needs a ride to 92nd Street Y."
+                    },
+                    {
+                        "Question": "How many seats does the user need for the ride?",
+                        "Answer": "The user needs 3 seats for the ride."
+                    },
+                    {
+                        "Question": "When does the user want to book the ride?",
+                        "Answer": "The specific time for the ride booking is not mentioned."
+                    },
+                    {
+                        "Question": "Why does the user need a ride to 92nd Street Y?",
+                        "Answer": "The reason for the user's ride to 92nd Street Y is not specified."
+                    },
+                    {
+                        "Question": "Where will the user be picked up from?",
+                        "Answer": "The pickup location for the user is not provided."
+                    },
+                    {
+                        "Question": "What type of transportation is the user seeking?",
+                        "Answer": "The user is seeking a ride."
+                    },
+                    {
+                        "Question": "How does the user plan to pay for the ride?",
+                        "Answer": "The payment method for the ride is not mentioned."
+                    },
+                    {
+                        "Question": "Is there any additional information about the user's ride request?",
+                        "Answer": "No additional information about the ride request is provided."
+                    }
+                ]
+            }
+        },
+        {
+            "10": {
+                "intent_description": "The user intends to finalize the booking of a ride by providing their contact number after confirming that the ride was not yet booked and expressing willingness to proceed with the reservation.",
+                "qa_summary": [
+                    {
+                        "Question": "What does the user inquire about?",
+                        "Answer": "The user inquires about the status of a ride booking."
+                    },
+                    {
+                        "Question": "What uncertainty does the user express?",
+                        "Answer": "The user expresses uncertainty about whether the ride has been confirmed."
+                    },
+                    {
+                        "Question": "What does the user decide after learning the ride hasn't been confirmed?",
+                        "Answer": "The user agrees to proceed with the booking."
+                    },
+                    {
+                        "Question": "What information does the user provide for the booking process?",
+                        "Answer": "The user provides a contact number, 123-456-7890, for the booking process."
+                    },
+                    {
+                        "Question": "How does the user feel about the ride booking initially?",
+                        "Answer": "The user feels uncertain about the ride booking initially."
+                    },
+                    {
+                        "Question": "Why does the user provide a contact number?",
+                        "Answer": "The user provides a contact number to facilitate the booking process."
+                    },
+                    {
+                        "Question": "What action does the user take regarding the ride?",
+                        "Answer": "The user decides to proceed with the booking after confirming the ride status."
+                    },
+                    {
+                        "Question": "Where does the user communicate their decision?",
+                        "Answer": "The user communicates their decision during the conversation about the ride booking."
+                    }
+                ]
+            }
+        },
+        {
+            "11": {
+                "intent_description": "The user intends to make a reservation for a rental car, specifying the pickup location at SJC International Airport on March 6th at 3 PM, and is currently engaged in providing the necessary details for the reservation process.",
+                "qa_summary": [
+                    {
+                        "Question": "Where does the user want to reserve a car?",
+                        "Answer": "The user wants to reserve a car at SJC International Airport."
+                    },
+                    {
+                        "Question": "When does the user want to pick up the car?",
+                        "Answer": "The user wants to pick up the car on March 6th at 3 PM."
+                    },
+                    {
+                        "Question": "Why does the user need to reserve a car?",
+                        "Answer": "The user has not provided specific details on why they need to reserve a car."
+                    },
+                    {
+                        "Question": "How long does the user intend to keep the car?",
+                        "Answer": "The user has not yet provided details on how long they intend to keep the car."
+                    },
+                    {
+                        "Question": "What type of car does the user want to reserve?",
+                        "Answer": "The user has not specified what type of car they want to reserve."
+                    },
+                    {
+                        "Question": "When does the user plan to drop off the car?",
+                        "Answer": "The user has not yet provided details on the drop-off time."
+                    },
+                    {
+                        "Question": "Where will the user be coming from before picking up the car?",
+                        "Answer": "The user has not provided information on where they will be coming from."
+                    },
+                    {
+                        "Question": "How does the user plan to pay for the car reservation?",
+                        "Answer": "The user has not shared details about how they plan to pay for the reservation."
+                    }
+                ]
+            }
+        },
+        {
+            "12": {
+                "intent_description": "The user intends to reserve a Standard car for pickup at SJC International Airport on March 6th at 3 pm, with a drop-off scheduled for March 7th, confirming the details provided by the assistant.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of car is the user renting?",
+                        "Answer": "The user is renting a Standard car."
+                    },
+                    {
+                        "Question": "When is the user scheduled to pick up the car?",
+                        "Answer": "The user is scheduled to pick up the car on March 6th at 3 pm."
+                    },
+                    {
+                        "Question": "When will the user drop off the car?",
+                        "Answer": "The user intends to drop off the car on March 7th."
+                    },
+                    {
+                        "Question": "Where is the user picking up the car?",
+                        "Answer": "The user is picking up the car at SJC International Airport."
+                    },
+                    {
+                        "Question": "Why did the user confirm the details provided?",
+                        "Answer": "The user confirmed the details provided to ensure accuracy."
+                    },
+                    {
+                        "Question": "How does the user plan to return the car?",
+                        "Answer": "The user plans to drop off the car on March 7th."
+                    },
+                    {
+                        "Question": "What time is the car pickup scheduled for?",
+                        "Answer": "The car pickup is scheduled for 3 pm."
+                    },
+                    {
+                        "Question": "Where will the car be dropped off?",
+                        "Answer": "The location for the car drop-off is not specified in the provided details."
+                    }
+                ]
+            }
+        },
+        {
+            "13": {
+                "intent_description": "The user intends to confirm and finalize the reservation for a Standard car rental, expressing satisfaction with the total cost and prompting the assistant to complete the booking process.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of car has the user reserved?",
+                        "Answer": "The user has reserved a Standard car."
+                    },
+                    {
+                        "Question": "When is the pickup date for the rental car?",
+                        "Answer": "The pickup date for the rental car is March 6th."
+                    },
+                    {
+                        "Question": "What time is the car scheduled for pickup?",
+                        "Answer": "The car is scheduled for pickup at 3 pm."
+                    },
+                    {
+                        "Question": "When is the drop-off date for the rental car?",
+                        "Answer": "The drop-off date for the rental car is March 7th."
+                    },
+                    {
+                        "Question": "How much does the rental cost in total?",
+                        "Answer": "The total cost of the rental is $75."
+                    },
+                    {
+                        "Question": "Where is the car being picked up?",
+                        "Answer": "The car is being picked up at SJC International Airport."
+                    },
+                    {
+                        "Question": "Why has the user confirmed to proceed with the reservation?",
+                        "Answer": "The user confirmed to proceed with the reservation without any specific reason mentioned."
+                    },
+                    {
+                        "Question": "How long will the user have the rental car?",
+                        "Answer": "The user will have the rental car for one day."
+                    }
+                ]
+            }
+        },
+        {
+            "14": {
+                "intent_description": "The user intent is to verify the status of their ride to 92nd Street Y, seeking confirmation and details regarding the arrangement before finalizing the booking.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the destination for the user's ride?",
+                        "Answer": "The destination for the user's ride is 92nd Street Y."
+                    },
+                    {
+                        "Question": "How many seats did the user confirm for the ride?",
+                        "Answer": "The user confirmed 3 seats for the ride."
+                    },
+                    {
+                        "Question": "What is the contact number provided by the user?",
+                        "Answer": "The contact number provided by the user is 123-456-7890."
+                    },
+                    {
+                        "Question": "When will the user receive the driver's details?",
+                        "Answer": "The user will receive a notification with the driver's details soon."
+                    },
+                    {
+                        "Question": "Why did the user confirm the ride?",
+                        "Answer": "The user confirmed the ride to ensure transportation to 92nd Street Y."
+                    },
+                    {
+                        "Question": "How is the ride confirmation status described?",
+                        "Answer": "The ride has been successfully confirmed."
+                    },
+                    {
+                        "Question": "What type of notification will the user receive?",
+                        "Answer": "The user will receive a notification with the driver's details."
+                    },
+                    {
+                        "Question": "Where is the ride to be taken?",
+                        "Answer": "The ride is to be taken to 92nd Street Y."
+                    }
+                ]
+            }
+        },
+        {
+            "15": {
+                "intent_description": "The user intends to finalize their car reservation without requiring any further assistance or additional services, indicating satisfaction with the current arrangements.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of car did the user reserve?",
+                        "Answer": "The user reserved a standard car."
+                    },
+                    {
+                        "Question": "When is the pickup date and time for the car?",
+                        "Answer": "The pickup date and time is March 5th at 12:30 pm."
+                    },
+                    {
+                        "Question": "Where will the pickup take place?",
+                        "Answer": "The pickup will take place at Heathrow International Airport."
+                    },
+                    {
+                        "Question": "When is the drop-off date for the car?",
+                        "Answer": "The drop-off date is March 11th."
+                    },
+                    {
+                        "Question": "What additional services did the user request?",
+                        "Answer": "The user indicated that no additional services were needed."
+                    },
+                    {
+                        "Question": "How did the user feel about the reservation process?",
+                        "Answer": "The user expressed satisfaction with the reservation process."
+                    },
+                    {
+                        "Question": "What did the user say to conclude the interaction?",
+                        "Answer": "The user concluded the interaction with a thank you."
+                    }
+                ]
+            }
+        },
+        {
+            "16": {
+                "intent_description": "The user intends to finalize their travel arrangements by confirming the details of their one-way ticket purchase, opting for the Economy fare, and expressing satisfaction with the transaction, indicating they do not require any further assistance.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of ticket did the user book?",
+                        "Answer": "The user booked a one-way ticket."
+                    },
+                    {
+                        "Question": "Where is the user traveling from?",
+                        "Answer": "The user is traveling from Long Beach."
+                    },
+                    {
+                        "Question": "Where is the user traveling to?",
+                        "Answer": "The user is traveling to Sacramento."
+                    },
+                    {
+                        "Question": "When is the user's flight scheduled to depart?",
+                        "Answer": "The user's flight is scheduled to depart on March 7th at 6:50 am."
+                    },
+                    {
+                        "Question": "How many passengers does the user's ticket cover?",
+                        "Answer": "The user's ticket covers one person."
+                    },
+                    {
+                        "Question": "What fare class did the user choose for their ticket?",
+                        "Answer": "The user chose an Economy fare."
+                    },
+                    {
+                        "Question": "Did the user require any further assistance after booking?",
+                        "Answer": "No, the user expressed no further assistance needed."
+                    },
+                    {
+                        "Question": "Why did the user confirm the booking details?",
+                        "Answer": "The user confirmed the details to ensure accuracy."
+                    }
+                ]
+            }
+        },
+        {
+            "17": {
+                "intent_description": "The user's intent is to finalize and confirm the purchase of a ticket for the Dodgers vs Rockies game on March 5th in Los Angeles, ensuring that all details, including the recipient's email for ticket delivery, are accurate before completing the transaction.",
+                "qa_summary": [
+                    {
+                        "Question": "What event is the user purchasing a ticket for?",
+                        "Answer": "The user is purchasing a ticket for the Dodgers vs Rockies game."
+                    },
+                    {
+                        "Question": "When is the Dodgers vs Rockies game scheduled?",
+                        "Answer": "The Dodgers vs Rockies game is scheduled for March 5th."
+                    },
+                    {
+                        "Question": "Where will the Dodgers vs Rockies game take place?",
+                        "Answer": "The Dodgers vs Rockies game will take place in Los Angeles."
+                    },
+                    {
+                        "Question": "How many tickets is the user purchasing?",
+                        "Answer": "The user is purchasing one ticket."
+                    },
+                    {
+                        "Question": "Why did the user confirm the purchase?",
+                        "Answer": "The user confirmed the purchase to attend the game."
+                    },
+                    {
+                        "Question": "What is the user's email address?",
+                        "Answer": "The user's email address is user@example.com."
+                    },
+                    {
+                        "Question": "How does the user feel about the ticket purchase?",
+                        "Answer": "The user seems ready to purchase the ticket."
+                    },
+                    {
+                        "Question": "When did the user confirm the purchase?",
+                        "Answer": "The user confirmed the purchase at the time of the ticket inquiry."
+                    }
+                ]
+            }
+        },
+        {
+            "18": {
+                "intent_description": "The user intends to modify their existing ride details by changing the destination from Jane's Carousel to Central Park while confirming that they still prefer a shared ride for one person.",
+                "qa_summary": [
+                    {
+                        "Question": "What destination is the user changing to?",
+                        "Answer": "The user is changing the destination to Central Park."
+                    },
+                    {
+                        "Question": "What was the user's original destination?",
+                        "Answer": "The user's original destination was Jane's Carousel."
+                    },
+                    {
+                        "Question": "How many people does the user want for the ride?",
+                        "Answer": "The user wants a shared ride for one person."
+                    },
+                    {
+                        "Question": "Where does the user want to go now?",
+                        "Answer": "The user wants to go to Central Park."
+                    },
+                    {
+                        "Question": "Why is the user changing their ride details?",
+                        "Answer": "The user is changing their ride details to update the destination."
+                    },
+                    {
+                        "Question": "What type of ride does the user want?",
+                        "Answer": "The user wants a shared ride."
+                    },
+                    {
+                        "Question": "When did the user confirm their ride details?",
+                        "Answer": "The user has confirmed their ride details during the change."
+                    },
+                    {
+                        "Question": "How does the user want to proceed with the ride?",
+                        "Answer": "The user wants to proceed with a shared ride to Central Park."
+                    }
+                ]
+            }
+        }
+    ]
+}

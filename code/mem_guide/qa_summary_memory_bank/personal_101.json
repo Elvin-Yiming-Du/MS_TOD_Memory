@@ -1,0 +1,562 @@
+{
+    "persona_id": 101,
+    "sessions": [
+        {
+            "1": {
+                "intent_description": "The user intends to purchase three tickets for the Gloryhammer concert scheduled on March 1st in Los Angeles, and is actively engaging in the process of securing these tickets.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the event that the user wants to attend?",
+                        "Answer": "The user wants to attend the Gloryhammer concert."
+                    },
+                    {
+                        "Question": "When is the Gloryhammer concert taking place?",
+                        "Answer": "The Gloryhammer concert is taking place on March 1st."
+                    },
+                    {
+                        "Question": "Where is the concert being held?",
+                        "Answer": "The concert is being held in Los Angeles."
+                    },
+                    {
+                        "Question": "How many tickets does the user want to buy?",
+                        "Answer": "The user wants to buy 3 tickets."
+                    },
+                    {
+                        "Question": "What is the user's interest in the concert?",
+                        "Answer": "The user is interested in attending the Gloryhammer concert."
+                    },
+                    {
+                        "Question": "Why does the user want to buy tickets?",
+                        "Answer": "The user wants to buy tickets to attend the concert."
+                    },
+                    {
+                        "Question": "Where is the user located?",
+                        "Answer": "The user is located in Los Angeles."
+                    },
+                    {
+                        "Question": "What type of event is the Gloryhammer concert?",
+                        "Answer": "The Gloryhammer concert is a musical event."
+                    }
+                ]
+            }
+        },
+        {
+            "2": {
+                "intent_description": "The user intends to finalize the purchase of Gloryhammer concert tickets for the March 1st show in Los Angeles, having confirmed their desire to proceed with the transaction after previously inquiring about ticket availability.",
+                "qa_summary": {
+                    "Question": "The user needs to provide their full name and email address to complete the ticket purchase.",
+                    "How many": "The user wants to purchase 3 tickets.",
+                    "Is user ready to proceed?": "Yes, the user provided a positive response to proceed with the transaction.",
+                    "What information does user need to provide?": "The user needs to provide their full name and email address."
+                }
+            }
+        },
+        {
+            "3": {
+                "intent_description": "The user intends to purchase a single ticket for the United vs. United game taking place in Atlanta on March 1st, and is engaged in providing the necessary details to facilitate the transaction.",
+                "qa_summary": [
+                    {
+                        "Question": "What game is the user interested in purchasing a ticket for?",
+                        "Answer": "The user is interested in purchasing a ticket for the United vs United game."
+                    },
+                    {
+                        "Question": "When is the United vs United game scheduled?",
+                        "Answer": "The United vs United game is scheduled for March 1st."
+                    },
+                    {
+                        "Question": "Where is the United vs United game taking place?",
+                        "Answer": "The United vs United game is taking place in Atlanta."
+                    },
+                    {
+                        "Question": "How many tickets is the user looking to purchase?",
+                        "Answer": "The user is looking to purchase one ticket."
+                    },
+                    {
+                        "Question": "Why is the user interested in the United vs United game?",
+                        "Answer": "The specific reason for the user's interest in the United vs United game is not provided."
+                    },
+                    {
+                        "Question": "What type of ticket does the user want for the game?",
+                        "Answer": "The user wants a single ticket for the game."
+                    },
+                    {
+                        "Question": "Where can the user purchase the ticket for the game?",
+                        "Answer": "The specific location for purchasing the ticket is not mentioned."
+                    },
+                    {
+                        "Question": "When does the user need to finalize the ticket purchase?",
+                        "Answer": "The user needs to finalize the ticket purchase before the game on March 1st."
+                    }
+                ]
+            }
+        },
+        {
+            "4": {
+                "intent_description": "The user intent is to successfully purchase a ticket for the United Vs United game, having confirmed the availability and price, and is now providing necessary details for the transaction.",
+                "qa_summary": [
+                    {
+                        "Question": "What game is the user interested in?",
+                        "Answer": "The user is interested in the United Vs United game."
+                    },
+                    {
+                        "Question": "When is the game taking place?",
+                        "Answer": "The game is taking place on March 1st."
+                    },
+                    {
+                        "Question": "Where is the game being held?",
+                        "Answer": "The game is being held in Atlanta."
+                    },
+                    {
+                        "Question": "How many tickets does the user want to purchase?",
+                        "Answer": "The user wants to purchase one ticket."
+                    },
+                    {
+                        "Question": "What is the price of the ticket?",
+                        "Answer": "The price of the ticket is $50."
+                    },
+                    {
+                        "Question": "Why did the user provide their email address?",
+                        "Answer": "The user provided their email address to receive the ticket after the purchase."
+                    },
+                    {
+                        "Question": "What is the user's email address?",
+                        "Answer": "The user's email address is user@example.com."
+                    },
+                    {
+                        "Question": "How will the user receive the ticket?",
+                        "Answer": "The user will receive the ticket via email after the purchase."
+                    }
+                ]
+            }
+        },
+        {
+            "5": {
+                "intent_description": "The user intends to purchase two tickets for the Don Broco concert scheduled on March 3rd in Philadelphia and is providing necessary details to facilitate the transaction.",
+                "qa_summary": [
+                    {
+                        "Question": "What event is the user interested in?",
+                        "Answer": "The user is interested in a concert for the band Don Broco."
+                    },
+                    {
+                        "Question": "When is the event taking place?",
+                        "Answer": "The event is taking place on March 3rd."
+                    },
+                    {
+                        "Question": "Where is the event being held?",
+                        "Answer": "The event is being held in Philadelphia."
+                    },
+                    {
+                        "Question": "How many tickets does the user need?",
+                        "Answer": "The user needs 2 tickets."
+                    },
+                    {
+                        "Question": "Why does the user want to buy tickets?",
+                        "Answer": "The user wants to buy tickets to attend the concert of Don Broco."
+                    },
+                    {
+                        "Question": "What type of tickets is the user looking for?",
+                        "Answer": "The user is looking for concert tickets."
+                    },
+                    {
+                        "Question": "Where can the user purchase the tickets?",
+                        "Answer": "The user can purchase the tickets from various ticket-selling platforms."
+                    },
+                    {
+                        "Question": "When should the user buy the tickets?",
+                        "Answer": "The user should buy the tickets as soon as possible to ensure availability."
+                    }
+                ]
+            }
+        },
+        {
+            "6": {
+                "intent_description": "The user's intent is to successfully purchase two tickets for the Don Broco concert on March 3rd in Philadelphia, having already confirmed the availability and provided necessary information such as their email address and preferred payment method.",
+                "qa_summary": [
+                    {
+                        "Question": "What concert is the user interested in?",
+                        "Answer": "The user is interested in a Don Broco concert."
+                    },
+                    {
+                        "Question": "When is the Don Broco concert taking place?",
+                        "Answer": "The concert is taking place on March 3rd."
+                    },
+                    {
+                        "Question": "Where is the concert being held?",
+                        "Answer": "The concert is being held in Philadelphia."
+                    },
+                    {
+                        "Question": "How many tickets does the user want to purchase?",
+                        "Answer": "The user wants to purchase two tickets."
+                    },
+                    {
+                        "Question": "What is the user's email address for the transaction?",
+                        "Answer": "The user's email address is user@example.com."
+                    },
+                    {
+                        "Question": "Why does the user want to buy the tickets?",
+                        "Answer": "The user is interested in attending the Don Broco concert."
+                    },
+                    {
+                        "Question": "How does the user intend to pay for the tickets?",
+                        "Answer": "The user intends to pay using a credit card."
+                    },
+                    {
+                        "Question": "What confirmation did the user receive regarding ticket availability?",
+                        "Answer": "The user confirmed that the tickets are available."
+                    }
+                ]
+            }
+        },
+        {
+            "7": {
+                "intent_description": "The user intends to make a reservation for three hotel rooms at the Ace Hotel in London, specifically from March 5th to March 12th, and is actively engaging with the booking process by providing necessary details to the assistant.",
+                "qa_summary": [
+                    {
+                        "Question": "What hotel is the user looking to reserve rooms at?",
+                        "Answer": "The user is looking to reserve rooms at Ace Hotel London."
+                    },
+                    {
+                        "Question": "How many hotel rooms does the user want to reserve?",
+                        "Answer": "The user wants to reserve three hotel rooms."
+                    },
+                    {
+                        "Question": "When is the check-in date for the hotel reservation?",
+                        "Answer": "The check-in date is March 5th."
+                    },
+                    {
+                        "Question": "When is the check-out date for the hotel reservation?",
+                        "Answer": "The check-out date is March 12th."
+                    },
+                    {
+                        "Question": "Why does the user need to reserve hotel rooms?",
+                        "Answer": "The specific reason for reserving hotel rooms is not provided."
+                    },
+                    {
+                        "Question": "Where will the user be staying during their reservation?",
+                        "Answer": "The user will be staying at Ace Hotel London."
+                    },
+                    {
+                        "Question": "How long will the user be staying at the hotel?",
+                        "Answer": "The user will be staying for a duration of seven nights."
+                    },
+                    {
+                        "Question": "What type of accommodation is the user interested in?",
+                        "Answer": "The user is interested in hotel room accommodations."
+                    }
+                ]
+            }
+        },
+        {
+            "8": {
+                "intent_description": "The user intends to finalize the booking of three rooms at Ace Hotel London from March 5th to March 12th, specifically requesting that one of the rooms has a city view and that breakfast is included for all guests, while indicating that they do not have any additional requests at this time.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of rooms is the user looking to book?",
+                        "Answer": "The user is looking to book three rooms."
+                    },
+                    {
+                        "Question": "When does the user want to book the rooms?",
+                        "Answer": "The user wants to book the rooms from March 5th to March 12th."
+                    },
+                    {
+                        "Question": "What specific feature does the user want in one of the rooms?",
+                        "Answer": "The user wants one of the rooms to have a city view."
+                    },
+                    {
+                        "Question": "What meal does the user want included with the room bookings?",
+                        "Answer": "The user wants breakfast included for all rooms."
+                    },
+                    {
+                        "Question": "How many rooms does the user want to book?",
+                        "Answer": "The user wants to book three rooms."
+                    },
+                    {
+                        "Question": "Where is the user looking to book the rooms?",
+                        "Answer": "The user is looking to book the rooms at Ace Hotel London."
+                    },
+                    {
+                        "Question": "Why is the user requesting breakfast for all rooms?",
+                        "Answer": "The user has requested breakfast included for all rooms, but no further reason was provided."
+                    },
+                    {
+                        "Question": "What additional requests did the user make?",
+                        "Answer": "The user did not make any additional requests."
+                    }
+                ]
+            }
+        },
+        {
+            "9": {
+                "intent_description": "The user intends to book a ride for themselves to PNE/Playland, and is now considering whether to opt for a shared ride or a private one.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the destination of the ride?",
+                        "Answer": "The destination of the ride is PNE/Playland."
+                    },
+                    {
+                        "Question": "When is the user planning to book the ride?",
+                        "Answer": "The user has not specified the exact time for booking the ride."
+                    },
+                    {
+                        "Question": "Why is the user booking a ride?",
+                        "Answer": "The user is booking a ride to travel to PNE/Playland."
+                    },
+                    {
+                        "Question": "How many riders will be in the user's booking?",
+                        "Answer": "There will be just one rider in the user's booking."
+                    },
+                    {
+                        "Question": "Where is PNE/Playland located?",
+                        "Answer": "PNE/Playland is located in Vancouver, Canada."
+                    },
+                    {
+                        "Question": "What type of transportation is the user considering?",
+                        "Answer": "The user is considering booking a ride for transportation."
+                    },
+                    {
+                        "Question": "When does the user intend to go to PNE/Playland?",
+                        "Answer": "The user has not provided information about the intended date for visiting PNE/Playland."
+                    },
+                    {
+                        "Question": "Why is the user going to PNE/Playland alone?",
+                        "Answer": "The user has chosen to travel alone for this visit."
+                    }
+                ]
+            }
+        },
+        {
+            "10": {
+                "intent_description": "The user intends to arrange a shared ride service that can pick them up from their current location at 123 Main Street as quickly as possible.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the user's pick-up location?",
+                        "Answer": "123 Main Street"
+                    },
+                    {
+                        "Question": "What is the destination for the user's ride?",
+                        "Answer": "PNE/Playland"
+                    },
+                    {
+                        "Question": "When does the user want the ride to be arranged?",
+                        "Answer": "As soon as possible"
+                    },
+                    {
+                        "Question": "How does the user prefer the ride to be arranged?",
+                        "Answer": "As a shared ride"
+                    },
+                    {
+                        "Question": "Where is the user's ride heading to?",
+                        "Answer": "PNE/Playland"
+                    },
+                    {
+                        "Question": "Why is the user requesting a shared ride?",
+                        "Answer": "The user confirmed that a shared ride is acceptable"
+                    },
+                    {
+                        "Question": "What type of ride does the user want?",
+                        "Answer": "A shared ride"
+                    },
+                    {
+                        "Question": "When is the user's preferred time for the ride?",
+                        "Answer": "Immediately"
+                    }
+                ]
+            }
+        },
+        {
+            "11": {
+                "intent_description": "The user's intent is to confirm the details of their booked ride, including the destination and estimated arrival time, ensuring that all information is accurate before proceeding.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the estimated arrival time for the ride?",
+                        "Answer": "The ride is estimated to arrive in about 10 minutes."
+                    },
+                    {
+                        "Question": "Where is the pick-up location for the ride?",
+                        "Answer": "The pick-up location is 123 Main Street."
+                    },
+                    {
+                        "Question": "Where is the drop-off location for the ride?",
+                        "Answer": "The drop-off location is PNE/Playland."
+                    },
+                    {
+                        "Question": "How many riders are included in the booking?",
+                        "Answer": "The booking is for one rider."
+                    },
+                    {
+                        "Question": "What type of ride has been booked?",
+                        "Answer": "A shared ride has been booked."
+                    },
+                    {
+                        "Question": "Why is the user satisfied with the information provided?",
+                        "Answer": "The user is satisfied because they received confirmation and details about their booking."
+                    },
+                    {
+                        "Question": "When did the user confirm the details of their booking?",
+                        "Answer": "The user confirmed the details of their booking after receiving the ride information."
+                    },
+                    {
+                        "Question": "How does the user feel about the ride information?",
+                        "Answer": "The user expressed satisfaction with the information provided."
+                    }
+                ]
+            }
+        },
+        {
+            "12": {
+                "intent_description": "The user intends to finalize a hotel booking for three rooms at Ace Hotel London, confirming the details and total cost of £2,100 for their stay from March 5th to March 12th, inclusive of breakfast.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the total cost for booking three rooms at Ace Hotel London?",
+                        "Answer": "The total cost for booking three rooms at Ace Hotel London is £2,100."
+                    },
+                    {
+                        "Question": "When does the user want to book the rooms?",
+                        "Answer": "The user wants to book the rooms from March 5th to March 12th."
+                    },
+                    {
+                        "Question": "What does the total cost include?",
+                        "Answer": "The total cost includes breakfast for all guests."
+                    },
+                    {
+                        "Question": "Where is the user planning to stay?",
+                        "Answer": "The user is planning to stay at Ace Hotel London."
+                    },
+                    {
+                        "Question": "How many rooms does the user want to book?",
+                        "Answer": "The user wants to book three rooms."
+                    },
+                    {
+                        "Question": "Why did the user approve the booking?",
+                        "Answer": "The user approved the booking after confirming the details."
+                    },
+                    {
+                        "Question": "What dates are included in the user's booking?",
+                        "Answer": "The booking includes the dates from March 5th to March 12th."
+                    },
+                    {
+                        "Question": "How many guests will the breakfast cover?",
+                        "Answer": "The breakfast will cover all guests staying in the three rooms."
+                    }
+                ]
+            }
+        },
+        {
+            "13": {
+                "intent_description": "The user intent is to successfully complete the purchase of Don Broco tickets, including providing payment information and confirming transaction details to finalize the order.",
+                "qa_summary": [
+                    {
+                        "Question": "What concert did the user purchase tickets for?",
+                        "Answer": "The user purchased tickets for a Don Broco concert."
+                    },
+                    {
+                        "Question": "When is the concert taking place?",
+                        "Answer": "The concert is taking place on March 3rd."
+                    },
+                    {
+                        "Question": "Where is the concert being held?",
+                        "Answer": "The concert is being held in Philadelphia."
+                    },
+                    {
+                        "Question": "How many tickets did the user purchase?",
+                        "Answer": "The user purchased two tickets."
+                    },
+                    {
+                        "Question": "What was the total cost of the tickets?",
+                        "Answer": "The total cost of the tickets was $150."
+                    },
+                    {
+                        "Question": "How was the payment processed?",
+                        "Answer": "The payment was processed successfully using credit card details."
+                    },
+                    {
+                        "Question": "What will the user receive after the purchase?",
+                        "Answer": "The user will receive a confirmation email with their tickets."
+                    },
+                    {
+                        "Question": "Why did the user express gratitude?",
+                        "Answer": "The user expressed gratitude for the assistance provided during the purchase."
+                    }
+                ]
+            }
+        },
+        {
+            "14": {
+                "intent_description": "The user intends to complete the purchase of a ticket for a specific event, confirming the details and expressing appreciation for the assistance provided in the process.",
+                "qa_summary": [
+                    {
+                        "Question": "What game is the user purchasing a ticket for?",
+                        "Answer": "The user is purchasing a ticket for the United Vs United game."
+                    },
+                    {
+                        "Question": "When is the game taking place?",
+                        "Answer": "The game is taking place on March 1st."
+                    },
+                    {
+                        "Question": "Where is the game being held?",
+                        "Answer": "The game is being held in Atlanta."
+                    },
+                    {
+                        "Question": "How many tickets is the user buying?",
+                        "Answer": "The user is buying one ticket."
+                    },
+                    {
+                        "Question": "What is the total cost of the ticket?",
+                        "Answer": "The total cost of the ticket is $50."
+                    },
+                    {
+                        "Question": "Where will the ticket be sent?",
+                        "Answer": "The ticket will be sent to the email address user@example.com."
+                    },
+                    {
+                        "Question": "What confirmation will the user receive?",
+                        "Answer": "The user will receive an email confirming the purchase and containing the ticket."
+                    },
+                    {
+                        "Question": "Why does the user express gratitude?",
+                        "Answer": "The user expresses gratitude for the assistance in finalizing the ticket purchase."
+                    }
+                ]
+            }
+        },
+        {
+            "15": {
+                "intent_description": "The user intent is to finalize the purchase of concert tickets, confirming their order details and expressing satisfaction with the assistance received, indicating no further assistance is needed.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the name of the person?",
+                        "Answer": "The person's name is Alex Johnson."
+                    },
+                    {
+                        "Question": "What is the email of the person?",
+                        "Answer": "The person's email is alex.johnson@example.com."
+                    },
+                    {
+                        "Question": "When is the concert that Alex Johnson purchased tickets for?",
+                        "Answer": "The concert is on March 1st."
+                    },
+                    {
+                        "Question": "Where is the Gloryhammer concert taking place?",
+                        "Answer": "The concert is taking place in Los Angeles."
+                    },
+                    {
+                        "Question": "How many tickets did Alex Johnson purchase for the concert?",
+                        "Answer": "Alex Johnson purchased 3 tickets."
+                    },
+                    {
+                        "Question": "What event are the tickets for?",
+                        "Answer": "The tickets are for the Gloryhammer concert."
+                    },
+                    {
+                        "Question": "Why did Alex Johnson purchase the tickets?",
+                        "Answer": "The specific reason for purchasing the tickets is not provided."
+                    },
+                    {
+                        "Question": "How can Alex Johnson be contacted regarding the tickets?",
+                        "Answer": "Alex Johnson can be contacted via email at alex.johnson@example.com."
+                    }
+                ]
+            }
+        }
+    ]
+}

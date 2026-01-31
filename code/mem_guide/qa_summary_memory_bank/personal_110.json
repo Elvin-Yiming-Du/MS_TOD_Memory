@@ -1,0 +1,586 @@
+{
+    "persona_id": 110,
+    "sessions": [
+        {
+            "1": {
+                "intent_description": "The user's intent is to secure a reservation for two rooms at the Ac Hotel By Marriott Paris Porte Maillot for a specific stay from March 6th to March 11th, indicating a clear desire to finalize the booking process for their upcoming trip.",
+                "qa_summary": [
+                    {
+                        "Question": "What hotel is the user looking to make a reservation at?",
+                        "Answer": "The user is looking to make a reservation at Ac Hotel By Marriott Paris Porte Maillot."
+                    },
+                    {
+                        "Question": "When does the user plan to check in?",
+                        "Answer": "The user plans to check in on March 6th."
+                    },
+                    {
+                        "Question": "When does the user plan to check out?",
+                        "Answer": "The user plans to check out on March 11th."
+                    },
+                    {
+                        "Question": "How many rooms does the user require for their stay?",
+                        "Answer": "The user requires 2 rooms for their stay."
+                    },
+                    {
+                        "Question": "Why does the user need to make a reservation?",
+                        "Answer": "The user needs to make a reservation for their stay in Paris."
+                    },
+                    {
+                        "Question": "Where is the Ac Hotel By Marriott located?",
+                        "Answer": "The Ac Hotel By Marriott is located at Porte Maillot in Paris."
+                    },
+                    {
+                        "Question": "What are the check-in and check-out dates for the user's reservation?",
+                        "Answer": "The check-in date is March 6th, and the check-out date is March 11th."
+                    },
+                    {
+                        "Question": "How many nights will the user be staying at the hotel?",
+                        "Answer": "The user will be staying for 5 nights at the hotel."
+                    }
+                ]
+            }
+        },
+        {
+            "2": {
+                "intent_description": "The user intends to finalize their hotel reservation while seeking confirmation on details such as the total cost, cancellation policy, and whether breakfast is included, indicating a strong interest in completing the booking process.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the total cost for 2 rooms over 5 nights?",
+                        "Answer": "The total cost is approximately €1200."
+                    },
+                    {
+                        "Question": "What is the cancellation policy?",
+                        "Answer": "The cancellation policy allows for cancellation up to 48 hours before check-in for a full refund."
+                    },
+                    {
+                        "Question": "When can the reservation be canceled for a full refund?",
+                        "Answer": "The reservation can be canceled up to 48 hours before check-in for a full refund."
+                    },
+                    {
+                        "Question": "How does the user feel about the cancellation policy?",
+                        "Answer": "The user confirmed that the cancellation policy works for them."
+                    },
+                    {
+                        "Question": "What was the user's inquiry about breakfast?",
+                        "Answer": "The user asked if breakfast is included."
+                    },
+                    {
+                        "Question": "What is included in the reservation regarding meals?",
+                        "Answer": "Breakfast is included in the reservation."
+                    },
+                    {
+                        "Question": "What is the status of the booking process?",
+                        "Answer": "The conversation is nearing the finalization of the booking."
+                    }
+                ]
+            }
+        },
+        {
+            "3": {
+                "intent_description": "The user intends to book a shared ride for themselves to Floyd Lamb Park and is responding to queries from the service to finalize the booking details.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of ride is the user looking to book?",
+                        "Answer": "The user is looking to book a shared ride."
+                    },
+                    {
+                        "Who": "Who is the ride for?",
+                        "Answer": "The ride is for one person."
+                    },
+                    {
+                        "Question": "Where is the user going?",
+                        "Answer": "The user is going to Floyd Lamb Park."
+                    },
+                    {
+                        "Question": "When does the user want to book the ride?",
+                        "Answer": "The exact time for the ride booking is not specified."
+                    },
+                    {
+                        "Question": "Why does the user want to book a shared ride?",
+                        "Answer": "The specific reason for booking a shared ride is not mentioned."
+                    },
+                    {
+                        "Question": "How many people will be in the ride?",
+                        "Answer": "There will be one person in the ride."
+                    },
+                    {
+                        "Question": "What is the destination for the user's ride?",
+                        "Answer": "The destination for the user's ride is Floyd Lamb Park."
+                    },
+                    {
+                        "Question": "How does the user prefer to travel?",
+                        "Answer": "The user prefers to travel by shared ride."
+                    }
+                ]
+            }
+        },
+        {
+            "4": {
+                "intent_description": "The user intends to confirm the details of their ride to Floyd Lamb Park, including the driver's identity, indicating a desire for reassurance and clarity about their transportation arrangement.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of ride has the user booked?",
+                        "Answer": "The user has booked a shared ride for one person."
+                    },
+                    {
+                        "Who": "Who is the driver assigned to the user?",
+                        "Answer": "The driver's name is John."
+                    },
+                    {
+                        "Question": "What color is the car that will be picking up the user?",
+                        "Answer": "The car is a black sedan."
+                    },
+                    {
+                        "Question": "Where is the user being picked up from?",
+                        "Answer": "The user is being picked up for a ride to Floyd Lamb Park."
+                    },
+                    {
+                        "Question": "When is the user's ride scheduled?",
+                        "Answer": "The ride is confirmed and scheduled as per the booking confirmation."
+                    },
+                    {
+                        "Question": "How does the user feel about the information provided?",
+                        "Answer": "The user expresses gratitude for the information."
+                    },
+                    {
+                        "Question": "What additional assistance does the user require?",
+                        "Answer": "The user indicates that they do not need further assistance at the moment."
+                    },
+                    {
+                        "Question": "Why has the user confirmed their ride?",
+                        "Answer": "The user confirmed their ride to ensure they have transportation to Floyd Lamb Park."
+                    }
+                ]
+            }
+        },
+        {
+            "5": {
+                "intent_description": "The user intends to finalize the details for a doctor's appointment by specifying a date and time, demonstrating a proactive approach to managing their healthcare needs.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of appointment is the user seeking?",
+                        "Answer": "The user is seeking a doctor's appointment."
+                    },
+                    {
+                        "Question": "When does the user want to schedule the appointment?",
+                        "Answer": "The user wants to schedule the appointment for March 14th."
+                    },
+                    {
+                        "Question": "What time does the user prefer for the appointment?",
+                        "Answer": "The user prefers the appointment to be around 2:45 PM."
+                    },
+                    {
+                        "Question": "Why is the user looking to schedule an appointment?",
+                        "Answer": "The specific reason for the user's appointment is not mentioned."
+                    },
+                    {
+                        "Question": "Where does the user want to have the appointment?",
+                        "Answer": "The location for the user's appointment is not specified."
+                    },
+                    {
+                        "Question": "How soon does the user want to have the appointment?",
+                        "Answer": "The user wants to have the appointment on March 14th, which is relatively soon."
+                    },
+                    {
+                        "Question": "What details has the user provided for the appointment?",
+                        "Answer": "The user has provided the date of March 14th and a preferred time of around 2:45 PM."
+                    },
+                    {
+                        "Question": "How flexible is the user's preferred appointment time?",
+                        "Answer": "The user has specified a preference for around 2:45 PM, indicating some flexibility may be possible."
+                    }
+                ]
+            }
+        },
+        {
+            "6": {
+                "intent_description": "The user's intent is to confirm the details of their upcoming doctor's appointment and request a reminder for the day before the scheduled date, indicating a desire to stay organized and ensure they do not forget the appointment.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the date of the user's doctor's appointment?",
+                        "Answer": "The user's doctor's appointment is on March 14th."
+                    },
+                    {
+                        "Question": "When is the user's doctor's appointment scheduled?",
+                        "Answer": "The user's doctor's appointment is scheduled for 2:45 PM."
+                    },
+                    {
+                        "Question": "Where is the user's doctor's appointment located?",
+                        "Answer": "The user's doctor's appointment is located at 991 County Highway G4 STE 104."
+                    },
+                    {
+                        "Question": "When did the user request a reminder for their appointment?",
+                        "Answer": "The user requested a reminder for their appointment a day before, on March 13th."
+                    },
+                    {
+                        "Question": "Why did the user request a reminder for their appointment?",
+                        "Answer": "The user requested a reminder to ensure they do not forget about the appointment."
+                    },
+                    {
+                        "Question": "What time is the user's doctor's appointment?",
+                        "Answer": "The user's doctor's appointment is at 2:45 PM."
+                    },
+                    {
+                        "Question": "How far in advance did the user want the reminder?",
+                        "Answer": "The user wanted the reminder one day in advance."
+                    },
+                    {
+                        "Question": "What type of appointment does the user have?",
+                        "Answer": "The user has a doctor's appointment."
+                    }
+                ]
+            }
+        },
+        {
+            "7": {
+                "intent_description": "The user intends to finalize a hotel reservation by providing specific details about their desired accommodation at the Best Western Plus Sutter House, including check-in and check-out dates, and is now ready to specify the number of rooms needed for their stay.",
+                "qa_summary": [
+                    {
+                        "Question": "What hotel is the user looking to book?",
+                        "Answer": "The user is looking to book a room at the Best Western Plus Sutter House."
+                    },
+                    {
+                        "Question": "When does the user plan to check in?",
+                        "Answer": "The user plans to check in on March 4th."
+                    },
+                    {
+                        "Question": "When does the user plan to check out?",
+                        "Answer": "The user plans to check out on March 6th."
+                    },
+                    {
+                        "Question": "How many nights does the user intend to stay?",
+                        "Answer": "The user intends to stay for two nights."
+                    },
+                    {
+                        "Question": "Where is the Best Western Plus Sutter House located?",
+                        "Answer": "The specific location of the Best Western Plus Sutter House is not provided in the summary."
+                    },
+                    {
+                        "Question": "Why does the user want to book a hotel room?",
+                        "Answer": "The specific reason why the user wants to book a hotel room is not provided in the summary."
+                    },
+                    {
+                        "Question": "How can the user book a room at the hotel?",
+                        "Answer": "The method for booking a room at the hotel is not specified in the summary."
+                    },
+                    {
+                        "Question": "What type of accommodation is the user seeking?",
+                        "Answer": "The user is seeking a hotel room."
+                    }
+                ]
+            }
+        },
+        {
+            "8": {
+                "intent_description": "The user intends to book a single room at the Best Western Plus Sutter House for a specific two-night stay from March 4th to March 6th and is seeking confirmation of availability while expressing gratitude for the assistance provided.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of accommodation did the user request?",
+                        "Answer": "The user requested to book one room at Best Western Plus Sutter House."
+                    },
+                    {
+                        "Question": "When are the check-in and check-out dates for the user's booking?",
+                        "Answer": "The check-in date is March 4th and the check-out date is March 6th."
+                    },
+                    {
+                        "Question": "Where is the user planning to stay?",
+                        "Answer": "The user is planning to stay at Best Western Plus Sutter House."
+                    },
+                    {
+                        "Question": "Why did the user express appreciation?",
+                        "Answer": "The user expressed appreciation for the assistance in booking the room."
+                    },
+                    {
+                        "Question": "How many rooms did the user request to book?",
+                        "Answer": "The user requested to book one room."
+                    },
+                    {
+                        "Question": "What is the duration of the user's stay?",
+                        "Answer": "The duration of the user's stay is two nights."
+                    },
+                    {
+                        "Question": "When did the user confirm the booking details?",
+                        "Answer": "The user confirmed the booking details at the time of the request."
+                    },
+                    {
+                        "Question": "How did the user communicate their booking request?",
+                        "Answer": "The user communicated their booking request through a message."
+                    }
+                ]
+            }
+        },
+        {
+            "9": {
+                "intent_description": "The user intends to reserve a three-night stay at the Alila Bangsar hotel in Kuala Lumpur, checking in on March 9th and checking out on March 12th.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the user's location?",
+                        "Answer": "The user is located in Kuala Lumpur."
+                    },
+                    {
+                        "Question": "Where does the user prefer to stay?",
+                        "Answer": "The user prefers to stay at Alila Bangsar."
+                    },
+                    {
+                        "Question": "When does the user plan to check in?",
+                        "Answer": "The user plans to check in on March 9th."
+                    },
+                    {
+                        "Question": "When is the user's intended check-out date?",
+                        "Answer": "The user's intended check-out date is March 12th."
+                    },
+                    {
+                        "Question": "How long will the user be staying?",
+                        "Answer": "The user will be staying for 3 days."
+                    },
+                    {
+                        "Question": "What is the number of rooms the user needs?",
+                        "Answer": "The number of rooms the user needs has not been specified yet."
+                    },
+                    {
+                        "Question": "Why does the user prefer Alila Bangsar?",
+                        "Answer": "The user's specific reason for preferring Alila Bangsar is not mentioned."
+                    },
+                    {
+                        "Question": "How many days is the user's total stay?",
+                        "Answer": "The user's total stay is 3 days."
+                    }
+                ]
+            }
+        },
+        {
+            "10": {
+                "intent_description": "The user's intent is to secure a hotel reservation for one room with a preference for a city view during their three-night stay at Alila Bangsar, while also being open to additional assistance or requests for their accommodation.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of accommodation did the user book?",
+                        "Answer": "The user booked one room."
+                    },
+                    {
+                        "Question": "When is the user checking in?",
+                        "Answer": "The user is checking in on March 9th."
+                    },
+                    {
+                        "Question": "How many nights will the user be staying?",
+                        "Answer": "The user will be staying for 3 nights."
+                    },
+                    {
+                        "Question": "Where is the user staying?",
+                        "Answer": "The user is staying at Alila Bangsar."
+                    },
+                    {
+                        "Question": "What view preference did the user express for the room?",
+                        "Answer": "The user expressed a preference for a room with a city view."
+                    },
+                    {
+                        "Question": "When did the user confirm the booking?",
+                        "Answer": "The user confirmed the booking for their stay."
+                    },
+                    {
+                        "Question": "Why did the user choose Alila Bangsar?",
+                        "Answer": "The user likely chose Alila Bangsar for its accommodations and city view preference."
+                    },
+                    {
+                        "Question": "How many rooms did the user book?",
+                        "Answer": "The user booked one room."
+                    }
+                ]
+            }
+        },
+        {
+            "11": {
+                "intent_description": "The user intends to finalize and confirm their reservation for a room at Alila Bangsar, specifying the dates and room preference, and is seeking the completion of the booking process along with confirmation details.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of room is the user booking?",
+                        "Answer": "The user is booking one room."
+                    },
+                    {
+                        "Question": "When is the user's booking?",
+                        "Answer": "The user's booking is from March 9th to March 12th."
+                    },
+                    {
+                        "Question": "How many nights is the user staying?",
+                        "Answer": "The user is staying for 3 nights."
+                    },
+                    {
+                        "Question": "What view does the user prefer?",
+                        "Answer": "The user prefers a city view."
+                    },
+                    {
+                        "Question": "Where is the user making the booking?",
+                        "Answer": "The user is making the booking at Alila Bangsar."
+                    },
+                    {
+                        "Question": "Why does the user want to finalize the booking?",
+                        "Answer": "The user wants to finalize the booking to receive confirmation."
+                    },
+                    {
+                        "Question": "What confirmation is the user requesting?",
+                        "Answer": "The user is requesting confirmation of the booking."
+                    },
+                    {
+                        "Question": "When does the user want to receive the confirmation?",
+                        "Answer": "The user wants to receive the confirmation after finalizing the booking."
+                    }
+                ]
+            }
+        },
+        {
+            "12": {
+                "intent_description": "The user intent is to confirm the booking of one room at Best Western Plus Sutter House from March 4th to March 6th at a rate of $120 per night, indicating a desire to finalize the reservation process.",
+                "qa_summary": [
+                    {
+                        "Question": "What hotel is available for the user's stay?",
+                        "Answer": "Best Western Plus Sutter House."
+                    },
+                    {
+                        "Question": "When does the user want to stay at the hotel?",
+                        "Answer": "From March 4th to March 6th."
+                    },
+                    {
+                        "Question": "What is the room rate for the user's stay?",
+                        "Answer": "$120 per night."
+                    },
+                    {
+                        "Question": "Why did the user express a desire to book the room?",
+                        "Answer": "Because there was availability at the hotel."
+                    },
+                    {
+                        "Question": "How was the booking confirmed for the user?",
+                        "Answer": "The booking was confirmed after the user expressed a desire to book."
+                    },
+                    {
+                        "Question": "Where is the hotel located?",
+                        "Answer": "In Sacramento, California."
+                    },
+                    {
+                        "Question": "What dates did the user inquire about for their stay?",
+                        "Answer": "March 4th to March 6th."
+                    },
+                    {
+                        "Question": "How much does the user need to pay for their stay?",
+                        "Answer": "$240 for two nights."
+                    }
+                ]
+            }
+        },
+        {
+            "13": {
+                "intent_description": "The user intends to verify the details and readiness of their upcoming doctor's appointment, seeking confirmation and assurance that all arrangements are in place before expressing gratitude for the assistance provided.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the date of the user's doctor's appointment?",
+                        "Answer": "March 14th"
+                    },
+                    {
+                        "Question": "What time is the user's doctor's appointment scheduled for?",
+                        "Answer": "2:45 pm"
+                    },
+                    {
+                        "Question": "Where is the user's doctor's appointment located?",
+                        "Answer": "991 County Highway G4 STE 104"
+                    },
+                    {
+                        "Question": "When did the user agree to receive a reminder for the appointment?",
+                        "Answer": "March 13th"
+                    },
+                    {
+                        "Question": "Why did the user express gratitude?",
+                        "Answer": "For the assistance provided"
+                    },
+                    {
+                        "Question": "How did the user confirm their doctor's appointment?",
+                        "Answer": "By confirming the details provided"
+                    },
+                    {
+                        "Question": "What type of appointment is the user attending?",
+                        "Answer": "A doctor's appointment"
+                    },
+                    {
+                        "Question": "How does the user feel about the assistance given?",
+                        "Answer": "They expressed gratitude"
+                    }
+                ]
+            }
+        },
+        {
+            "14": {
+                "intent_description": "The user intends to confirm the details of their upcoming ride, including the destination, driver information, and notification system, ensuring they are fully informed and prepared for their journey.",
+                "qa_summary": [
+                    {
+                        "Question": "What is the destination of the user's ride?",
+                        "Answer": "The destination of the user's ride is Floyd Lamb Park."
+                    },
+                    {
+                        "Who": "Who is the assigned driver for the user's ride?",
+                        "Answer": "The assigned driver for the user's ride is John."
+                    },
+                    {
+                        "Question": "What type of vehicle will the driver be in?",
+                        "Answer": "The driver will be in a black sedan."
+                    },
+                    {
+                        "Question": "When will the user receive a notification about the driver's arrival?",
+                        "Answer": "The user will receive a notification when the driver is about 5 minutes away."
+                    },
+                    {
+                        "Question": "How many people is the user's ride for?",
+                        "Answer": "The user's ride is for one person."
+                    },
+                    {
+                        "Question": "Why does the user confirm the details of their ride?",
+                        "Answer": "The user confirms the details of their ride to ensure everything is correct."
+                    },
+                    {
+                        "Question": "What does the user express after confirming the ride details?",
+                        "Answer": "The user expresses gratitude for the information."
+                    },
+                    {
+                        "Question": "Where is the user being picked up from?",
+                        "Answer": "The pickup location is not specified in the provided details."
+                    }
+                ]
+            }
+        },
+        {
+            "15": {
+                "intent_description": "The user intent is to finalize and confirm a hotel reservation for two rooms at Ac Hotel By Marriott Paris Porte Maillot from March 6th to March 11th, ensuring all details are accurate and the booking is secured.",
+                "qa_summary": [
+                    {
+                        "Question": "What type of accommodation did the user book?",
+                        "Answer": "The user booked 2 rooms at Ac Hotel By Marriott Paris Porte Maillot."
+                    },
+                    {
+                        "Question": "When is the user's check-in date?",
+                        "Answer": "The user's check-in date is March 6th."
+                    },
+                    {
+                        "Question": "When is the user's check-out date?",
+                        "Answer": "The user's check-out date is March 11th."
+                    },
+                    {
+                        "Question": "Why did the user choose to include breakfast in their booking?",
+                        "Answer": "The user acknowledged that breakfast was included in their reservation."
+                    },
+                    {
+                        "Question": "How much did the user pay for the total booking?",
+                        "Answer": "The total cost of the booking was €1200."
+                    },
+                    {
+                        "Question": "Where will the user receive their booking confirmation?",
+                        "Answer": "The user will receive a confirmation email shortly."
+                    },
+                    {
+                        "Question": "What is the cancellation policy for the user's reservation?",
+                        "Answer": "The reservation is cancellable up to 48 hours before check-in."
+                    },
+                    {
+                        "Question": "How many rooms did the user reserve?",
+                        "Answer": "The user reserved 2 rooms."
+                    }
+                ]
+            }
+        }
+    ]
+}
